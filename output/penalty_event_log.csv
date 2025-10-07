@@ -1,0 +1,1109 @@
+match_id,league_name,match_date,minute,second,team,striker,footedness,goalkeeper_name,penalty_outcome,shot_side,shot_height,shot_angle,match_scoreline_diff,home_or_away
+3890265,1. Bundesliga,2015-08-15,47,3,Hertha Berlin,Salomon Armand Magloire Kalou,Right Foot,Marwin Hitz,Goal,Center,Middle,0.0,1,Away
+3890262,1. Bundesliga,2015-08-15,58,50,Hannover 96,Mevlüt Erdinç,Right Foot,Christian Mathenia,Saved,Center,Lower,0.0,0,Away
+3890266,1. Bundesliga,2015-08-16,74,35,FC Köln,Anthony Modeste,Right Foot,Przemysław Tytoń,Goal,Center,Upper,0.0,2,Away
+3890266,1. Bundesliga,2015-08-16,78,40,VfB Stuttgart,Daniel Didavi,Left Foot,Timo Horn,Goal,Left,Lower,90.0,-2,Home
+3890270,1. Bundesliga,2015-08-22,73,18,Hoffenheim,Eugen Polanski,Right Foot,Manuel Neuer,Post,Left,Middle,0.0,-1,Home
+3890275,1. Bundesliga,2015-08-23,59,49,Borussia Dortmund,Marco Reus,Right Foot,Ørjan Håskjold Nyland,Goal,Center,Upper,0.0,4,Away
+3890277,1. Bundesliga,2015-08-28,58,28,Wolfsburg,Ricardo Iván Rodríguez Araya,Left Foot,Ralf Fährmann,Goal,Left,Lower,0.0,3,Home
+3890278,1. Bundesliga,2015-08-29,59,31,Bayern Munich,Thomas Müller,Right Foot,Bernd Leno,Goal,Center,Middle,0.0,3,Home
+3890279,1. Bundesliga,2015-08-29,68,28,Eintracht Frankfurt,Haris Seferović,Left Foot,Odisseas Vlachodimos,Goal,Left,Lower,0.0,3,Away
+3890278,1. Bundesliga,2015-08-29,70,8,Bayern Munich,Arjen Robben,Left Foot,Bernd Leno,Goal,Right,Middle,0.0,3,Home
+3890280,1. Bundesliga,2015-08-29,80,1,FC Köln,Anthony Modeste,Right Foot,Andreas Hirzel,Goal,Center,Lower,0.0,1,Home
+3890285,1. Bundesliga,2015-08-30,38,42,Werder Bremen,Aron Jóhannsson,Right Foot,Yann Sommer,Goal,Center,Lower,0.0,1,Home
+3890285,1. Bundesliga,2015-08-30,87,27,Werder Bremen,Felix Kroos,Right Foot,Yann Sommer,Off T,Right,Lower,0.0,1,Home
+3890292,1. Bundesliga,2015-09-12,34,24,Borussia Dortmund,Pierre-Emerick Aubameyang,Right Foot,Ron-Robert Zieler,Goal,Center,Middle,0.0,2,Away
+3890292,1. Bundesliga,2015-09-12,84,48,Borussia Dortmund,Pierre-Emerick Aubameyang,Right Foot,Ron-Robert Zieler,Goal,Center,Upper,0.0,2,Away
+3890287,1. Bundesliga,2015-09-12,89,3,Bayern Munich,Thomas Müller,Right Foot,Marwin Hitz,Goal,Center,Middle,0.0,1,Home
+3890293,1. Bundesliga,2015-09-13,3,57,Schalke 04,Klaas-Jan Huntelaar,Right Foot,Loris Karius,Saved,Center,Middle,44.77173116984662,1,Home
+3890298,1. Bundesliga,2015-09-19,87,55,Wolfsburg,Bas Dost,Right Foot,Rune Almenning Jarstein,Goal,Center,Middle,0.0,2,Home
+3890300,1. Bundesliga,2015-09-19,92,17,Ingolstadt,Moritz Hartmann,Right Foot,Felix Wiedwald,Goal,Right,Lower,0.0,1,Away
+3890302,1. Bundesliga,2015-09-20,31,5,Augsburg,Paul Verhaegh,Right Foot,Ron-Robert Zieler,Goal,Center,Lower,0.0,2,Home
+3890301,1. Bundesliga,2015-09-20,73,13,Borussia Dortmund,Pierre-Emerick Aubameyang,Right Foot,Bernd Leno,Goal,Right,Upper,0.0,3,Home
+3890307,1. Bundesliga,2015-09-22,29,59,Darmstadt 98,Sandro Wagner,Right Foot,Felix Wiedwald,Goal,Left,Lower,0.0,1,Home
+3890308,1. Bundesliga,2015-09-23,50,58,Augsburg,Paul Verhaegh,Right Foot,Yann Sommer,Goal,Right,Lower,90.0,-2,Away
+3890308,1. Bundesliga,2015-09-23,74,2,Augsburg,Paul Verhaegh,Right Foot,Yann Sommer,Goal,Center,Middle,0.0,-2,Away
+3890316,1. Bundesliga,2015-09-26,20,12,Bayern Munich,Thomas Müller,Right Foot,Loris Karius,Off T,Left,Upper,0.0,3,Away
+3890318,1. Bundesliga,2015-09-26,39,45,VfB Stuttgart,Daniel Ginczek,Right Foot,Yann Sommer,Goal,Center,Upper,0.0,-2,Home
+3890314,1. Bundesliga,2015-09-26,67,44,Hoffenheim,Kevin Volland,Left Foot,Marwin Hitz,Goal,Left,Lower,0.0,2,Away
+3890322,1. Bundesliga,2015-10-02,95,37,Darmstadt 98,Sandro Wagner,Right Foot,Loris Karius,Off T,Center,Upper,0.0,-1,Home
+3890327,1. Bundesliga,2015-10-03,32,13,Hoffenheim,Kevin Volland,Left Foot,Przemysław Tytoń,Goal,Center,Lower,0.0,0,Home
+3890329,1. Bundesliga,2015-10-04,34,3,Bayern Munich,Thomas Müller,Right Foot,Roman Bürki,Goal,Center,Lower,0.0,4,Home
+3890330,1. Bundesliga,2015-10-04,70,30,Bayer Leverkusen,Hakan Çalhanoğlu,Right Foot,Marwin Hitz,Off T,Center,Upper,0.0,0,Home
+3890331,1. Bundesliga,2015-10-16,46,43,Borussia Dortmund,Marco Reus,Right Foot,Loris Karius,Saved,Center,Middle,39.79804603589746,2,Away
+3890334,1. Bundesliga,2015-10-17,28,12,Eintracht Frankfurt,Alexander Meier,Right Foot,Yann Sommer,Goal,Center,Middle,0.0,-4,Home
+3890334,1. Bundesliga,2015-10-17,81,58,Borussia Mönchengladbach,André Hahn,Right Foot,Lukáš Hrádecký,Goal,Center,Middle,0.0,4,Away
+3890338,1. Bundesliga,2015-10-18,3,46,Ingolstadt,Mathew Leckie,Right Foot,Przemysław Tytoń,Saved,Center,Middle,20.194334245184045,-1,Away
+3890341,1. Bundesliga,2015-10-24,76,47,Bayern Munich,Thomas Müller,Right Foot,Timo Horn,Goal,Left,Lower,0.0,4,Home
+3890348,1. Bundesliga,2015-10-25,31,31,Borussia Mönchengladbach,Lars Edi Stindl,Right Foot,Ralf Fährmann,Saved,Center,Middle,25.401844931837026,2,Home
+3890354,1. Bundesliga,2015-10-31,41,18,Augsburg,Paul Verhaegh,Right Foot,Loris Karius,Goal,Left,Middle,0.0,0,Home
+3890351,1. Bundesliga,2015-10-31,53,56,Borussia Mönchengladbach,Granit Xhaka,Left Foot,Rune Almenning Jarstein,Goal,Center,Upper,0.0,3,Away
+3890351,1. Bundesliga,2015-10-31,81,32,Hertha Berlin,Alexander Baumjohann,Right Foot,Yann Sommer,Goal,Center,Middle,0.0,-3,Home
+3890356,1. Bundesliga,2015-11-01,58,52,Hannover 96,Hiroshi Kiyotake,Right Foot,René Adler,Goal,Left,Middle,90.0,1,Away
+3890358,1. Bundesliga,2015-11-06,69,56,Hannover 96,Hiroshi Kiyotake,Right Foot,Rune Almenning Jarstein,Goal,Center,Lower,0.0,-2,Home
+3890358,1. Bundesliga,2015-11-06,86,56,Hertha Berlin,Salomon Armand Magloire Kalou,Right Foot,Ron-Robert Zieler,Goal,Center,Upper,0.0,2,Away
+3890360,1. Bundesliga,2015-11-07,28,25,Hamburger SV,Pierre-Michel Lasogga,Right Foot,Christian Mathenia,Goal,Center,Middle,0.0,0,Away
+3890366,1. Bundesliga,2015-11-08,90,21,Augsburg,Paul Verhaegh,Right Foot,Felix Wiedwald,Goal,Right,Upper,0.0,-1,Home
+3890367,1. Bundesliga,2015-11-20,18,42,Hamburger SV,Pierre-Michel Lasogga,Right Foot,Roman Bürki,Goal,Center,Middle,0.0,2,Home
+3890374,1. Bundesliga,2015-11-22,59,54,Ingolstadt,Moritz Hartmann,Right Foot,Christian Mathenia,Goal,Center,Lower,0.0,2,Home
+3890385,1. Bundesliga,2015-12-04,50,45,Schalke 04,Johannes Geis,Right Foot,Ron-Robert Zieler,Goal,Right,Middle,0.0,2,Home
+3890391,1. Bundesliga,2015-12-05,57,22,FC Köln,Anthony Modeste,Right Foot,Marwin Hitz,Saved,Center,Lower,25.401844931837026,-1,Home
+3890388,1. Bundesliga,2015-12-05,90,14,Wolfsburg,Ricardo Iván Rodríguez Araya,Left Foot,Roman Bürki,Goal,Left,Middle,0.0,-1,Home
+3890400,1. Bundesliga,2015-12-12,37,38,Werder Bremen,Anthony Ujah,Right Foot,Timo Horn,Saved,Center,Lower,45.77772299426348,0,Home
+3890401,1. Bundesliga,2015-12-13,44,39,Borussia Dortmund,Pierre-Emerick Aubameyang,Right Foot,Lukáš Hrádecký,Off T,Left,Middle,0.0,3,Home
+3890407,1. Bundesliga,2015-12-19,39,22,Bayern Munich,Thomas Müller,Right Foot,Ron-Robert Zieler,Goal,Left,Lower,0.0,1,Away
+3890412,1. Bundesliga,2016-01-22,36,56,Bayern Munich,Robert Lewandowski,Right Foot,René Adler,Goal,Left,Upper,0.0,1,Away
+3890413,1. Bundesliga,2016-01-23,18,11,FC Köln,Anthony Modeste,Right Foot,Przemysław Tytoń,Goal,Center,Middle,0.0,-2,Home
+3890416,1. Bundesliga,2016-01-23,40,13,Ingolstadt,Moritz Hartmann,Right Foot,Loris Karius,Goal,Right,Middle,0.0,1,Home
+3890427,1. Bundesliga,2016-01-30,62,6,Bayer Leverkusen,Javier Hernández Balcázar,Right Foot,Ron-Robert Zieler,Goal,Left,Middle,90.0,3,Home
+3890425,1. Bundesliga,2016-01-30,74,39,Werder Bremen,Claudio Miguel Pizarro Bossio,Right Foot,Rune Almenning Jarstein,Goal,Center,Lower,0.0,0,Home
+3890430,1. Bundesliga,2016-02-05,55,49,Werder Bremen,Claudio Miguel Pizarro Bossio,Right Foot,Yann Sommer,Goal,Right,Lower,0.0,-4,Away
+3890430,1. Bundesliga,2016-02-05,69,6,Borussia Mönchengladbach,Raffael Caetano de Araújo,Right Foot,Felix Wiedwald,Goal,Left,Upper,0.0,4,Home
+3890433,1. Bundesliga,2016-02-06,75,2,VfB Stuttgart,Filip Kostić,Left Foot,Lukáš Hrádecký,Goal,Right,Lower,0.0,2,Away
+3890436,1. Bundesliga,2016-02-06,84,48,Ingolstadt,Moritz Hartmann,Right Foot,Marwin Hitz,Goal,Center,Upper,0.0,1,Home
+3890449,1. Bundesliga,2016-02-20,89,22,Ingolstadt,Lukas Hinterseer,Right Foot,Felix Wiedwald,Goal,Left,Middle,0.0,2,Home
+3890459,1. Bundesliga,2016-02-27,43,33,Darmstadt 98,Sandro Wagner,Right Foot,Felix Wiedwald,Goal,Center,Lower,0.0,0,Away
+3890463,1. Bundesliga,2016-02-28,57,55,FSV Mainz 05,Yunus Mallı,Right Foot,Bernd Leno,Goal,Right,Middle,0.0,2,Home
+3890469,1. Bundesliga,2016-03-02,39,5,Augsburg,Paul Verhaegh,Right Foot,Oliver Baumann,Goal,Center,Middle,0.0,-1,Away
+3890472,1. Bundesliga,2016-03-02,64,34,Werder Bremen,Claudio Miguel Pizarro Bossio,Right Foot,Bernd Leno,Goal,Left,Lower,0.0,3,Away
+3890480,1. Bundesliga,2016-03-05,1,46,Schalke 04,Klaas-Jan Huntelaar,Right Foot,Timo Horn,Goal,Center,Middle,0.0,2,Away
+3890479,1. Bundesliga,2016-03-05,7,21,Ingolstadt,Moritz Hartmann,Right Foot,Lukáš Hrádecký,Goal,Right,Lower,90.0,0,Away
+3890477,1. Bundesliga,2016-03-05,92,13,Bayer Leverkusen,Hakan Çalhanoğlu,Right Foot,Marwin Hitz,Goal,Center,Lower,0.0,0,Away
+3890486,1. Bundesliga,2016-03-12,56,32,Hoffenheim,Kevin Volland,Left Foot,Koen Casteels,Saved,Center,Middle,21.326218419142673,1,Home
+3890485,1. Bundesliga,2016-03-12,83,34,VfB Stuttgart,Daniel Didavi,Left Foot,Ramazan Özcan,Goal,Center,Lower,0.0,0,Away
+3890487,1. Bundesliga,2016-03-12,89,37,Augsburg,Alfreð Finnbogason,Right Foot,Christian Mathenia,Goal,Center,Upper,0.0,0,Away
+3890499,1. Bundesliga,2016-03-19,19,10,Hoffenheim,Andrej Kramarić,Right Foot,René Adler,Goal,Left,Middle,0.0,2,Away
+3890499,1. Bundesliga,2016-03-19,29,34,Hamburger SV,Aaron Hunt,Left Foot,Oliver Baumann,Goal,Center,Lower,0.0,-2,Home
+3890494,1. Bundesliga,2016-03-19,47,50,Werder Bremen,Claudio Miguel Pizarro Bossio,Right Foot,Loris Karius,Goal,Right,Lower,0.0,0,Home
+3890508,1. Bundesliga,2016-04-02,28,39,Ingolstadt,Moritz Hartmann,Right Foot,Ralf Fährmann,Goal,Center,Middle,0.0,3,Home
+3890518,1. Bundesliga,2016-04-10,65,11,Schalke 04,Klaas-Jan Huntelaar,Right Foot,Roman Bürki,Goal,Left,Lower,0.0,0,Home
+3890523,1. Bundesliga,2016-04-16,31,21,Werder Bremen,Claudio Miguel Pizarro Bossio,Right Foot,Diego Orlando Benaglio,Goal,Right,Lower,90.0,1,Home
+3890529,1. Bundesliga,2016-04-22,56,9,Werder Bremen,Claudio Miguel Pizarro Bossio,Right Foot,Jaroslav Drobný,Saved,Center,Lower,20.194334245184045,-1,Away
+3890534,1. Bundesliga,2016-04-23,4,52,Schalke 04,Klaas-Jan Huntelaar,Right Foot,Bernd Leno,Saved,Center,Upper,30.40137413993364,-1,Home
+3890539,1. Bundesliga,2016-04-30,19,9,Darmstadt 98,Sandro Wagner,Right Foot,Lukáš Hrádecký,Saved,Center,Lower,45.000000000000135,-1,Home
+3890544,1. Bundesliga,2016-04-30,52,13,Hoffenheim,Andrej Kramarić,Right Foot,Ørjan Håskjold Nyland,Saved,Center,Middle,47.30663907551546,1,Home
+3890548,1. Bundesliga,2016-05-07,14,11,Bayern Munich,Robert Lewandowski,Right Foot,Ramazan Özcan,Goal,Center,Lower,0.0,1,Away
+3890548,1. Bundesliga,2016-05-07,41,9,Ingolstadt,Moritz Hartmann,Right Foot,Manuel Neuer,Goal,Center,Middle,0.0,-1,Home
+3890563,1. Bundesliga,2016-05-14,68,31,Ingolstadt,Moritz Hartmann,Right Foot,David Yelldell,Goal,Right,Middle,0.0,-1,Away
+3895074,1. Bundesliga,2023-09-15,93,46,Bayer Leverkusen,Exequiel Alejandro Palacios,Right Foot,Sven Ulreich,Goal,Right,Middle,0.0,0,Away
+3895086,1. Bundesliga,2023-09-24,73,58,Bayer Leverkusen,Victor Okoh Boniface,Right Foot,Kevin Müller,Goal,Center,Middle,0.0,3,Home
+3895182,1. Bundesliga,2023-12-20,29,33,Bayer Leverkusen,Patrik Schick,Left Foot,Manuel Riemann,Goal,Center,Lower,0.0,4,Home
+3895292,1. Bundesliga,2024-04-06,52,15,Bayer Leverkusen,Florian Wirtz,Right Foot,Frederik Rønnow,Goal,Center,Upper,0.0,1,Away
+3895302,1. Bundesliga,2024-04-14,24,27,Bayer Leverkusen,Victor Okoh Boniface,Right Foot,Michael Zetterer,Goal,Center,Middle,0.0,5,Home
+3895333,1. Bundesliga,2024-05-05,57,1,Bayer Leverkusen,Exequiel Alejandro Palacios,Right Foot,Kevin Trapp,Goal,Left,Lower,0.0,4,Away
+3895333,1. Bundesliga,2024-05-05,88,24,Bayer Leverkusen,Victor Okoh Boniface,Right Foot,Kevin Trapp,Goal,Center,Upper,0.0,4,Away
+3895340,1. Bundesliga,2024-05-12,46,18,Bayer Leverkusen,Victor Okoh Boniface,Right Foot,Manuel Riemann,Goal,Center,Lower,0.0,5,Away
+3920385,African Cup of Nations,2024-01-14,96,5,Egypt,Mohamed Salah,Left Foot,Ernan Alberto Siluane,Goal,Right,Middle,0.0,0,Home
+3920390,African Cup of Nations,2024-01-15,67,8,Angola,Cristóvão Paciência Mabululo,Right Foot,Anthony Louis Mandréa,Goal,Center,Lower,0.0,0,Away
+3920391,African Cup of Nations,2024-01-16,18,47,South Africa,Percy Tau,Left Foot,Djigui Diarra,Off T,Right,Upper,0.0,-2,Away
+3920392,African Cup of Nations,2024-01-16,95,20,Burkina Faso,Bertrand Isidore Traoré,Left Foot,Babacar Niasse,Goal,Right,Middle,90.0,1,Home
+3920398,African Cup of Nations,2024-01-18,54,8,Nigeria,William Troost-Ekong,Right Foot,Yahia Fofana,Goal,Center,Upper,0.0,1,Away
+3920402,African Cup of Nations,2024-01-20,70,42,Burkina Faso,Bertrand Isidore Traoré,Left Foot,Anthony Louis Mandréa,Goal,Center,Middle,0.0,0,Away
+3920407,African Cup of Nations,2024-01-21,13,20,South Africa,Percy Tau,Left Foot,Lloyd Junior Kazapua,Goal,Center,Lower,0.0,4,Home
+3920405,African Cup of Nations,2024-01-21,41,14,Congo DR,Cédric Bakambu,Right Foot,Yassine Bounou,Post,Right,Lower,0.0,0,Away
+3920410,African Cup of Nations,2024-01-22,14,47,Ghana,Jordan Ayew,Right Foot,Ivane Carminio Francisco Urrubal,Goal,Left,Lower,0.0,0,Away
+3920410,African Cup of Nations,2024-01-22,69,9,Ghana,Jordan Ayew,Right Foot,Ivane Carminio Francisco Urrubal,Goal,Center,Upper,0.0,0,Away
+3920410,African Cup of Nations,2024-01-22,90,38,Mozambique,Geny Cipriano Catamo,Left Foot,Richard Ofori Antwi,Goal,Center,Lower,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,45,42,Egypt,Mostafa Mohamed Ahmed Abdallah,Right Foot,Lionel Mpasi-Nzau,Goal,Left,Upper,0.0,0,Home
+3922239,African Cup of Nations,2024-01-28,68,31,Equatorial Guinea,Emilio Nsue López,Right Foot,Ibrahim Kone,Post,Left,Lower,0.0,-1,Home
+3922240,African Cup of Nations,2024-01-28,120,1,Egypt,Mohamed Abdel Monem,Right Foot,Lionel Mpasi-Nzau,Goal,Right,Middle,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,121,1,Congo DR,Samuel Moutoussamy,Left Foot,Mohamed Abougabal,Goal,Left,Middle,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,121,51,Egypt,Mostafa Mohamed Ahmed Abdallah,Right Foot,Lionel Mpasi-Nzau,Off T,Left,Middle,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,122,48,Congo DR,Arthur Masuaku,Left Foot,Mohamed Abougabal,Off T,Center,Upper,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,123,34,Egypt,Omar Marmoush,Right Foot,Lionel Mpasi-Nzau,Goal,Right,Upper,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,124,31,Congo DR,Grady Diangana,Left Foot,Mohamed Abougabal,Goal,Center,Lower,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,125,34,Egypt,Omar Kamal Abdel Wahed,Right Foot,Lionel Mpasi-Nzau,Goal,Center,Lower,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,126,20,Congo DR,Silas Katompa Mvumpa,Right Foot,Mohamed Abougabal,Goal,Left,Lower,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,127,8,Egypt,Mohamed Hany Gamal Eldemerdash,Right Foot,Lionel Mpasi-Nzau,Goal,Left,Upper,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,127,59,Congo DR,Aaron Tshibola,Right Foot,Mohamed Abougabal,Goal,Center,Lower,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,128,45,Egypt,Ahmed Elsayed Ali Elsayed Hegazy,Right Foot,Lionel Mpasi-Nzau,Goal,Center,Lower,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,129,41,Congo DR,Gedeon Kalulu Kyatengwa,Right Foot,Mohamed Abougabal,Goal,Center,Middle,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,130,26,Egypt,Mostafa Fathi,Left Foot,Lionel Mpasi-Nzau,Goal,Center,Upper,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,131,18,Congo DR,Chancel Mbemba Mangulu,Right Foot,Mohamed Abougabal,Goal,Center,Lower,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,132,0,Egypt,Mahmoud Hamada,Right Foot,Lionel Mpasi-Nzau,Goal,Center,Upper,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,132,55,Congo DR,Henoc Inonga Baka,Right Foot,Mohamed Abougabal,Goal,Center,Middle,0.0,0,Away
+3922240,African Cup of Nations,2024-01-28,133,46,Egypt,Mohamed Abougabal,Right Foot,Lionel Mpasi-Nzau,Post,Center,Upper,0.0,0,Home
+3922240,African Cup of Nations,2024-01-28,134,22,Congo DR,Lionel Mpasi-Nzau,Right Foot,Mohamed Abougabal,Goal,Center,Upper,0.0,0,Away
+3922242,African Cup of Nations,2024-01-29,85,23,Côte d'Ivoire,Franck Yannick Kessié,Right Foot,Edouard Mendy,Goal,Center,Middle,0.0,0,Away
+3922241,African Cup of Nations,2024-01-29,87,54,Cape Verde Islands,Ryan Isaac Mendes da Graça,Right Foot,Babacar Niasse,Goal,Center,Middle,0.0,1,Home
+3922242,African Cup of Nations,2024-01-29,120,26,Senegal,Kalidou Koulibaly,Right Foot,Yahia Fofana,Goal,Center,Middle,0.0,0,Home
+3922242,African Cup of Nations,2024-01-29,121,39,Côte d'Ivoire,Nicolas Pépé,Left Foot,Edouard Mendy,Goal,Center,Lower,0.0,0,Away
+3922242,African Cup of Nations,2024-01-29,122,38,Senegal,Pape Matar Sarr,Right Foot,Yahia Fofana,Goal,Center,Upper,0.0,0,Home
+3922242,African Cup of Nations,2024-01-29,123,47,Côte d'Ivoire,Christian Kouamé,Right Foot,Edouard Mendy,Goal,Left,Lower,0.0,0,Away
+3922242,African Cup of Nations,2024-01-29,124,49,Senegal,Moussa Niakhate,Left Foot,Yahia Fofana,Post,Right,Upper,0.0,0,Home
+3922242,African Cup of Nations,2024-01-29,125,47,Côte d'Ivoire,Sébastien Haller,Right Foot,Edouard Mendy,Goal,Center,Upper,0.0,0,Away
+3922242,African Cup of Nations,2024-01-29,126,37,Senegal,Cheikh Ahmadou Bamba Mbacke Dieng,Right Foot,Yahia Fofana,Goal,Right,Lower,90.0,0,Home
+3922242,African Cup of Nations,2024-01-29,127,39,Côte d'Ivoire,Serge Aurier,Right Foot,Edouard Mendy,Goal,Center,Upper,0.0,0,Away
+3922242,African Cup of Nations,2024-01-29,128,37,Senegal,Sadio Mané,Right Foot,Yahia Fofana,Goal,Center,Upper,0.0,0,Home
+3922242,African Cup of Nations,2024-01-29,129,48,Côte d'Ivoire,Franck Yannick Kessié,Right Foot,Edouard Mendy,Goal,Center,Upper,0.0,0,Away
+3922244,African Cup of Nations,2024-01-30,56,49,Burkina Faso,Bertrand Isidore Traoré,Left Foot,Djigui Diarra,Goal,Right,Middle,0.0,-1,Away
+3922243,African Cup of Nations,2024-01-30,84,41,Morocco,Achraf Hakimi Mouh,Right Foot,Ronwen Williams,Post,Center,Upper,0.0,-2,Home
+3922356,African Cup of Nations,2024-02-02,20,2,Guinea,Mohamed Bayo,Right Foot,Lionel Mpasi-Nzau,Goal,Center,Upper,0.0,-2,Away
+3922356,African Cup of Nations,2024-02-02,64,24,Congo DR,Yoane Wissa,Right Foot,Ibrahim Kone,Goal,Right,Middle,0.0,2,Home
+3922659,African Cup of Nations,2024-02-03,16,57,Mali,Adama Traoré,Left Foot,Yahia Fofana,Saved,Center,Lower,54.01320435564289,-1,Home
+3922658,African Cup of Nations,2024-02-03,120,4,Cape Verde Islands,Tiago Manuel Dias Correia,Right Foot,Ronwen Williams,Saved,Right,Middle,54.637538112931196,0,Home
+3922658,African Cup of Nations,2024-02-03,121,9,South Africa,Teboho Mokoena,Right Foot,Josimar José Évora Dias,Goal,Center,Upper,0.0,0,Away
+3922658,African Cup of Nations,2024-02-03,122,0,Cape Verde Islands,Willy Afonso Semedo Johnson,Right Foot,Ronwen Williams,Saved,Center,Middle,46.87303268452073,0,Home
+3922658,African Cup of Nations,2024-02-03,123,1,South Africa,Zakhele Lerato Lepasa,Right Foot,Josimar José Évora Dias,Post,Center,Upper,0.0,0,Away
+3922658,African Cup of Nations,2024-02-03,123,58,Cape Verde Islands,Laros Duarte,Right Foot,Ronwen Williams,Saved,Center,Middle,40.46222749209335,0,Home
+3922658,African Cup of Nations,2024-02-03,125,8,South Africa,Aubrey Maphosa Modiba,Left Foot,Josimar José Évora Dias,Saved,Center,Lower,41.87786953788439,0,Away
+3922658,African Cup of Nations,2024-02-03,126,18,Cape Verde Islands,Bryan Silva Teixera,Right Foot,Ronwen Williams,Goal,Left,Middle,0.0,0,Home
+3922658,African Cup of Nations,2024-02-03,127,23,South Africa,Mothobi Mvala,Right Foot,Josimar José Évora Dias,Goal,Center,Middle,0.0,0,Away
+3922658,African Cup of Nations,2024-02-03,128,27,Cape Verde Islands,Erickson Patrick Correia Andrade,Left Foot,Ronwen Williams,Saved,Center,Middle,29.998681539528768,0,Home
+3922837,African Cup of Nations,2024-02-07,66,5,Nigeria,William Troost-Ekong,Right Foot,Ronwen Williams,Goal,Center,Lower,0.0,0,Home
+3922837,African Cup of Nations,2024-02-07,89,2,South Africa,Teboho Mokoena,Right Foot,Stanley Bobo Nwabali,Goal,Right,Middle,0.0,0,Away
+3922837,African Cup of Nations,2024-02-07,120,3,Nigeria,Terem Igobor Moffi,Left Foot,Ronwen Williams,Goal,Center,Middle,0.0,0,Home
+3922837,African Cup of Nations,2024-02-07,121,6,South Africa,Teboho Mokoena,Right Foot,Stanley Bobo Nwabali,Saved,Center,Middle,8.07023217791801,0,Away
+3922837,African Cup of Nations,2024-02-07,121,57,Nigeria,Kenneth Josiah Omeruo,Right Foot,Ronwen Williams,Goal,Right,Lower,90.0,0,Home
+3922837,African Cup of Nations,2024-02-07,122,58,South Africa,Mihlali Samson Mayambela,Right Foot,Stanley Bobo Nwabali,Goal,Left,Middle,0.0,0,Away
+3922837,African Cup of Nations,2024-02-07,123,41,Nigeria,Temitayo Olufisayo Olaoluwa Aina,Right Foot,Ronwen Williams,Off T,Center,Upper,0.0,0,Home
+3922837,African Cup of Nations,2024-02-07,124,38,South Africa,Evidence Makgopa,Right Foot,Stanley Bobo Nwabali,Saved,Center,Middle,8.089380413952966,0,Away
+3922837,African Cup of Nations,2024-02-07,125,44,Nigeria,William Troost-Ekong,Right Foot,Ronwen Williams,Goal,Center,Middle,0.0,0,Home
+3922837,African Cup of Nations,2024-02-07,126,46,South Africa,Mothobi Mvala,Right Foot,Stanley Bobo Nwabali,Goal,Center,Middle,0.0,0,Away
+3922837,African Cup of Nations,2024-02-07,127,29,Nigeria,Kelechi Promise Iheanacho,Left Foot,Ronwen Williams,Goal,Left,Middle,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,120,21,South Africa,Teboho Mokoena,Right Foot,Dimitry Bertaud,Post,Right,Lower,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,121,20,Congo DR,Samuel Moutoussamy,Left Foot,Ronwen Williams,Goal,Right,Upper,0.0,0,Away
+3923880,African Cup of Nations,2024-02-10,122,15,South Africa,Nkosinathi Sibisi,Right Foot,Dimitry Bertaud,Goal,Center,Middle,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,123,9,Congo DR,Omenuke Mfulu,Right Foot,Ronwen Williams,Goal,Center,Middle,0.0,0,Away
+3923880,African Cup of Nations,2024-02-10,123,59,South Africa,Thabang Amod Monare,Right Foot,Dimitry Bertaud,Goal,Right,Middle,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,124,55,Congo DR,Cédric Bakambu,Right Foot,Ronwen Williams,Goal,Center,Upper,0.0,0,Away
+3923880,African Cup of Nations,2024-02-10,125,46,South Africa,Aubrey Maphosa Modiba,Left Foot,Dimitry Bertaud,Goal,Left,Lower,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,126,32,Congo DR,Joris Kayembe Ditu,Left Foot,Ronwen Williams,Goal,Center,Lower,0.0,0,Away
+3923880,African Cup of Nations,2024-02-10,127,27,South Africa,Zakhele Lerato Lepasa,Right Foot,Dimitry Bertaud,Goal,Center,Middle,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,128,25,Congo DR,Chancel Mbemba Mangulu,Right Foot,Ronwen Williams,Saved,Center,Middle,28.038046618706606,0,Away
+3923880,African Cup of Nations,2024-02-10,129,24,South Africa,Oswin Reagan Appollis,Right Foot,Dimitry Bertaud,Goal,Right,Lower,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,130,33,Congo DR,Yoane Wissa,Right Foot,Ronwen Williams,Goal,Center,Upper,0.0,0,Away
+3923880,African Cup of Nations,2024-02-10,131,20,South Africa,Siyanda Xulu,Right Foot,Dimitry Bertaud,Goal,Center,Middle,0.0,0,Home
+3923880,African Cup of Nations,2024-02-10,132,19,Congo DR,Meschak Elia,Right Foot,Ronwen Williams,Saved,Center,Middle,17.493073039461443,0,Away
+2302764,Champions League,2005-05-25,59,50,Liverpool,Xabier Alonso Olano,Right Foot,Nelson de Jesus da Silva,Saved,Center,Lower,0.0,0,Away
+2302764,Champions League,2005-05-25,120,1,AC Milan,Claudio Santos,Left Foot,Jerzy Dudek,Off T,Right,Upper,0.0,0,Home
+2302764,Champions League,2005-05-25,120,50,Liverpool,Dietmar Hamann,Right Foot,Nelson de Jesus da Silva,Goal,Right,Upper,90.0,0,Away
+2302764,Champions League,2005-05-25,121,40,AC Milan,Andrea Pirlo,Right Foot,Jerzy Dudek,Saved,Center,Middle,36.91593683200843,0,Home
+2302764,Champions League,2005-05-25,122,37,Liverpool,Djibril Cissé,Right Foot,Nelson de Jesus da Silva,Goal,Center,Middle,0.0,0,Away
+2302764,Champions League,2005-05-25,123,17,AC Milan,Jon Dahl Tomasson,Right Foot,Jerzy Dudek,Goal,Center,Lower,0.0,0,Home
+2302764,Champions League,2005-05-25,124,11,Liverpool,John Arne Semundseth Riise,Left Foot,Nelson de Jesus da Silva,Saved,Center,Lower,54.01320435564289,0,Away
+2302764,Champions League,2005-05-25,125,3,AC Milan,Ricardo Izecson dos Santos Leite,Right Foot,Jerzy Dudek,Goal,Center,Upper,0.0,0,Home
+2302764,Champions League,2005-05-25,125,43,Liverpool,Vladimir Smicer,Right Foot,Nelson de Jesus da Silva,Goal,Center,Middle,0.0,0,Away
+18237,Champions League,2012-05-19,94,45,Bayern Munich,Arjen Robben,Left Foot,Petr Čech,Saved,Center,Middle,0.0,0,Home
+18237,Champions League,2012-05-19,120,11,Bayern Munich,Philipp Lahm,Right Foot,Petr Čech,Goal,Left,Upper,90.0,0,Home
+18237,Champions League,2012-05-19,120,56,Chelsea,Juan Manuel Mata García,Left Foot,Manuel Neuer,Saved,Center,Middle,13.451866675506155,0,Away
+18237,Champions League,2012-05-19,121,33,Bayern Munich,Mario Gómez García,Right Foot,Petr Čech,Goal,Left,Lower,70.07441934181591,0,Home
+18237,Champions League,2012-05-19,122,14,Chelsea,David Luiz Moreira Marinho,Right Foot,Manuel Neuer,Goal,Left,Upper,70.55996517182365,0,Away
+18237,Champions League,2012-05-19,123,3,Bayern Munich,Manuel Neuer,Right Foot,Petr Čech,Goal,Right,Middle,81.6341138759674,0,Home
+18237,Champions League,2012-05-19,123,48,Chelsea,Frank Lampard,Right Foot,Manuel Neuer,Goal,Center,Upper,0.9130028668154415,0,Away
+18237,Champions League,2012-05-19,124,28,Bayern Munich,Ivica Olić,Left Foot,Petr Čech,Saved,Center,Middle,41.87786953788439,0,Home
+18237,Champions League,2012-05-19,125,18,Chelsea,Ashley Cole,Left Foot,Manuel Neuer,Goal,Left,Middle,0.0,0,Away
+18237,Champions League,2012-05-19,126,4,Bayern Munich,Bastian Schweinsteiger,Right Foot,Petr Čech,Saved,Left,Middle,70.07441934181591,0,Home
+18237,Champions League,2012-05-19,127,6,Chelsea,Didier Yves Drogba Tébily,Right Foot,Manuel Neuer,Goal,Right,Lower,0.0,0,Away
+18240,Champions League,2013-05-25,67,34,Borussia Dortmund,İlkay Gündoğan,Right Foot,Manuel Neuer,Goal,Center,Lower,0.0,-1,Home
+18241,Champions League,2014-05-24,119,53,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Thibaut Courtois,Goal,Center,Upper,0.0,3,Home
+18243,Champions League,2016-05-28,47,8,Atlético Madrid,Antoine Griezmann,Left Foot,Keylor Navas Gamboa,Post,Center,Upper,0.0,0,Away
+18243,Champions League,2016-05-28,120,0,Real Madrid,Lucas Vázquez Iglesias,Right Foot,Jan Oblak,Goal,Center,Lower,0.0,0,Home
+18243,Champions League,2016-05-28,120,43,Atlético Madrid,Antoine Griezmann,Left Foot,Keylor Navas Gamboa,Goal,Center,Lower,0.0,0,Away
+18243,Champions League,2016-05-28,121,21,Real Madrid,Marcelo Vieira da Silva Júnior,Left Foot,Jan Oblak,Goal,Left,Middle,0.0,0,Home
+18243,Champions League,2016-05-28,121,57,Atlético Madrid,Gabriel Fernández Arenas,Right Foot,Keylor Navas Gamboa,Goal,Right,Upper,0.0,0,Away
+18243,Champions League,2016-05-28,122,36,Real Madrid,Gareth Frank Bale,Left Foot,Jan Oblak,Goal,Left,Lower,0.0,0,Home
+18243,Champions League,2016-05-28,123,23,Atlético Madrid,Saúl Ñíguez Esclapez,Left Foot,Keylor Navas Gamboa,Goal,Right,Lower,0.0,0,Away
+18243,Champions League,2016-05-28,124,1,Real Madrid,Sergio Ramos García,Right Foot,Jan Oblak,Goal,Left,Lower,90.0,0,Home
+18243,Champions League,2016-05-28,124,32,Atlético Madrid,Juan Francisco Torres Belén,Right Foot,Keylor Navas Gamboa,Post,Right,Lower,0.0,0,Away
+18243,Champions League,2016-05-28,125,12,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Jan Oblak,Goal,Center,Upper,0.0,0,Home
+22912,Champions League,2019-06-01,1,48,Liverpool,Mohamed Salah,Left Foot,Hugo Lloris,Goal,Center,Middle,0.0,2,Away
+3939980,Copa America,2024-06-27,48,16,Ecuador,Ray Kendry Páez Andrade,Left Foot,Jahmali Waite,Goal,Left,Lower,0.0,2,Home
+3939979,Copa America,2024-06-27,56,22,Venezuela,José Salomón Rondón Giménez,Right Foot,Julio José González Vela-Alvizu,Goal,Center,Lower,0.0,1,Home
+3939979,Copa America,2024-06-27,86,55,Mexico,Orbelín Pineda Alvarado,Right Foot,Rafael Enrique Romo Pérez,Saved,Center,Lower,50.75769476594843,-1,Away
+3939984,Copa America,2024-06-29,30,10,Colombia,Luis Fernando Díaz Marulanda,Right Foot,Patrick Gilmar Sequeira Mejías,Goal,Left,Upper,90.0,3,Home
+3939983,Copa America,2024-06-29,30,57,Brazil,Lucas Tolentino Coelho de Lima,Left Foot,Rodrigo Mario Morínigo Acosta,Off T,Left,Upper,0.0,3,Away
+3939983,Copa America,2024-06-29,64,44,Brazil,Lucas Tolentino Coelho de Lima,Left Foot,Rodrigo Mario Morínigo Acosta,Goal,Left,Middle,90.0,3,Away
+3939986,Copa America,2024-06-30,71,9,Argentina,Leandro Daniel Paredes,Right Foot,Pedro David Gallese Quiróz,Post,Left,Upper,0.0,2,Home
+3942228,Copa America,2024-07-05,61,42,Ecuador,Enner Remberto Valencia Lastra,Right Foot,Damián Emiliano Martínez,Post,Right,Lower,0.0,0,Away
+3942228,Copa America,2024-07-05,120,43,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Alexander Domínguez Carabalí,Post,Center,Upper,0.0,0,Home
+3942228,Copa America,2024-07-05,121,43,Ecuador,Ángel Israel Mena Delgado,Left Foot,Damián Emiliano Martínez,Saved,Center,Middle,45.698039626455476,0,Away
+3942228,Copa America,2024-07-05,122,28,Argentina,Julián Álvarez,Right Foot,Alexander Domínguez Carabalí,Goal,Left,Upper,0.0,0,Home
+3942228,Copa America,2024-07-05,123,17,Ecuador,Alan Steve Minda García,Right Foot,Damián Emiliano Martínez,Saved,Center,Middle,21.04756115328116,0,Away
+3942228,Copa America,2024-07-05,124,16,Argentina,Alexis Mac Allister,Right Foot,Alexander Domínguez Carabalí,Goal,Left,Middle,0.0,0,Home
+3942228,Copa America,2024-07-05,124,56,Ecuador,John Yeboah Zamora,Left Foot,Damián Emiliano Martínez,Goal,Left,Upper,90.0,0,Away
+3942228,Copa America,2024-07-05,125,37,Argentina,Gonzalo Ariel Montiel,Right Foot,Alexander Domínguez Carabalí,Goal,Center,Lower,0.0,0,Home
+3942228,Copa America,2024-07-05,126,35,Ecuador,Jordy Josué Caicedo Medina,Right Foot,Damián Emiliano Martínez,Goal,Center,Middle,0.0,0,Away
+3942228,Copa America,2024-07-05,127,19,Argentina,Nicolás Hernán Otamendi,Right Foot,Alexander Domínguez Carabalí,Goal,Center,Lower,0.0,0,Home
+3942229,Copa America,2024-07-06,120,2,Venezuela,José Salomón Rondón Giménez,Right Foot,Maxime Crépeau,Goal,Center,Lower,0.0,0,Home
+3942229,Copa America,2024-07-06,120,49,Canada,Jonathan David,Right Foot,Rafael Enrique Romo Pérez,Goal,Left,Middle,90.0,0,Away
+3942229,Copa America,2024-07-06,121,30,Venezuela,Yangel Clemente Herrera Ravelo,Right Foot,Maxime Crépeau,Post,Right,Lower,0.0,0,Home
+3942229,Copa America,2024-07-06,122,11,Canada,Liam Millar,Right Foot,Rafael Enrique Romo Pérez,Off T,Center,Upper,0.0,0,Away
+3942229,Copa America,2024-07-06,122,57,Venezuela,Tomás Eduardo Rincón Hernández,Right Foot,Maxime Crépeau,Goal,Center,Middle,0.0,0,Home
+3942229,Copa America,2024-07-06,124,9,Canada,Moise Bombito,Right Foot,Rafael Enrique Romo Pérez,Goal,Center,Middle,0.0,0,Away
+3942229,Copa America,2024-07-06,125,2,Venezuela,Jefferson David Savarino Quintero,Right Foot,Maxime Crépeau,Saved to Post,Center,Middle,27.88334062044805,0,Home
+3942229,Copa America,2024-07-06,125,55,Canada,Stephen Antunes Eustáquio,Right Foot,Rafael Enrique Romo Pérez,Saved,Center,Middle,0.0,0,Away
+3942229,Copa America,2024-07-06,126,58,Venezuela,Jhonder Leonel Cádiz Fernández,Right Foot,Maxime Crépeau,Goal,Center,Lower,0.0,0,Home
+3942229,Copa America,2024-07-06,127,52,Canada,Alphonso Davies,Left Foot,Rafael Enrique Romo Pérez,Goal,Center,Upper,0.0,0,Away
+3942229,Copa America,2024-07-06,128,36,Venezuela,Wilker José Ángel Romero,Right Foot,Maxime Crépeau,Saved,Center,Middle,39.8356950534819,0,Home
+3942229,Copa America,2024-07-06,129,31,Canada,Ismael Koné,Right Foot,Rafael Enrique Romo Pérez,Goal,Center,Lower,0.0,0,Away
+3942416,Copa America,2024-07-07,14,55,Colombia,James David Rodríguez Rubio,Left Foot,Orlando Mosquera,Goal,Center,Upper,0.0,5,Home
+3942416,Copa America,2024-07-07,93,54,Colombia,Miguel Ángel Borja Hernández,Right Foot,Orlando Mosquera,Goal,Center,Middle,0.0,5,Home
+3942415,Copa America,2024-07-07,120,36,Uruguay,Federico Santiago Valverde Dipetta,Right Foot,Alisson Ramsés Becker,Goal,Right,Lower,0.0,0,Home
+3942415,Copa America,2024-07-07,121,42,Brazil,Éder Gabriel Militão,Right Foot,Sergio Rochet Álvarez,Saved,Center,Middle,36.987413893000735,0,Away
+3942415,Copa America,2024-07-07,122,28,Uruguay,Rodrigo Bentancur Colmán,Right Foot,Alisson Ramsés Becker,Goal,Left,Middle,0.0,0,Home
+3942415,Copa America,2024-07-07,123,21,Brazil,Andreas Hoelgebaum Pereira,Right Foot,Sergio Rochet Álvarez,Goal,Right,Lower,0.0,0,Away
+3942415,Copa America,2024-07-07,124,3,Uruguay,Giorgian Daniel De Arrascaeta Benedetti,Right Foot,Alisson Ramsés Becker,Goal,Center,Upper,0.0,0,Home
+3942415,Copa America,2024-07-07,125,7,Brazil,Douglas Luiz Soares de Paulo,Right Foot,Sergio Rochet Álvarez,Post,Right,Middle,0.0,0,Away
+3942415,Copa America,2024-07-07,125,58,Uruguay,José María Giménez de Vargas,Right Foot,Alisson Ramsés Becker,Saved,Center,Middle,0.0,0,Home
+3942415,Copa America,2024-07-07,126,47,Brazil,Gabriel Teodoro Martinelli Silva,Right Foot,Sergio Rochet Álvarez,Goal,Center,Middle,0.0,0,Away
+3942415,Copa America,2024-07-07,127,32,Uruguay,Manuel Ugarte Ribeiro,Right Foot,Alisson Ramsés Becker,Goal,Center,Upper,0.0,0,Home
+3943076,Copa America,2024-07-14,120,5,Canada,Jonathan David,Right Foot,Sergio Rochet Álvarez,Goal,Center,Lower,0.0,0,Home
+3943076,Copa America,2024-07-14,120,53,Uruguay,Federico Santiago Valverde Dipetta,Right Foot,Dayne Tristan St. Clair,Goal,Right,Lower,90.0,0,Away
+3943076,Copa America,2024-07-14,122,28,Canada,Moise Bombito,Right Foot,Sergio Rochet Álvarez,Goal,Center,Lower,0.0,0,Home
+3943076,Copa America,2024-07-14,123,11,Uruguay,Rodrigo Bentancur Colmán,Right Foot,Dayne Tristan St. Clair,Goal,Right,Upper,0.0,0,Away
+3943076,Copa America,2024-07-14,124,7,Canada,Ismael Koné,Right Foot,Sergio Rochet Álvarez,Saved,Center,Lower,45.698039626455476,0,Home
+3943076,Copa America,2024-07-14,124,50,Uruguay,Giorgian Daniel De Arrascaeta Benedetti,Right Foot,Dayne Tristan St. Clair,Goal,Center,Upper,0.0,0,Away
+3943076,Copa America,2024-07-14,125,42,Canada,Mathieu Choiniere,Right Foot,Sergio Rochet Álvarez,Goal,Right,Middle,0.0,0,Home
+3943076,Copa America,2024-07-14,126,24,Uruguay,Luis Alberto Suárez Díaz,Right Foot,Dayne Tristan St. Clair,Goal,Left,Upper,0.0,0,Away
+3943076,Copa America,2024-07-14,127,9,Canada,Alphonso Davies,Left Foot,Sergio Rochet Álvarez,Post,Center,Upper,0.0,0,Home
+3888754,Copa del Rey,1978-04-19,8,53,Barcelona,Carles Rexach i Cerdà,Right Foot,Daniel Alberto Carnevali,Goal,Left,Lower,0.0,2,Home
+3888787,FIFA U20 World Cup,1979-09-07,72,7,Argentina U20,Hugo Alvez,Right Foot,Viktor Chanov,Goal,Center,Lower,0.0,2,Home
+3888720,FIFA World Cup,1974-07-07,1,28,Netherlands,Johan Neeskens,Right Foot,Sepp Maier,Goal,Center,Middle,0.0,-1,Home
+3888720,FIFA World Cup,1974-07-07,25,33,Germany,Paul Breitner,Right Foot,Jan Jongbloed,Goal,Right,Lower,0.0,1,Away
+7576,FIFA World Cup,2018-06-15,3,28,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,David de Gea Quintana,Goal,Left,Middle,0.0,0,Home
+7532,FIFA World Cup,2018-06-16,45,42,Peru,Christian Alberto Cueva Bravo,Right Foot,Kasper Schmeichel,Off T,Center,Upper,0.0,-1,Home
+7530,FIFA World Cup,2018-06-16,57,9,France,Antoine Griezmann,Left Foot,Mathew Ryan,Goal,Left,Middle,60.29142781068978,1,Home
+7530,FIFA World Cup,2018-06-16,61,16,Australia,Mile Jedinak,Right Foot,Hugo Lloris,Goal,Center,Lower,0.0,-1,Away
+7531,FIFA World Cup,2018-06-16,63,7,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Hannes Þór Halldórsson,Saved,Center,Middle,19.3718219079021,0,Home
+7529,FIFA World Cup,2018-06-16,70,51,Croatia,Luka Modrić,Right Foot,Francis Odinaka Uzoho,Goal,Right,Lower,0.0,2,Home
+7537,FIFA World Cup,2018-06-18,34,50,Tunisia,Ferjani Sassi,Right Foot,Jordan Pickford,Goal,Right,Middle,70.55996517182365,-1,Home
+7538,FIFA World Cup,2018-06-18,64,37,Sweden,Andreas Granqvist,Right Foot,Hyeon-Woo Jo,Goal,Center,Lower,0.0,1,Home
+7541,FIFA World Cup,2018-06-19,5,15,Japan,Shinji Kagawa,Right Foot,David Ospina Ramírez,Goal,Center,Lower,16.223919947415318,1,Away
+7540,FIFA World Cup,2018-06-19,72,40,Egypt,Mohamed Salah,Left Foot,Igor Akinfeev,Goal,Left,Upper,90.0,-2,Away
+7547,FIFA World Cup,2018-06-21,37,56,Australia,Mile Jedinak,Right Foot,Kasper Schmeichel,Goal,Center,Lower,0.0,0,Away
+7549,FIFA World Cup,2018-06-22,82,8,Iceland,Gylfi Þór Sigurðsson,Right Foot,Francis Odinaka Uzoho,Off T,Left,Upper,0.0,-2,Away
+7552,FIFA World Cup,2018-06-23,6,0,Belgium,Eden Hazard,Right Foot,Farouk Ben Mustapha,Goal,Center,Lower,0.0,3,Home
+7553,FIFA World Cup,2018-06-23,25,22,Mexico,Carlos Alberto Vela Garrido,Left Foot,Hyeon-Woo Jo,Goal,Center,Upper,0.0,1,Away
+7554,FIFA World Cup,2018-06-24,21,35,England,Harry Kane,Right Foot,Jaime Manuel Penedo Cano,Goal,Right,Upper,90.0,5,Home
+7554,FIFA World Cup,2018-06-24,45,16,England,Harry Kane,Right Foot,Jaime Manuel Penedo Cano,Goal,Center,Upper,0.0,5,Home
+7559,FIFA World Cup,2018-06-25,40,16,Saudi Arabia,Fahad Mosaed Al Muwallad Al Harbi,Right Foot,Essam Kamal Tawfik El Hadary,Saved,Center,Lower,0.0,1,Home
+7559,FIFA World Cup,2018-06-25,50,35,Saudi Arabia,Salman Mohammed Al Faraj,Left Foot,Essam Kamal Tawfik El Hadary,Goal,Center,Upper,0.0,1,Home
+7557,FIFA World Cup,2018-06-25,52,22,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Alireza Safar Beiranvand,Saved,Center,Middle,35.217592968192704,0,Away
+7557,FIFA World Cup,2018-06-25,92,47,Iran,Karim Ansarifard,Right Foot,Rui Pedro dos Santos Patrício,Goal,Center,Upper,0.0,0,Home
+7564,FIFA World Cup,2018-06-26,50,24,Nigeria,Victor Moses,Right Foot,Franco Armani,Goal,Center,Lower,0.0,-1,Home
+7561,FIFA World Cup,2018-06-26,75,9,Iceland,Gylfi Þór Sigurðsson,Right Foot,Lovre Kalinić,Goal,Center,Upper,0.0,-1,Home
+7566,FIFA World Cup,2018-06-27,61,34,Sweden,Andreas Granqvist,Right Foot,Francisco Guillermo Ochoa Magaña,Goal,Right,Upper,0.0,3,Away
+7568,FIFA World Cup,2018-06-27,92,52,Costa Rica,Bryan Ruiz González,Left Foot,Yann Sommer,Post,Left,Upper,0.0,0,Away
+7580,FIFA World Cup,2018-06-30,12,42,France,Antoine Griezmann,Left Foot,Franco Armani,Goal,Center,Lower,0.0,1,Home
+7582,FIFA World Cup,2018-07-01,40,55,Russia,Artem Dzyuba,Right Foot,David de Gea Quintana,Goal,Center,Upper,0.0,0,Away
+7581,FIFA World Cup,2018-07-01,115,47,Croatia,Luka Modrić,Right Foot,Kasper Schmeichel,Saved,Center,Lower,59.31793136312801,0,Home
+7582,FIFA World Cup,2018-07-01,120,5,Spain,Andrés Iniesta Luján,Right Foot,Igor Akinfeev,Goal,Center,Upper,0.0,0,Home
+7581,FIFA World Cup,2018-07-01,120,7,Denmark,Christian Dannemann Eriksen,Right Foot,Danijel Subašić,Saved,Right,Middle,81.6341138759674,0,Away
+7582,FIFA World Cup,2018-07-01,120,45,Russia,Fyodor Smolov,Right Foot,David de Gea Quintana,Goal,Center,Middle,0.0,0,Away
+7581,FIFA World Cup,2018-07-01,120,57,Croatia,Milan Badelj,Right Foot,Kasper Schmeichel,Saved,Center,Middle,13.451866675506155,0,Home
+7582,FIFA World Cup,2018-07-01,121,25,Spain,Gerard Piqué Bernabéu,Right Foot,Igor Akinfeev,Goal,Right,Middle,0.0,0,Home
+7581,FIFA World Cup,2018-07-01,121,52,Denmark,Simon Thorup Kjær,Right Foot,Danijel Subašić,Goal,Center,Upper,49.8738964222047,0,Away
+7582,FIFA World Cup,2018-07-01,122,8,Russia,Sergei Ignashevich,Right Foot,David de Gea Quintana,Goal,Left,Upper,90.0,0,Away
+7581,FIFA World Cup,2018-07-01,122,36,Croatia,Andrej Kramarić,Right Foot,Kasper Schmeichel,Goal,Center,Lower,0.0,0,Home
+7582,FIFA World Cup,2018-07-01,122,44,Spain,Jorge Resurrección Merodio,Right Foot,Igor Akinfeev,Saved,Center,Middle,0.0,0,Home
+7582,FIFA World Cup,2018-07-01,123,25,Russia,Aleksandr Golovin,Right Foot,David de Gea Quintana,Goal,Center,Lower,0.0,0,Away
+7581,FIFA World Cup,2018-07-01,123,29,Denmark,Michael Krohn-Dehli,Right Foot,Danijel Subašić,Goal,Center,Lower,0.0,0,Away
+7582,FIFA World Cup,2018-07-01,124,1,Spain,Sergio Ramos García,Right Foot,Igor Akinfeev,Goal,Center,Upper,0.0,0,Home
+7581,FIFA World Cup,2018-07-01,124,16,Croatia,Luka Modrić,Right Foot,Kasper Schmeichel,Goal,Center,Lower,0.0,0,Home
+7582,FIFA World Cup,2018-07-01,124,40,Russia,Denis Cheryshev,Left Foot,David de Gea Quintana,Goal,Center,Middle,0.0,0,Away
+7581,FIFA World Cup,2018-07-01,125,7,Denmark,Lasse Schöne,Right Foot,Danijel Subašić,Saved,Right,Middle,60.29142781068978,0,Away
+7582,FIFA World Cup,2018-07-01,125,36,Spain,Iago Aspas Juncal,Left Foot,Igor Akinfeev,Saved,Center,Middle,8.709516422004965,0,Home
+7581,FIFA World Cup,2018-07-01,126,15,Croatia,Josip Pivarić,Left Foot,Kasper Schmeichel,Saved,Right,Lower,81.6341138759674,0,Home
+7581,FIFA World Cup,2018-07-01,127,7,Denmark,Nicolai Jørgensen,Right Foot,Danijel Subašić,Saved,Center,Lower,16.223919947415318,0,Away
+7581,FIFA World Cup,2018-07-01,128,4,Croatia,Ivan Rakitić,Right Foot,Kasper Schmeichel,Goal,Center,Lower,0.0,0,Home
+7585,FIFA World Cup,2018-07-03,56,54,England,Harry Kane,Right Foot,David Ospina Ramírez,Goal,Center,Upper,2.754689287530742,0,Away
+7585,FIFA World Cup,2018-07-03,120,14,Colombia,Radamel Falcao García Zárate,Right Foot,Jordan Pickford,Goal,Center,Upper,0.0,0,Home
+7585,FIFA World Cup,2018-07-03,121,0,England,Harry Kane,Right Foot,David Ospina Ramírez,Goal,Right,Middle,0.0,0,Away
+7585,FIFA World Cup,2018-07-03,121,46,Colombia,Juan Guillermo Cuadrado Bello,Right Foot,Jordan Pickford,Goal,Center,Upper,0.0,0,Home
+7585,FIFA World Cup,2018-07-03,122,29,England,Marcus Rashford,Right Foot,David Ospina Ramírez,Goal,Right,Middle,0.0,0,Away
+7585,FIFA World Cup,2018-07-03,123,13,Colombia,Luis Fernando Muriel Fruto,Right Foot,Jordan Pickford,Goal,Center,Lower,0.0,0,Home
+7585,FIFA World Cup,2018-07-03,123,58,England,Jordan Brian Henderson,Right Foot,David Ospina Ramírez,Saved,Left,Middle,0.0,0,Away
+7585,FIFA World Cup,2018-07-03,124,50,Colombia,Andrés Mateus Uribe Villa,Right Foot,Jordan Pickford,Post,Left,Upper,90.0,0,Home
+7585,FIFA World Cup,2018-07-03,125,37,England,Kieran Trippier,Right Foot,David Ospina Ramírez,Goal,Center,Upper,59.31793136312801,0,Away
+7585,FIFA World Cup,2018-07-03,126,25,Colombia,Carlos Arturo Bacca Ahumada,Right Foot,Jordan Pickford,Saved,Center,Middle,0.0,0,Home
+7585,FIFA World Cup,2018-07-03,127,14,England,Eric Dier,Right Foot,David Ospina Ramírez,Goal,Right,Lower,0.0,0,Away
+8652,FIFA World Cup,2018-07-07,121,11,Russia,Fyodor Smolov,Right Foot,Danijel Subašić,Saved,Center,Middle,23.005155125977065,0,Home
+8652,FIFA World Cup,2018-07-07,121,57,Croatia,Marcelo Brozović,Right Foot,Igor Akinfeev,Goal,Left,Upper,0.0,0,Away
+8652,FIFA World Cup,2018-07-07,122,41,Russia,Alan Dzagoev,Right Foot,Danijel Subašić,Goal,Left,Lower,0.0,0,Home
+8652,FIFA World Cup,2018-07-07,123,24,Croatia,Mateo Kovačić,Right Foot,Igor Akinfeev,Saved,Left,Lower,0.0,0,Away
+8652,FIFA World Cup,2018-07-07,124,10,Russia,Mário Figueira Fernandes,Right Foot,Danijel Subašić,Off T,Right,Lower,0.0,0,Home
+8652,FIFA World Cup,2018-07-07,125,8,Croatia,Luka Modrić,Right Foot,Igor Akinfeev,Goal,Center,Lower,35.217592968192704,0,Away
+8652,FIFA World Cup,2018-07-07,125,51,Russia,Sergei Ignashevich,Right Foot,Danijel Subašić,Goal,Center,Middle,0.0,0,Home
+8652,FIFA World Cup,2018-07-07,126,31,Croatia,Domagoj Vida,Right Foot,Igor Akinfeev,Goal,Right,Upper,90.0,0,Away
+8652,FIFA World Cup,2018-07-07,127,8,Russia,Daler Kuzyaev,Right Foot,Danijel Subašić,Goal,Right,Lower,0.0,0,Home
+8652,FIFA World Cup,2018-07-07,127,59,Croatia,Ivan Rakitić,Right Foot,Igor Akinfeev,Goal,Right,Lower,90.0,0,Away
+8658,FIFA World Cup,2018-07-15,37,56,France,Antoine Griezmann,Left Foot,Danijel Subašić,Goal,Center,Lower,0.0,2,Home
+3857286,FIFA World Cup,2022-11-20,15,49,Ecuador,Enner Remberto Valencia Lastra,Right Foot,Saad Abdullah Al Sheeb,Goal,Left,Lower,90.0,2,Away
+3857282,FIFA World Cup,2022-11-21,81,33,Wales,Gareth Frank Bale,Left Foot,Matthew Charles Turner,Goal,Left,Upper,90.0,0,Away
+3857271,FIFA World Cup,2022-11-21,102,30,Iran,Mehdi Taremi,Right Foot,Jordan Pickford,Goal,Center,Lower,0.0,-4,Away
+3857300,FIFA World Cup,2022-11-22,9,15,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Mohammed Khalil Al Owais,Goal,Center,Lower,0.0,-1,Home
+3857265,FIFA World Cup,2022-11-22,57,23,Poland,Robert Lewandowski,Right Foot,Francisco Guillermo Ochoa Magaña,Saved,Center,Lower,57.30319632105517,0,Away
+3857268,FIFA World Cup,2022-11-23,10,0,Canada,Alphonso Davies,Left Foot,Thibaut Courtois,Saved,Center,Lower,14.363742852682051,-1,Away
+3857291,FIFA World Cup,2022-11-23,30,9,Spain,Ferrán Torres García,Right Foot,Keylor Navas Gamboa,Goal,Center,Middle,0.0,7,Home
+3857284,FIFA World Cup,2022-11-23,32,35,Germany,İlkay Gündoğan,Right Foot,Shūichi Gonda,Goal,Center,Middle,0.0,-1,Home
+3857298,FIFA World Cup,2022-11-24,64,20,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Lawrence Ati-Zigi,Goal,Center,Upper,0.0,1,Home
+3857297,FIFA World Cup,2022-11-26,45,35,Saudi Arabia,Salem Mohammed Al Dawsari,Right Foot,Wojciech Szczęsny,Saved,Center,Lower,14.564841505192797,-2,Away
+3857270,FIFA World Cup,2022-11-28,92,19,Portugal,Bruno Miguel Borges Fernandes,Right Foot,Sergio Rochet Álvarez,Goal,Center,Middle,0.0,2,Home
+3857267,FIFA World Cup,2022-11-29,43,41,Senegal,Ismaïla Sarr,Right Foot,Hernán Ismael Galíndez,Goal,Left,Lower,90.0,1,Away
+3857264,FIFA World Cup,2022-11-30,38,24,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Wojciech Szczęsny,Saved,Center,Middle,23.794835379877544,2,Away
+3857293,FIFA World Cup,2022-12-02,20,12,Ghana,André Ayew Pelé,Left Foot,Sergio Rochet Álvarez,Saved,Center,Lower,19.430841025380705,-2,Home
+3869152,FIFA World Cup,2022-12-04,98,36,Poland,Robert Lewandowski,Right Foot,Hugo Lloris,Goal,Center,Lower,0.0,-2,Away
+3869253,FIFA World Cup,2022-12-05,12,18,Brazil,Neymar da Silva Santos Junior,Right Foot,Seung-Gyu Kim,Goal,Center,Lower,0.0,3,Home
+3869219,FIFA World Cup,2022-12-05,120,4,Japan,Takumi Minamino,Right Foot,Dominik Livaković,Saved,Center,Lower,21.326218419142673,0,Home
+3869219,FIFA World Cup,2022-12-05,120,43,Croatia,Nikola Vlašić,Right Foot,Shūichi Gonda,Goal,Right,Middle,0.0,0,Away
+3869219,FIFA World Cup,2022-12-05,121,13,Japan,Kaoru Mitoma,Right Foot,Dominik Livaković,Saved,Center,Lower,40.14958244630321,0,Home
+3869219,FIFA World Cup,2022-12-05,121,52,Croatia,Marcelo Brozović,Right Foot,Shūichi Gonda,Goal,Center,Upper,0.0,0,Away
+3869219,FIFA World Cup,2022-12-05,122,33,Japan,Takuma Asano,Right Foot,Dominik Livaković,Goal,Center,Middle,0.0,0,Home
+3869219,FIFA World Cup,2022-12-05,123,13,Croatia,Marko Livaja,Right Foot,Shūichi Gonda,Post,Right,Middle,0.0,0,Away
+3869219,FIFA World Cup,2022-12-05,123,50,Japan,Maya Yoshida,Right Foot,Dominik Livaković,Saved,Center,Lower,40.14958244630321,0,Home
+3869219,FIFA World Cup,2022-12-05,124,28,Croatia,Mario Pašalić,Right Foot,Shūichi Gonda,Goal,Right,Lower,0.0,0,Away
+3869220,FIFA World Cup,2022-12-06,120,7,Morocco,Abdelhamid Sabiri,Right Foot,Unai Simón Mendibil,Goal,Center,Lower,0.0,0,Home
+3869220,FIFA World Cup,2022-12-06,121,0,Spain,Pablo Sarabia García,Left Foot,Yassine Bounou,Post,Left,Lower,0.0,0,Away
+3869220,FIFA World Cup,2022-12-06,121,51,Morocco,Hakim Ziyech,Left Foot,Unai Simón Mendibil,Goal,Center,Middle,0.0,0,Home
+3869220,FIFA World Cup,2022-12-06,122,44,Spain,Carlos Soler Barragán,Right Foot,Yassine Bounou,Saved,Center,Middle,34.983714054877595,0,Away
+3869220,FIFA World Cup,2022-12-06,123,36,Morocco,Badr Banoun,Right Foot,Unai Simón Mendibil,Saved,Center,Lower,42.95710525566052,0,Home
+3869220,FIFA World Cup,2022-12-06,124,31,Spain,Sergio Busquets i Burgos,Right Foot,Yassine Bounou,Saved,Center,Middle,25.993152226416697,0,Away
+3869220,FIFA World Cup,2022-12-06,125,36,Morocco,Achraf Hakimi Mouh,Right Foot,Unai Simón Mendibil,Goal,Center,Lower,0.0,0,Home
+3869321,FIFA World Cup,2022-12-09,72,39,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Andries Noppert,Goal,Left,Middle,0.0,0,Away
+3869420,FIFA World Cup,2022-12-09,120,3,Croatia,Nikola Vlašić,Right Foot,Alisson Ramsés Becker,Goal,Center,Upper,0.0,0,Home
+3869321,FIFA World Cup,2022-12-09,120,5,Netherlands,Virgil van Dijk,Right Foot,Damián Emiliano Martínez,Saved,Center,Middle,35.194921773604506,0,Home
+3869420,FIFA World Cup,2022-12-09,120,47,Brazil,Rodrygo Silva de Goes,Right Foot,Dominik Livaković,Saved,Center,Middle,25.90227609321344,0,Away
+3869321,FIFA World Cup,2022-12-09,121,3,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Andries Noppert,Goal,Center,Lower,0.0,0,Away
+3869420,FIFA World Cup,2022-12-09,121,38,Croatia,Lovro Majer,Left Foot,Alisson Ramsés Becker,Goal,Center,Middle,0.0,0,Home
+3869321,FIFA World Cup,2022-12-09,121,45,Netherlands,Steven Berghuis,Left Foot,Damián Emiliano Martínez,Saved,Center,Middle,44.754096876729086,0,Home
+3869420,FIFA World Cup,2022-12-09,122,17,Brazil,Carlos Henrique Casimiro,Right Foot,Dominik Livaković,Goal,Right,Middle,0.0,0,Away
+3869321,FIFA World Cup,2022-12-09,122,39,Argentina,Leandro Daniel Paredes,Right Foot,Andries Noppert,Goal,Right,Upper,90.0,0,Away
+3869420,FIFA World Cup,2022-12-09,123,6,Croatia,Luka Modrić,Right Foot,Alisson Ramsés Becker,Goal,Right,Lower,0.0,0,Home
+3869321,FIFA World Cup,2022-12-09,123,31,Netherlands,Teun Koopmeiners,Left Foot,Damián Emiliano Martínez,Goal,Left,Middle,0.0,0,Home
+3869420,FIFA World Cup,2022-12-09,123,49,Brazil,Pedro Guilherme Abreu dos Santos,Right Foot,Dominik Livaković,Goal,Center,Lower,0.0,0,Away
+3869321,FIFA World Cup,2022-12-09,124,15,Argentina,Gonzalo Ariel Montiel,Right Foot,Andries Noppert,Goal,Center,Middle,0.0,0,Away
+3869420,FIFA World Cup,2022-12-09,124,34,Croatia,Mislav Oršić,Right Foot,Alisson Ramsés Becker,Goal,Right,Lower,0.0,0,Home
+3869321,FIFA World Cup,2022-12-09,124,59,Netherlands,Wout Weghorst,Right Foot,Damián Emiliano Martínez,Goal,Right,Lower,0.0,0,Home
+3869420,FIFA World Cup,2022-12-09,125,22,Brazil,Marcos Aoás Corrêa,Right Foot,Dominik Livaković,Post,Right,Lower,0.0,0,Away
+3869321,FIFA World Cup,2022-12-09,126,0,Argentina,Enzo Fernandez,Right Foot,Andries Noppert,Off T,Right,Middle,0.0,0,Away
+3869321,FIFA World Cup,2022-12-09,126,40,Netherlands,Luuk de Jong,Right Foot,Damián Emiliano Martínez,Goal,Center,Lower,0.0,0,Home
+3869321,FIFA World Cup,2022-12-09,127,42,Argentina,Lautaro Javier Martínez,Right Foot,Andries Noppert,Goal,Right,Upper,0.0,0,Away
+3869354,FIFA World Cup,2022-12-10,53,27,England,Harry Kane,Right Foot,Hugo Lloris,Goal,Right,Upper,0.0,-1,Home
+3869354,FIFA World Cup,2022-12-10,83,35,England,Harry Kane,Right Foot,Hugo Lloris,Off T,Center,Upper,0.0,-1,Home
+3869519,FIFA World Cup,2022-12-13,33,27,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Dominik Livaković,Goal,Center,Upper,0.0,3,Home
+3869685,FIFA World Cup,2022-12-18,22,24,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Hugo Lloris,Goal,Center,Lower,0.0,0,Home
+3869685,FIFA World Cup,2022-12-18,79,24,France,Kylian Mbappé Lottin,Right Foot,Damián Emiliano Martínez,Goal,Center,Lower,0.0,0,Away
+3869685,FIFA World Cup,2022-12-18,117,5,France,Kylian Mbappé Lottin,Right Foot,Damián Emiliano Martínez,Goal,Right,Middle,0.0,0,Away
+3869685,FIFA World Cup,2022-12-18,120,13,France,Kylian Mbappé Lottin,Right Foot,Damián Emiliano Martínez,Goal,Center,Middle,0.0,0,Away
+3869685,FIFA World Cup,2022-12-18,121,2,Argentina,Lionel Andrés Messi Cuccittini,Left Foot,Hugo Lloris,Goal,Center,Lower,0.0,0,Home
+3869685,FIFA World Cup,2022-12-18,121,42,France,Kingsley Coman,Right Foot,Damián Emiliano Martínez,Saved,Center,Middle,23.875280853927517,0,Away
+3869685,FIFA World Cup,2022-12-18,122,27,Argentina,Paulo Bruno Exequiel Dybala,Left Foot,Hugo Lloris,Goal,Center,Lower,0.0,0,Home
+3869685,FIFA World Cup,2022-12-18,123,29,France,Aurélien Djani Tchouaméni,Right Foot,Damián Emiliano Martínez,Off T,Right,Lower,0.0,0,Away
+3869685,FIFA World Cup,2022-12-18,124,16,Argentina,Leandro Daniel Paredes,Right Foot,Hugo Lloris,Goal,Center,Lower,0.0,0,Home
+3869685,FIFA World Cup,2022-12-18,125,9,France,Randal Kolo Muani,Right Foot,Damián Emiliano Martínez,Goal,Center,Upper,0.0,0,Away
+3869685,FIFA World Cup,2022-12-18,125,57,Argentina,Gonzalo Ariel Montiel,Right Foot,Hugo Lloris,Goal,Center,Lower,0.0,0,Home
+3813314,Indian Super league,2021-11-19,26,54,ATK Mohun Bagan,Roy Krishna,Right Foot,Albino Gomes,Goal,Center,Lower,0.0,2,Home
+3813270,Indian Super league,2021-11-22,32,49,Mumbai City,Igor Angulo Albóniga,Left Foot,Dheeraj Singh Moirangthem,Goal,Left,Upper,90.0,3,Home
+3813309,Indian Super league,2021-11-23,65,35,Chennaiyin,Vladimir Koman Jr.,Right Foot,Laxmikant Kattimani,Goal,Left,Lower,0.0,1,Away
+3813289,Indian Super league,2021-11-24,61,15,Bengaluru,Sunil Chhetri,Right Foot,Kamaljit Singh,Saved,Right,Middle,54.637538112931196,-2,Away
+3813277,Indian Super league,2021-11-27,12,56,Hyderabad,João Victor de Albuquerque Bruno,Right Foot,Mohammad Nawaz,Goal,Right,Lower,0.0,2,Away
+3813317,Indian Super league,2021-11-30,90,51,East Bengal,Daniel Chima Chukwu,Right Foot,Kamaljit Singh,Goal,Right,Lower,0.0,-2,Away
+3813274,Indian Super league,2021-12-04,8,34,Mumbai City,Igor Angulo Albóniga,Left Foot,Gurpreet Singh Sandhu,Goal,Center,Middle,0.0,2,Away
+3813274,Indian Super league,2021-12-04,43,13,Bengaluru,Sunil Chhetri,Right Foot,Mohammad Nawaz,Saved,Right,Middle,68.00041220496267,-2,Home
+3813267,Indian Super league,2021-12-07,31,58,Goa,Jorge Ortiz Mendoza,Right Foot,Suvam Sen,Goal,Left,Middle,0.0,1,Away
+3813287,Indian Super league,2021-12-16,17,20,Bengaluru,Cleiton Augusto Oliveira Silva,Right Foot,Amrinder Singh,Goal,Left,Middle,0.0,0,Home
+3813287,Indian Super league,2021-12-16,57,48,ATK Mohun Bagan,Roy Krishna,Right Foot,Gurpreet Singh Sandhu,Goal,Center,Middle,0.0,0,Away
+3813279,Indian Super league,2021-12-18,84,37,Chennaiyin,Łukasz Gikiewicz,Right Foot,Kamaljit Singh,Saved,Center,Middle,23.3316094191737,1,Home
+3813282,Indian Super league,2021-12-19,50,41,Kerala Blasters,Jorge Rolando Pereyra Díaz,Right Foot,Mohammad Nawaz,Goal,Left,Lower,0.0,3,Away
+3813295,Indian Super league,2021-12-28,85,55,Hyderabad,João Victor de Albuquerque Bruno,Right Foot,Kamaljit Singh,Goal,Right,Upper,0.0,5,Home
+3813283,Indian Super league,2021-12-30,38,0,Bengaluru,Cleiton Augusto Oliveira Silva,Right Foot,Vishal Kaith,Goal,Left,Lower,90.0,2,Away
+3817878,Indian Super league,2022-01-24,84,28,East Bengal,Franjo Prce,Left Foot,Laxmikant Kattimani,Saved,Center,Middle,39.8356950534819,-4,Home
+3817867,Indian Super league,2022-01-25,29,29,Mumbai City,Ahmed Jahouh,Right Foot,Subhasish Roy Chowdhury,Goal,Center,Upper,0.0,0,Home
+3817868,Indian Super league,2022-01-26,11,35,Bengaluru,Iman Basafa,Right Foot,Debjit Majumder,Goal,Center,Upper,0.0,3,Home
+3817888,Indian Super league,2022-01-29,65,54,ATK Mohun Bagan,David Joel Williams,Right Foot,Arindam Bhattacharja,Off T,Center,Upper,0.0,2,Home
+3817894,Indian Super league,2022-02-01,60,37,Odisha,Jonathas Cristian de Jesus,Right Foot,Naveen Kumar,Goal,Center,Upper,0.0,0,Away
+3817881,Indian Super league,2022-02-10,44,31,Jamshedpur,Greg Stewart,Left Foot,Prabhushkan Singh Gill,Goal,Left,Lower,0.0,3,Home
+3817881,Indian Super league,2022-02-10,47,27,Jamshedpur,Greg Stewart,Left Foot,Prabhushkan Singh Gill,Goal,Center,Upper,0.0,3,Home
+3817901,Indian Super league,2022-02-17,70,1,Mumbai City,Igor Angulo Albóniga,Left Foot,Rehnesh Thumbirumbu Paramba,Saved,Center,Lower,6.071485078279161,-1,Away
+3817901,Indian Super league,2022-02-17,85,11,Mumbai City,Diego Maurício Machado de Brito,Right Foot,Rehnesh Thumbirumbu Paramba,Goal,Center,Middle,0.0,-1,Away
+3817901,Indian Super league,2022-02-17,93,5,Jamshedpur,Greg Stewart,Left Foot,Mohammad Nawaz,Goal,Left,Lower,90.0,1,Home
+3817872,Indian Super league,2022-02-21,48,27,Bengaluru,Cleiton Augusto Oliveira Silva,Right Foot,Kamaljit Singh,Goal,Right,Lower,0.0,1,Home
+3817892,Indian Super league,2022-02-24,7,13,ATK Mohun Bagan,Joni Ensio Kauko,Right Foot,Kamaljit Singh,Goal,Left,Middle,0.0,0,Away
+3817892,Indian Super league,2022-02-24,23,32,Odisha,Francisco Javier Hernández González,Left Foot,Amrinder Singh,Saved,Center,Lower,39.8356950534819,0,Home
+3817898,Indian Super league,2022-02-26,17,29,Goa,Airam López Cabrera,Left Foot,Mohammad Nawaz,Saved,Center,Middle,13.280895112811962,-2,Home
+3817893,Indian Super league,2022-02-28,54,51,East Bengal,Antonio Perošević,Left Foot,Mirshad Koottappunna,Goal,Right,Upper,90.0,0,Home
+3817866,Indian Super league,2022-03-02,46,28,Kerala Blasters,Álvaro Vázquez García,Right Foot,Mohammad Nawaz,Goal,Center,Lower,0.0,2,Home
+3817866,Indian Super league,2022-03-02,70,45,Mumbai City,Diego Maurício Machado de Brito,Right Foot,Prabhushkan Singh Gill,Goal,Right,Middle,0.0,-2,Away
+3817870,Indian Super league,2022-03-06,24,58,Kerala Blasters,Jorge Rolando Pereyra Díaz,Right Foot,Hrithik Tiwari,Goal,Right,Lower,0.0,0,Away
+3817870,Indian Super league,2022-03-06,62,47,Goa,Airam López Cabrera,Left Foot,Prabhushkan Singh Gill,Goal,Left,Middle,0.0,0,Home
+3827767,Indian Super league,2022-03-20,120,15,Kerala Blasters,Marko Lešković,Right Foot,Laxmikant Kattimani,Saved,Center,Middle,15.342593107633022,0,Away
+3827767,Indian Super league,2022-03-20,121,20,Hyderabad,João Victor de Albuquerque Bruno,Right Foot,Prabhushkan Singh Gill,Goal,Center,Upper,0.0,0,Home
+3827767,Indian Super league,2022-03-20,124,17,Kerala Blasters,Nishu Kumar Tashni,Right Foot,Laxmikant Kattimani,Saved,Center,Lower,14.349332042947388,0,Away
+3827767,Indian Super league,2022-03-20,124,58,Hyderabad,Javier Siverio Toro,Right Foot,Prabhushkan Singh Gill,Off T,Center,Upper,0.0,0,Home
+3827767,Indian Super league,2022-03-20,125,57,Kerala Blasters,Ayush Adhikari,Right Foot,Laxmikant Kattimani,Goal,Left,Upper,90.0,0,Away
+3827767,Indian Super league,2022-03-20,126,55,Hyderabad,Khassa Camara,Right Foot,Prabhushkan Singh Gill,Goal,Center,Middle,0.0,0,Home
+3827767,Indian Super league,2022-03-20,128,0,Kerala Blasters,Jeakson Singh Thaunaojam,Right Foot,Laxmikant Kattimani,Saved,Left,Middle,66.37062226934344,0,Away
+3827767,Indian Super league,2022-03-20,128,58,Hyderabad,Halicharan Narzary,Left Foot,Prabhushkan Singh Gill,Goal,Center,Middle,0.0,0,Home
+68313,La Liga,2004-10-24,43,38,Barcelona,Ronaldo de Assis Moreira,Right Foot,Ricardo Sanzol Goñi,Goal,Right,Middle,0.0,3,Home
+68317,La Liga,2005-10-01,78,40,Barcelona,Ronaldo de Assis Moreira,Right Foot,César Sánchez Domínguez,Goal,Right,Lower,0.0,0,Home
+69164,La Liga,2005-10-26,80,9,Barcelona,Ronaldo de Assis Moreira,Right Foot,Francesc Arnau,Goal,Right,Upper,0.0,2,Home
+68354,La Liga,2005-11-27,3,6,Barcelona,Ronaldo de Assis Moreira,Right Foot,Dudú Aouate,Saved,Center,Lower,19.488865455738946,3,Home
+68354,La Liga,2005-11-27,56,7,Barcelona,Ronaldo de Assis Moreira,Right Foot,Dudú Aouate,Goal,Right,Upper,0.0,3,Home
+68354,La Liga,2005-11-27,70,28,Racing Santander,Francisco Javier Casquero Paredes,Right Foot,Víctor Valdés Arribas,Goal,Center,Lower,7.190911408420039,-3,Away
+68322,La Liga,2005-12-17,47,1,Barcelona,Samuel Eto''o Fils,Right Foot,Armando Riveiro de Aguilar Malda,Goal,Center,Middle,0.0,2,Away
+68342,La Liga,2006-01-15,37,55,Barcelona,Ronaldo de Assis Moreira,Right Foot,Iñaki Lafuente Sancha,Goal,Center,Lower,0.0,1,Home
+68324,La Liga,2006-01-22,68,36,Barcelona,Ronaldo de Assis Moreira,Right Foot,Franco Costanzo,Off T,Right,Upper,0.0,2,Home
+68351,La Liga,2006-02-25,79,2,Barcelona,Ronaldo de Assis Moreira,Right Foot,César Sánchez Domínguez,Goal,Left,Lower,0.0,2,Away
+68340,La Liga,2006-09-17,91,28,Barcelona,Ronaldo de Assis Moreira,Right Foot,Felipe Melo de Carvalho,Goal,Left,Middle,0.0,3,Away
+68329,La Liga,2006-10-15,27,22,Barcelona,Ronaldo de Assis Moreira,Right Foot,Andrés Palop Cervera,Goal,Left,Lower,0.0,2,Home
+69174,La Liga,2006-11-04,39,31,Barcelona,Ronaldo de Assis Moreira,Right Foot,Dudú Aouate,Goal,Left,Lower,0.0,0,Away
+69174,La Liga,2006-11-04,72,18,RC Deportivo La Coruña,Fabián Larry Estoyanoff Poggio,Right Foot,Víctor Valdés Arribas,Saved,Left,Lower,60.6547838267054,0,Home
+69154,La Liga,2007-02-11,25,54,Racing Santander,Ezequiel Marcelo Garay,Right Foot,Víctor Valdés Arribas,Saved,Center,Middle,41.42366562500311,-2,Away
+68334,La Liga,2007-03-03,28,49,Barcelona,Ronaldo de Assis Moreira,Right Foot,Andrés Palop Cervera,Saved,Center,Middle,9.963804189907199,-1,Away
+68335,La Liga,2007-03-10,12,55,Real Madrid,Ruud van Nistelrooy,Right Foot,Víctor Valdés Arribas,Goal,Center,Lower,0.0,0,Away
+69159,La Liga,2007-04-15,30,3,Mallorca,Jonás Manuel Gutiérrez,Right Foot,Víctor Valdés Arribas,Saved,Center,Lower,25.90227609321344,-1,Away
+69162,La Liga,2007-05-13,4,53,Barcelona,Ronaldo de Assis Moreira,Right Foot,Pedro Gonzalez Contreras Cano,Goal,Center,Upper,0.0,0,Home
+69169,La Liga,2007-09-02,34,15,Barcelona,Ronaldo de Assis Moreira,Right Foot,Gorka Iraizoz Moreno,Goal,Right,Lower,0.0,2,Home
+69148,La Liga,2007-09-22,79,43,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Andrés Palop Cervera,Goal,Left,Lower,0.0,1,Home
+69151,La Liga,2007-09-29,71,58,Levante UD,Emilio José Viqueira Moure,Right Foot,Víctor Valdés Arribas,Goal,Left,Lower,0.0,-3,Home
+68364,La Liga,2007-10-20,12,58,Villarreal,Marcos Antonio Senna da Silva,Right Foot,Víctor Valdés Arribas,Goal,Center,Middle,0.0,2,Home
+68364,La Liga,2007-10-20,34,18,Villarreal,Marcos Antonio Senna da Silva,Right Foot,Víctor Valdés Arribas,Goal,Center,Lower,0.0,2,Home
+69158,La Liga,2007-10-28,80,28,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,David Cobeño Iglesias,Goal,Center,Upper,0.0,2,Home
+69184,La Liga,2007-11-24,81,0,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Stefano Sorrentino,Goal,Center,Lower,0.0,3,Home
+69170,La Liga,2007-12-09,40,6,Barcelona,Ronaldo de Assis Moreira,Right Foot,Gustavo Adolfo Munúa Vera,Goal,Left,Lower,0.0,1,Home
+69182,La Liga,2008-02-16,42,34,Real Zaragoza,Diego Alberto Milito,Right Foot,Víctor Valdés Arribas,Off T,Center,Upper,0.0,-1,Home
+69182,La Liga,2008-02-16,82,56,Barcelona,Ronaldo de Assis Moreira,Right Foot,César Sánchez Domínguez,Goal,Left,Middle,0.0,1,Away
+68360,La Liga,2008-02-24,40,46,Levante UD,Rahamat Riga Mustapha,Right Foot,Víctor Valdés Arribas,Goal,Right,Lower,0.0,-4,Away
+68365,La Liga,2008-03-01,61,19,Atlético Madrid,Diego Forlán Corazo,Right Foot,Víctor Valdés Arribas,Goal,Center,Lower,0.0,2,Home
+69141,La Liga,2008-05-04,5,2,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Timo Hildebrand,Goal,Center,Lower,0.0,6,Home
+68361,La Liga,2008-05-07,77,42,Real Madrid,Ruud van Nistelrooy,Right Foot,Víctor Valdés Arribas,Goal,Left,Lower,0.0,3,Home
+69186,La Liga,2008-05-17,80,39,Real Murcia CF,Iván Daniel Alonso Vallejo,Left Foot,José Manuel Pinto Colorado,Goal,Center,Upper,0.0,-2,Home
+69215,La Liga,2008-09-13,70,36,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Antonio Rodríguez Martínez,Goal,Center,Lower,0.0,0,Home
+69211,La Liga,2008-09-27,98,6,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Idriss Carlos Kameni,Goal,Center,Lower,0.0,1,Away
+69212,La Liga,2008-10-04,5,7,Barcelona,Samuel Eto''o Fils,Right Foot,Grégory Coupet,Goal,Right,Lower,0.0,5,Home
+69225,La Liga,2008-12-13,69,39,Barcelona,Samuel Eto''o Fils,Right Foot,Iker Casillas Fernández,Saved,Left,Middle,88.31531568210369,2,Home
+69183,La Liga,2009-01-17,86,6,Barcelona,Samuel Eto''o Fils,Right Foot,Juan Antonio Rodríguez Villamuela,Goal,Right,Upper,0.0,5,Home
+69209,La Liga,2009-02-01,55,3,Racing Santander,Nikola Žigić,Right Foot,Víctor Valdés Arribas,Goal,Right,Lower,0.0,-1,Home
+69195,La Liga,2009-02-14,47,27,Barcelona,Samuel Eto''o Fils,Right Foot,Ricardo Alexandre Martins Soares Pereira,Saved,Center,Middle,31.159304508344274,0,Away
+69185,La Liga,2009-03-01,78,57,Atlético Madrid,Diego Forlán Corazo,Right Foot,Víctor Valdés Arribas,Goal,Right,Middle,0.0,1,Home
+69216,La Liga,2009-03-07,31,2,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Gorka Iraizoz Moreno,Goal,Center,Upper,0.0,2,Home
+69222,La Liga,2009-04-11,80,51,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Asier Riesgo Unamuno,Saved,Center,Lower,18.549311504406052,2,Home
+69217,La Liga,2009-05-10,77,18,Villarreal,Matías Ariel Fernández Fernández,Right Foot,Víctor Valdés Arribas,Goal,Right,Upper,0.0,0,Away
+69250,La Liga,2009-11-07,86,57,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Dudú Aouate,Goal,Left,Lower,0.0,2,Home
+69240,La Liga,2010-02-06,93,1,Getafe,Roberto Soldado Rillo,Right Foot,Víctor Valdés Arribas,Goal,Center,Lower,0.0,-1,Away
+69227,La Liga,2010-03-21,90,36,Barcelona,Zlatan Ibrahimović,Right Foot,Roberto Jiménez Gago,Goal,Right,Lower,0.0,2,Away
+69286,La Liga,2010-08-29,35,1,Racing Santander,Mohamed Gasana Tchité,Right Foot,Víctor Valdés Arribas,Saved,Center,Middle,54.01320435564289,-3,Home
+69270,La Liga,2010-11-07,69,30,Getafe,Manuel del Moral Fernández,Right Foot,Víctor Valdés Arribas,Goal,Right,Middle,0.0,-2,Home
+69307,La Liga,2010-12-04,83,0,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Ricardo López Felipe,Goal,Left,Lower,0.0,3,Away
+69295,La Liga,2011-01-22,32,44,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Antonio Rodríguez Martínez,Goal,Left,Lower,90.0,3,Home
+69282,La Liga,2011-02-20,49,55,Athletic Club,Andoni Iraola Sagarna,Right Foot,José Manuel Pinto Colorado,Goal,Left,Lower,0.0,-1,Away
+69305,La Liga,2011-04-09,52,50,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Diego Alves Carreira,Goal,Center,Middle,0.0,2,Home
+69245,La Liga,2011-04-16,52,4,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Iker Casillas Fernández,Goal,Center,Middle,0.0,0,Away
+69245,La Liga,2011-04-16,81,39,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Víctor Valdés Arribas,Goal,Left,Middle,0.0,0,Home
+69246,La Liga,2011-04-30,81,29,Real Sociedad,Xabier Prieto Argarate,Right Foot,José Manuel Pinto Colorado,Goal,Center,Upper,0.0,1,Home
+69329,La Liga,2011-10-22,94,40,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Javier Varas Herrera,Saved,Left,Middle,75.42036294200157,0,Home
+69314,La Liga,2011-10-29,12,51,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Dudú Aouate,Goal,Center,Upper,0.0,5,Home
+69327,La Liga,2012-01-15,85,32,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Casto Espinosa Barriga,Goal,Center,Middle,0.0,2,Home
+69322,La Liga,2012-03-11,55,47,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Mario Fernández Cuesta,Goal,Center,Lower,0.0,2,Away
+70225,La Liga,2012-03-20,61,44,Granada,Guilherme Magdalena Siqueira,Left Foot,Víctor Valdés Arribas,Goal,Center,Lower,0.0,-2,Away
+70225,La Liga,2012-03-20,88,54,Granada,Guilherme Magdalena Siqueira,Left Foot,Víctor Valdés Arribas,Goal,Left,Lower,0.0,-2,Away
+69323,La Liga,2012-03-31,57,51,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Gorka Iraizoz Moreno,Goal,Left,Lower,0.0,2,Home
+70219,La Liga,2012-04-07,23,30,Real Zaragoza,Ángel Lafita Castillo,Right Foot,Víctor Valdés Arribas,Saved,Center,Middle,45.698039626455476,-3,Home
+70219,La Liga,2012-04-07,85,5,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Roberto Jiménez Gago,Goal,Center,Upper,0.0,3,Away
+70221,La Liga,2012-04-14,22,43,Levante UD,José Javier Barkero Saludes,Left Foot,Víctor Valdés Arribas,Goal,Center,Lower,0.0,-1,Home
+70221,La Liga,2012-04-14,71,38,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Gustavo Adolfo Munúa Vera,Goal,Center,Upper,0.0,1,Away
+69340,La Liga,2012-05-02,34,13,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Idriss Carlos Kameni,Goal,Center,Lower,0.0,3,Home
+69340,La Liga,2012-05-02,58,46,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Idriss Carlos Kameni,Goal,Left,Upper,90.0,3,Home
+69320,La Liga,2012-05-05,63,38,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Cristian Darío Álvarez,Goal,Left,Lower,0.0,4,Home
+69320,La Liga,2012-05-05,78,29,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Cristian Darío Álvarez,Goal,Left,Middle,90.0,4,Home
+70292,La Liga,2012-09-15,73,24,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Miguel Ángel Moyà Rumbo,Goal,Center,Middle,0.0,3,Away
+70304,La Liga,2012-10-20,25,49,RC Deportivo La Coruña,Luís Miguel Afonso Fernandes,Right Foot,Víctor Valdés Arribas,Goal,Center,Middle,0.0,-1,Home
+266724,La Liga,2012-11-11,57,41,Mallorca,Víctor Casadesús Castaño,Right Foot,Víctor Valdés Arribas,Goal,Center,Middle,0.0,-2,Home
+70280,La Liga,2012-11-25,86,39,Levante UD,José Javier Barkero Saludes,Left Foot,Víctor Valdés Arribas,Saved,Center,Middle,32.323062318142085,-4,Home
+266433,La Liga,2013-01-06,28,30,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Francisco Casilla Cortés,Goal,Center,Lower,0.0,4,Home
+70260,La Liga,2013-01-27,27,9,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Andrés Eduardo Fernández Moreno,Goal,Right,Middle,90.0,4,Home
+70282,La Liga,2013-02-03,38,23,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Vicente Guaita Panadero,Goal,Right,Upper,0.0,0,Away
+70277,La Liga,2013-08-18,41,18,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Keylor Navas Gamboa,Goal,Center,Middle,0.0,7,Home
+70302,La Liga,2013-09-21,35,41,Rayo Vallecano,Roberto Trashorras Gayoso,Right Foot,Víctor Valdés Arribas,Saved,Right,Upper,54.637538112931196,-4,Home
+266883,La Liga,2013-11-10,91,35,Real Betis,Jorge Molina Vidal,Right Foot,Víctor Valdés Arribas,Goal,Right,Upper,90.0,-3,Home
+266613,La Liga,2014-02-01,53,14,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Diego Alves Carreira,Goal,Left,Upper,0.0,-1,Home
+265857,La Liga,2014-03-23,54,19,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Víctor Valdés Arribas,Goal,Right,Lower,0.0,-1,Home
+265857,La Liga,2014-03-23,64,8,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Diego López Rodríguez,Goal,Left,Middle,0.0,1,Away
+265857,La Liga,2014-03-23,83,42,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Diego López Rodríguez,Goal,Left,Upper,0.0,1,Away
+70306,La Liga,2014-03-29,76,13,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Francisco Casilla Cortés,Goal,Center,Lower,0.0,1,Away
+267368,La Liga,2014-04-05,14,2,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Antonio Adán Garrido,Goal,Center,Lower,0.0,2,Home
+267368,La Liga,2014-04-05,85,14,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Antonio Adán Garrido,Saved,Center,Middle,19.430841025380705,2,Home
+266770,La Liga,2014-09-21,41,12,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jesús Fernández Collado,Off T,Right,Upper,0.0,5,Away
+267085,La Liga,2014-10-25,33,23,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Claudio Andrés Bravo Muñoz,Goal,Center,Lower,0.0,2,Home
+70303,La Liga,2015-01-11,56,42,Atlético Madrid,Mario Mandžukić,Right Foot,Claudio Andrés Bravo Muñoz,Goal,Center,Upper,0.0,-2,Away
+266794,La Liga,2015-01-24,54,7,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Przemysław Tytoń,Goal,Center,Lower,0.0,6,Away
+266741,La Liga,2015-02-15,64,57,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Diego Mariño Villar,Goal,Left,Lower,0.0,5,Home
+267343,La Liga,2015-02-28,52,18,Granada,Francisco Manuel Rico Castro,Right Foot,Claudio Andrés Bravo Muñoz,Goal,Left,Upper,0.0,-2,Home
+266916,La Liga,2015-03-08,55,51,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Cristian Darío Álvarez,Goal,Left,Lower,0.0,5,Home
+266916,La Liga,2015-03-08,80,10,Rayo Vallecano,Alberto Bueno Calvo,Right Foot,Claudio Andrés Bravo Muñoz,Goal,Center,Upper,0.0,-5,Away
+266967,La Liga,2015-03-14,30,56,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jaime Jiménez Merlo,Goal,Center,Upper,0.0,2,Away
+266525,La Liga,2015-04-18,9,25,Valencia,Daniel Parejo Muñoz,Right Foot,Claudio Andrés Bravo Muñoz,Saved,Center,Lower,15.843082117687043,-2,Away
+265963,La Liga,2015-04-28,8,46,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Vicente Guaita Panadero,Goal,Center,Upper,0.0,6,Home
+265866,La Liga,2015-05-02,84,17,Barcelona,Neymar da Silva Santos Junior,Right Foot,Juan Carlos Martín Corral,Goal,Center,Lower,0.0,8,Away
+266236,La Liga,2015-08-23,30,15,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Gorka Iraizoz Moreno,Saved,Right,Lower,68.00041220496267,1,Away
+3825574,La Liga,2015-08-29,10,37,Celta Vigo,Manuel Agudo Durán,Right Foot,Juan Carlos Martín Corral,Goal,Center,Lower,0.0,3,Home
+3825572,La Liga,2015-08-29,60,33,Real Betis,Rubén Castro Martín,Right Foot,Keylor Navas Gamboa,Saved,Center,Middle,43.19841219082167,-5,Away
+3825577,La Liga,2015-08-30,25,51,Granada,Youssef El-Arabi,Right Foot,Vicente Guaita Panadero,Goal,Left,Middle,0.0,1,Away
+3825578,La Liga,2015-08-30,33,5,Eibar,Saúl Berjón Pérez,Right Foot,Gorka Iraizoz Moreno,Goal,Center,Upper,0.0,2,Home
+3825581,La Liga,2015-09-12,16,35,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Pau López Sabata,Goal,Left,Lower,0.0,6,Away
+3825585,La Liga,2015-09-13,12,46,Celta Vigo,Fabián Ariel Orellana Valenzuela,Right Foot,Raúl Lizoáin Cruz,Goal,Left,Lower,0.0,0,Home
+3825592,La Liga,2015-09-19,43,46,Espanyol,Gerard Moreno Balaguero,Left Foot,Oier Olazábal Paredes,Goal,Left,Lower,0.0,1,Away
+3825595,La Liga,2015-09-20,42,9,Villarreal,Bruno Soriano Llido,Left Foot,Gorka Iraizoz Moreno,Goal,Right,Lower,0.0,2,Home
+266490,La Liga,2015-09-20,60,29,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Rubén Iván Martínez Andrade,Goal,Center,Upper,0.0,3,Home
+266490,La Liga,2015-09-20,75,0,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Rubén Iván Martínez Andrade,Off T,Center,Upper,0.0,3,Home
+3825601,La Liga,2015-09-23,39,10,Rayo Vallecano,Roberto Trashorras Gayoso,Right Foot,Alberto García Cabrera,Goal,Center,Middle,0.0,1,Home
+267611,La Liga,2015-09-26,66,1,Barcelona,Neymar da Silva Santos Junior,Right Foot,Javier Varas Herrera,Off T,Center,Upper,0.0,1,Home
+3825615,La Liga,2015-10-03,29,6,Espanyol,Felipe Salvador Caicedo Corozo,Left Foot,Alberto García Cabrera,Saved,Center,Middle,31.159304508344274,-1,Home
+3825617,La Liga,2015-10-03,73,24,Barcelona,Neymar da Silva Santos Junior,Right Foot,Sergio Rico González,Goal,Right,Lower,0.0,-1,Away
+3825621,La Liga,2015-10-04,21,49,Atlético Madrid,Antoine Griezmann,Left Foot,Keylor Navas Gamboa,Saved,Center,Middle,17.889291229506437,0,Home
+3825627,La Liga,2015-10-17,21,38,Barcelona,Neymar da Silva Santos Junior,Right Foot,Antonio Rodríguez Martínez,Goal,Center,Lower,0.0,3,Home
+3825627,La Liga,2015-10-17,31,44,Barcelona,Neymar da Silva Santos Junior,Right Foot,Antonio Rodríguez Martínez,Goal,Center,Lower,0.0,3,Home
+3825623,La Liga,2015-10-17,38,20,Málaga,Sérgio Paulo Barbosa Valente,Left Foot,Jaume Doménech Sánchez,Saved,Center,Lower,38.50505973229564,-3,Away
+3825623,La Liga,2015-10-17,87,56,Valencia,Daniel Parejo Muñoz,Right Foot,Idriss Carlos Kameni,Goal,Center,Middle,0.0,3,Home
+3825633,La Liga,2015-10-23,35,9,Rayo Vallecano,Roberto Trashorras Gayoso,Right Foot,Pau López Sabata,Goal,Right,Middle,0.0,3,Home
+3825633,La Liga,2015-10-23,92,43,Espanyol,Jorge Franco Alviz,Right Foot,Antonio Rodríguez Martínez,Saved,Center,Lower,49.668648137455875,-3,Away
+3825634,La Liga,2015-10-24,39,26,Real Betis,Rubén Castro Martín,Right Foot,Andrés Eduardo Fernández Moreno,Goal,Center,Lower,0.0,0,Away
+3825874,La Liga,2015-10-24,49,29,Sevilla,Éver Maximiliano David Banega,Right Foot,Vicente Guaita Panadero,Goal,Center,Lower,0.0,5,Home
+3825874,La Liga,2015-10-24,59,42,Sevilla,Kevin Gameiro,Right Foot,Vicente Guaita Panadero,Goal,Center,Lower,0.0,5,Home
+3825874,La Liga,2015-10-24,80,4,Sevilla,Yevhen Konoplyanka,Right Foot,Vicente Guaita Panadero,Goal,Center,Middle,0.0,5,Home
+3825638,La Liga,2015-10-25,71,44,Valencia,Francisco Alcácer García,Right Foot,Jan Oblak,Goal,Center,Middle,0.0,-1,Away
+3825641,La Liga,2015-10-26,41,9,Athletic Club,Aritz Aduriz Zubeldia,Right Foot,Alberto García Cabrera,Saved,Center,Lower,30.8064949521118,3,Home
+3825647,La Liga,2015-10-31,63,21,Valencia,Francisco Alcácer García,Right Foot,Rubén Iván Martínez Andrade,Goal,Center,Lower,0.0,3,Home
+3825650,La Liga,2015-11-01,66,23,Real Betis,Rubén Castro Martín,Right Foot,Gorka Iraizoz Moreno,Goal,Center,Middle,0.0,-2,Home
+3825653,La Liga,2015-11-07,60,56,Eibar,Saúl Berjón Pérez,Right Foot,Vicente Guaita Panadero,Goal,Center,Upper,0.0,2,Home
+3825660,La Liga,2015-11-08,69,42,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Alphonse Areola,Goal,Right,Lower,0.0,3,Home
+3825662,La Liga,2015-11-21,25,54,Celta Vigo,Manuel Agudo Durán,Right Foot,Germán Darío Lux,Saved,Right,Lower,49.60864897723434,-2,Away
+3825667,La Liga,2015-11-22,41,9,Eibar,Daniel García Carrillo,Right Foot,Alphonse Areola,Saved,Center,Middle,25.55996517182384,0,Away
+3825668,La Liga,2015-11-22,62,11,Sporting Gijón,Jonathan Rodríguez Menéndez,Left Foot,Rubén Iván Martínez Andrade,Saved,Center,Middle,35.217592968192704,-3,Home
+3825669,La Liga,2015-11-23,72,17,Rayo Vallecano,Roberto Trashorras Gayoso,Right Foot,Vicente Guaita Panadero,Saved,Center,Middle,2.496327875203107,0,Away
+3825675,La Liga,2015-11-29,23,45,Athletic Club,Aritz Aduriz Zubeldia,Right Foot,Juan Carlos Martín Corral,Goal,Center,Upper,0.0,3,Away
+3825678,La Liga,2015-11-29,81,34,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Asier Riesgo Unamuno,Goal,Center,Lower,0.0,2,Away
+3825692,La Liga,2015-12-12,74,36,Sevilla,Kevin Gameiro,Right Foot,Iván Cuéllar Sacristán,Goal,Center,Middle,0.0,2,Home
+3825694,La Liga,2015-12-13,65,19,Eibar,Saúl Berjón Pérez,Right Foot,Jaume Doménech Sánchez,Saved,Center,Middle,54.41562639154032,0,Home
+3825698,La Liga,2015-12-19,40,27,RC Deportivo La Coruña,Lucas Pérez Martínez,Left Foot,Asier Riesgo Unamuno,Goal,Center,Lower,0.0,2,Home
+3825700,La Liga,2015-12-20,29,25,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Yoel Rodríguez Oterino,Goal,Right,Middle,90.0,8,Home
+3825710,La Liga,2015-12-30,23,13,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Gerónimo Rulli,Off T,Center,Upper,0.0,2,Home
+267327,La Liga,2015-12-30,28,58,Barcelona,Neymar da Silva Santos Junior,Right Foot,Antonio Adán Garrido,Post,Center,Upper,0.0,4,Home
+3825710,La Liga,2015-12-30,41,45,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Gerónimo Rulli,Goal,Left,Middle,0.0,2,Home
+3825707,La Liga,2015-12-30,79,38,Las Palmas,Jonathan Viera Ramos,Right Foot,Andrés Eduardo Fernández Moreno,Goal,Center,Lower,0.0,3,Home
+3825715,La Liga,2016-01-02,65,36,Málaga,Nordin Amrabat,Right Foot,Sergio Álvarez Conde,Saved,Center,Lower,8.914926957147799,2,Home
+3825719,La Liga,2016-01-03,16,32,Athletic Club,Aritz Aduriz Zubeldia,Right Foot,Javier Varas Herrera,Goal,Right,Lower,90.0,0,Home
+3825718,La Liga,2016-01-03,45,12,Valencia,Daniel Parejo Muñoz,Right Foot,Keylor Navas Gamboa,Goal,Left,Lower,90.0,0,Home
+3825721,La Liga,2016-01-03,94,8,Villarreal,Bruno Soriano Llido,Left Foot,Germán Darío Lux,Goal,Center,Lower,0.0,1,Away
+3825722,La Liga,2016-01-04,57,5,Getafe,Pedro León Sánchez Gil,Right Foot,Iván Cuéllar Sacristán,Post,Right,Lower,0.0,1,Away
+3825726,La Liga,2016-01-09,58,12,Sevilla,Kevin Gameiro,Right Foot,Gorka Iraizoz Moreno,Goal,Center,Lower,0.0,2,Home
+3825727,La Liga,2016-01-10,73,9,Eibar,Borja González Tomás,Right Foot,Pau López Sabata,Goal,Center,Middle,0.0,1,Home
+3825734,La Liga,2016-01-16,74,2,Real Sociedad,Xabier Prieto Argarate,Right Foot,Germán Darío Lux,Goal,Center,Upper,0.0,0,Home
+266149,La Liga,2016-01-17,6,24,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Iago Herrerín Buisán,Goal,Left,Lower,0.0,6,Home
+3825747,La Liga,2016-01-24,49,16,Eibar,Borja González Tomás,Right Foot,Iago Herrerín Buisán,Goal,Right,Upper,0.0,-3,Away
+3825753,La Liga,2016-01-30,54,31,Villarreal,Bruno Soriano Llido,Left Foot,Andrés Eduardo Fernández Moreno,Goal,Left,Lower,0.0,1,Home
+3825757,La Liga,2016-01-31,11,9,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Giedrius Arlauskis,Goal,Right,Middle,0.0,6,Home
+3825754,La Liga,2016-01-31,32,15,Las Palmas,Jonathan Viera Ramos,Right Foot,Sergio Álvarez Conde,Goal,Left,Lower,90.0,1,Home
+3825755,La Liga,2016-01-31,49,5,Sporting Gijón,Arnaldo Antonio Sanabria Ayala,Right Foot,Mathew Ryan,Goal,Left,Lower,0.0,1,Away
+266254,La Liga,2016-02-14,38,53,Celta Vigo,John Guidetti,Right Foot,Claudio Andrés Bravo Muñoz,Goal,Center,Middle,0.0,-5,Away
+266254,La Liga,2016-02-14,80,58,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Sergio Álvarez Conde,Wayward,Left,Unknown,36.171922506400556,5,Home
+266815,La Liga,2016-02-17,61,29,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Iván Cuéllar Sacristán,Saved,Center,Middle,55.65186200660952,2,Away
+3825777,La Liga,2016-02-19,42,41,Levante UD,Giuseppe Rossi,Left Foot,Vicente Guaita Panadero,Goal,Right,Lower,90.0,3,Home
+3825779,La Liga,2016-02-20,83,18,Eibar,Saúl Berjón Pérez,Right Foot,Sergio Álvarez Conde,Goal,Center,Middle,0.0,-1,Away
+3825785,La Liga,2016-02-21,35,21,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Idriss Carlos Kameni,Saved,Center,Lower,33.166832943795725,0,Away
+3825792,La Liga,2016-02-28,23,12,Granada,Youssef El-Arabi,Right Foot,Germán Darío Lux,Goal,Left,Middle,0.0,1,Away
+3825796,La Liga,2016-03-01,27,46,Las Palmas,Jonathan Viera Ramos,Right Foot,Vicente Guaita Panadero,Goal,Center,Lower,0.0,4,Home
+3825795,La Liga,2016-03-01,60,16,Atlético Madrid,Antoine Griezmann,Left Foot,Gerónimo Rulli,Goal,Left,Lower,0.0,3,Home
+3825798,La Liga,2016-03-02,33,39,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Diego Mariño Villar,Goal,Right,Lower,0.0,2,Away
+266653,La Liga,2016-03-03,68,10,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Juan Carlos Martín Corral,Saved,Center,Middle,6.6008181635949335,4,Away
+3825803,La Liga,2016-03-03,71,52,Granada,Youssef El-Arabi,Right Foot,Iván Cuéllar Sacristán,Goal,Center,Middle,0.0,2,Home
+266056,La Liga,2016-03-06,75,18,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Asier Riesgo Unamuno,Goal,Center,Middle,0.0,4,Away
+266498,La Liga,2016-03-12,10,20,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Vicente Guaita Panadero,Saved,Center,Lower,25.46992473335319,6,Home
+3825818,La Liga,2016-03-19,12,25,Las Palmas,Jonathan Viera Ramos,Right Foot,Gerónimo Rulli,Saved,Center,Middle,38.50505973229564,1,Away
+3825887,La Liga,2016-03-19,53,16,Granada,Youssef El-Arabi,Right Foot,Juan Carlos Martín Corral,Goal,Right,Lower,0.0,0,Home
+3825820,La Liga,2016-03-20,26,35,Sevilla,Kevin Gameiro,Right Foot,Keylor Navas Gamboa,Saved,Center,Lower,25.057615418302955,-4,Away
+266106,La Liga,2016-03-20,40,42,Barcelona,Neymar da Silva Santos Junior,Right Foot,Sergio Asenjo Andrés,Goal,Center,Middle,0.0,0,Away
+3825820,La Liga,2016-03-20,57,26,Real Madrid,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Sergio Rico González,Off T,Center,Upper,0.0,4,Home
+3825822,La Liga,2016-04-02,49,20,Las Palmas,Jonathan Viera Ramos,Right Foot,Diego Alves Carreira,Goal,Center,Upper,0.0,1,Home
+3825905,La Liga,2016-04-03,44,2,Málaga,Duje Čop,Right Foot,Pau López Sabata,Goal,Left,Upper,0.0,0,Home
+3825877,La Liga,2016-04-03,44,7,Athletic Club,Aritz Aduriz Zubeldia,Right Foot,Andrés Eduardo Fernández Moreno,Post,Right,Middle,0.0,0,Home
+3825823,La Liga,2016-04-03,50,10,Sevilla,Kevin Gameiro,Right Foot,Gerónimo Rulli,Goal,Center,Lower,0.0,-1,Home
+3825840,La Liga,2016-04-20,9,6,Valencia,Francisco Alcácer García,Right Foot,Asier Riesgo Unamuno,Saved,Center,Middle,58.03278216812912,4,Home
+3825896,La Liga,2016-04-21,34,13,Granada,Youssef El-Arabi,Right Foot,Diego Mariño Villar,Goal,Center,Lower,0.0,4,Home
+3825841,La Liga,2016-04-21,55,51,Getafe,Álvaro Vázquez García,Right Foot,Oier Olazábal Paredes,Goal,Center,Middle,0.0,1,Away
+3825896,La Liga,2016-04-21,84,56,Granada,Youssef El-Arabi,Right Foot,Diego Mariño Villar,Goal,Left,Middle,0.0,4,Home
+265944,La Liga,2016-04-23,73,38,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Iván Cuéllar Sacristán,Goal,Left,Upper,0.0,6,Home
+265944,La Liga,2016-04-23,76,52,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Iván Cuéllar Sacristán,Goal,Center,Upper,0.0,6,Home
+265944,La Liga,2016-04-23,85,6,Barcelona,Neymar da Silva Santos Junior,Right Foot,Iván Cuéllar Sacristán,Goal,Center,Lower,0.0,6,Home
+3825868,La Liga,2016-04-25,15,26,Celta Vigo,Iago Aspas Juncal,Left Foot,Andrés Eduardo Fernández Moreno,Goal,Center,Middle,0.0,1,Home
+3825870,La Liga,2016-05-01,37,43,Athletic Club,Aritz Aduriz Zubeldia,Right Foot,Sergio Álvarez Conde,Goal,Left,Middle,0.0,1,Home
+3825853,La Liga,2016-05-08,85,17,Granada,Youssef El-Arabi,Right Foot,António Alberto Bastos Pimparel,Goal,Center,Middle,0.0,3,Away
+3825883,La Liga,2016-05-15,45,30,Málaga,Charles Días Barbosa de Oliveira,Right Foot,Raúl Lizoáin Cruz,Goal,Right,Lower,0.0,3,Home
+3825908,La Liga,2016-05-15,56,51,Eibar,Borja González Tomás,Right Foot,Pau López Sabata,Goal,Center,Lower,0.0,-2,Away
+3825902,La Liga,2016-05-15,59,29,Levante UD,José Antonio García Rabasco,Right Foot,Yoel Rodríguez Oterino,Goal,Right,Upper,0.0,-2,Away
+3825876,La Liga,2016-05-15,72,59,Real Betis,Rubén Castro Martín,Right Foot,Vicente Guaita Panadero,Goal,Left,Lower,0.0,1,Home
+267212,La Liga,2016-09-17,54,27,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jon Ander Serantes Simon,Goal,Center,Upper,0.0,4,Away
+266033,La Liga,2016-10-22,93,23,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Diego Alves Carreira,Goal,Right,Lower,0.0,1,Away
+267596,La Liga,2017-02-19,89,12,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Iago Herrerín Buisán,Goal,Right,Upper,0.0,1,Home
+266440,La Liga,2017-03-19,44,34,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Diego Alves Carreira,Goal,Center,Lower,0.0,2,Home
+267101,La Liga,2017-04-26,66,41,Barcelona,Javier Alejandro Mascherano,Right Foot,Salvatore Sirigu,Goal,Center,Upper,0.0,6,Home
+266952,La Liga,2017-05-06,81,16,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Andrés Eduardo Fernández Moreno,Goal,Center,Upper,0.0,3,Home
+267432,La Liga,2017-05-21,69,36,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Yoel Rodríguez Oterino,Saved,Center,Middle,11.194564961135951,2,Home
+267432,La Liga,2017-05-21,74,55,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Yoel Rodríguez Oterino,Goal,Left,Middle,0.0,2,Home
+9581,La Liga,2017-08-26,38,39,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Fernando Pacheco Flores,Saved,Right,Middle,63.681911860348485,2,Away
+9609,La Liga,2017-09-19,20,1,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Marko Dmitrović,Goal,Right,Upper,0.0,5,Home
+9726,La Liga,2017-12-17,69,39,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Rubén Iván Martínez Andrade,Saved,Center,Middle,42.95710525566052,4,Home
+9736,La Liga,2017-12-23,63,29,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Keylor Navas Gamboa,Goal,Center,Upper,0.0,3,Away
+9827,La Liga,2018-03-01,47,50,Las Palmas,Jonathan Calleri,Right Foot,Marc-André ter Stegen,Goal,Left,Upper,0.0,0,Home
+9880,La Liga,2018-04-14,86,7,Valencia,Daniel Parejo Muñoz,Right Foot,Marc-André ter Stegen,Goal,Left,Lower,0.0,-1,Away
+15973,La Liga,2018-09-02,92,5,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Axel Werner,Goal,Left,Lower,0.0,6,Home
+16029,La Liga,2018-10-20,62,21,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Tomáš Vaclík,Goal,Center,Lower,0.0,2,Home
+16056,La Liga,2018-11-11,67,17,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Pau López Sabata,Goal,Center,Upper,0.0,-1,Home
+16157,La Liga,2019-02-02,31,51,Valencia,Daniel Parejo Muñoz,Right Foot,Marc-André ter Stegen,Goal,Right,Middle,0.0,0,Away
+16157,La Liga,2019-02-02,38,43,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Norberto Murara Neto,Goal,Center,Lower,0.0,0,Home
+16182,La Liga,2019-02-16,42,43,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jordi Masip López,Goal,Left,Lower,0.0,1,Home
+16182,La Liga,2019-02-16,84,47,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jordi Masip López,Saved,Left,Middle,63.681911860348485,1,Home
+16205,La Liga,2019-03-09,50,36,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Stole Dimitrievski,Goal,Left,Lower,0.0,2,Home
+16275,La Liga,2019-04-23,59,50,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Fernando Pacheco Flores,Goal,Left,Middle,0.0,2,Away
+303666,La Liga,2019-09-21,65,21,Granada,Álvaro Vadillo Cifuentes,Right Foot,Marc-André ter Stegen,Goal,Center,Lower,0.0,2,Home
+303504,La Liga,2019-11-02,37,33,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Aitor Fernández Abarisketa,Goal,Center,Upper,0.0,-2,Away
+303487,La Liga,2019-11-09,22,32,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Rubén Blanco Veiga,Goal,Right,Lower,0.0,3,Home
+303664,La Liga,2019-12-14,11,23,Real Sociedad,Mikel Oyarzabal Ugarte,Left Foot,Marc-André ter Stegen,Goal,Center,Middle,0.0,0,Home
+303517,La Liga,2019-12-21,74,23,Barcelona,Luis Alberto Suárez Díaz,Right Foot,Fernando Pacheco Flores,Goal,Center,Middle,0.0,3,Home
+303400,La Liga,2020-01-25,11,37,Valencia,Maximiliano Gómez González,Right Foot,Marc-André ter Stegen,Saved,Center,Middle,51.32885053871167,2,Home
+303707,La Liga,2020-02-09,5,41,Real Betis,Sergio Canales Madrazo,Left Foot,Marc-André ter Stegen,Goal,Center,Lower,0.0,-1,Home
+303479,La Liga,2020-03-07,80,32,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Alejandro Remiro Gargallo,Goal,Left,Middle,0.0,1,Home
+303532,La Liga,2020-06-16,68,58,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Iván Cuéllar Sacristán,Goal,Left,Middle,0.0,2,Home
+303696,La Liga,2020-06-30,18,4,Atlético Madrid,Saúl Ñíguez Esclapez,Left Foot,Marc-André ter Stegen,Goal,Left,Lower,0.0,0,Away
+303696,La Liga,2020-06-30,49,2,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jan Oblak,Goal,Center,Middle,0.0,0,Home
+303696,La Liga,2020-06-30,61,45,Atlético Madrid,Saúl Ñíguez Esclapez,Left Foot,Marc-André ter Stegen,Goal,Left,Lower,0.0,0,Away
+3773593,La Liga,2020-09-27,34,13,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Sergio Asenjo Andrés,Goal,Center,Lower,0.0,4,Home
+3773587,La Liga,2020-10-17,55,54,Getafe,Jaime Mata Arnaiz,Right Foot,Norberto Murara Neto,Goal,Right,Lower,90.0,1,Home
+3773585,La Liga,2020-10-24,62,19,Real Madrid,Sergio Ramos García,Right Foot,Norberto Murara Neto,Goal,Center,Lower,0.0,2,Away
+3773477,La Liga,2020-11-07,32,36,Barcelona,Antoine Griezmann,Left Foot,Claudio Andrés Bravo Muñoz,Saved,Center,Middle,21.04756115328116,3,Home
+3773477,La Liga,2020-11-07,60,57,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Claudio Andrés Bravo Muñoz,Goal,Left,Upper,0.0,3,Home
+3773377,La Liga,2020-12-19,48,35,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jaume Doménech Sánchez,Saved,Center,Middle,33.166832943795725,0,Home
+3773415,La Liga,2021-02-21,31,23,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jeremías Ledesma,Goal,Center,Middle,0.0,0,Home
+3773415,La Liga,2021-02-21,88,16,Cádiz,Alejandro Fernández Iglesias,Right Foot,Marc-André ter Stegen,Goal,Center,Lower,0.0,0,Away
+3773369,La Liga,2021-03-15,48,12,Huesca,Rafael Mir Vicente,Right Foot,Marc-André ter Stegen,Goal,Center,Middle,0.0,-3,Away
+3773661,La Liga,2021-04-22,68,31,Getafe,Enes Ünal,Right Foot,Marc-André ter Stegen,Goal,Right,Lower,0.0,-3,Away
+3773661,La Liga,2021-04-22,92,27,Barcelona,Antoine Griezmann,Left Foot,David Soria Solís,Goal,Left,Middle,0.0,3,Home
+3773695,La Liga,2021-05-02,56,51,Barcelona,Lionel Andrés Messi Cuccittini,Left Foot,Jasper Cillessen,Saved,Center,Lower,27.241741517357408,1,Away
+3829417,Ligue 1,2015-08-08,44,59,Gazélec Ajaccio,Mohamed Larbi,Right Foot,Paul Bernardoni,Off T,Center,Upper,0.0,0,Away
+3829427,Ligue 1,2015-08-15,5,9,OGC Nice,Hatem Ben Arfa,Left Foot,Denis Petrić,Goal,Right,Lower,0.0,0,Away
+3829431,Ligue 1,2015-08-16,90,23,Lorient,Benjamin Moukandjo Bilé,Right Foot,Thomas Vincensini,Goal,Left,Lower,0.0,0,Home
+3829443,Ligue 1,2015-08-28,2,15,Guingamp,Sloan Privat,Left Foot,Steve Mandanda,Saved,Center,Lower,44.754096876729086,2,Home
+3829449,Ligue 1,2015-08-29,66,55,Rennes,Sylvain Armand,Left Foot,Mauro Daniel Goicoechea Furia,Saved,Center,Lower,27.26374556006153,2,Home
+3829452,Ligue 1,2015-08-30,39,54,Bordeaux,Wahbi Khazri,Right Foot,Rémy Riou,Saved,Center,Middle,26.643395402881993,2,Home
+3829462,Ligue 1,2015-09-13,16,27,AS Monaco,Fábio Henrique Tavares,Right Foot,Clément Maury,Goal,Center,Lower,0.0,1,Away
+3829463,Ligue 1,2015-09-18,72,32,Rennes,Paul-Georges Ntep de Madiba,Right Foot,Mike Maignan,Saved,Center,Lower,0.0,0,Home
+3829467,Ligue 1,2015-09-19,31,53,Montpellier,Jonas Martin,Right Foot,Rémy Vercoutre,Goal,Left,Middle,0.0,-1,Away
+3829466,Ligue 1,2015-09-19,56,54,Angers,Thomas Mangani,Left Foot,Denis Petrić,Goal,Left,Upper,0.0,1,Home
+3829472,Ligue 1,2015-09-20,24,11,Lyon,Alexandre Lacazette,Right Foot,Steve Mandanda,Goal,Right,Lower,0.0,0,Away
+3829473,Ligue 1,2015-09-22,86,3,Paris Saint-Germain,Zlatan Ibrahimović,Right Foot,Jonas Lössl,Saved,Center,Lower,21.637941229428986,3,Home
+3829481,Ligue 1,2015-09-24,94,6,AS Monaco,Fábio Henrique Tavares,Right Foot,Jonathan Ligali,Goal,Right,Lower,0.0,1,Away
+3829482,Ligue 1,2015-09-25,19,29,Stade de Reims,"David N""Gog",Right Foot,Mike Maignan,Saved,Center,Lower,27.88334062044805,1,Home
+3829491,Ligue 1,2015-09-27,37,27,Angers,Thomas Mangani,Left Foot,Steve Mandanda,Goal,Center,Upper,0.0,1,Away
+3829491,Ligue 1,2015-09-27,78,14,Marseille,Michy Batshuayi Tunga,Right Foot,Ludovic Butelle,Goal,Right,Middle,90.0,-1,Home
+3829490,Ligue 1,2015-09-27,82,50,Saint-Étienne,Jean-Christophe Bahebeck,Right Foot,Mouez Hassen,Off T,Center,Upper,0.0,-3,Home
+3829493,Ligue 1,2015-10-02,42,23,Lille,Sofiane Boufal,Right Foot,Laurent Pionnier,Goal,Center,Middle,0.0,2,Home
+3829493,Ligue 1,2015-10-02,71,46,Montpellier,Ryad Boudebouz,Left Foot,Mike Maignan,Post,Right,Upper,0.0,-2,Away
+3829495,Ligue 1,2015-10-03,40,6,Lyon,Alexandre Lacazette,Right Foot,Johny Placide,Post,Center,Upper,0.0,1,Home
+3829496,Ligue 1,2015-10-03,42,53,Angers,Abdoul Razzagui Camara,Left Foot,Jean-Louis Leca,Saved,Right,Middle,82.46055486049065,1,Home
+3829500,Ligue 1,2015-10-04,40,42,Paris Saint-Germain,Zlatan Ibrahimović,Right Foot,Steve Mandanda,Goal,Center,Middle,0.0,1,Home
+3829500,Ligue 1,2015-10-04,43,42,Paris Saint-Germain,Zlatan Ibrahimović,Right Foot,Steve Mandanda,Goal,Center,Lower,0.0,1,Home
+3829500,Ligue 1,2015-10-04,54,45,Marseille,Abdelaziz Barrada,Right Foot,Kevin Trapp,Saved,Center,Middle,34.23113250480633,-1,Away
+3829498,Ligue 1,2015-10-04,63,45,Lorient,Abdul Majeed Waris,Right Foot,Cédric Carrasso,Goal,Center,Lower,0.0,1,Home
+3829501,Ligue 1,2015-10-04,64,25,Rennes,Pedro Henrique Konzen Medina da Silva,Right Foot,Danijel Subašić,Saved,Center,Lower,43.7320911615096,0,Away
+3829509,Ligue 1,2015-10-18,20,50,Marseille,Michy Batshuayi Tunga,Right Foot,Benjamin Lecomte,Goal,Center,Middle,0.0,0,Home
+3900492,Ligue 1,2015-10-31,63,3,Lorient,Benjamin Moukandjo Bilé,Right Foot,Jonas Lössl,Goal,Left,Upper,0.0,0,Away
+3900493,Ligue 1,2015-10-31,77,30,Lyon,Claudio Beauvue,Right Foot,Paul Bernardoni,Goal,Center,Middle,0.0,1,Away
+3900500,Ligue 1,2015-11-06,82,5,Angers,Thomas Mangani,Left Foot,Benoît Guy Robert Costil,Saved,Center,Lower,48.614373546859746,-2,Home
+3900502,Ligue 1,2015-11-07,61,55,Troyes,Benjamin Nivet,Right Foot,Benjamin Lecomte,Goal,Center,Upper,0.0,-3,Away
+3900502,Ligue 1,2015-11-07,91,13,Lorient,Benjamin Moukandjo Bilé,Right Foot,Paul Bernardoni,Goal,Center,Upper,0.0,3,Home
+3900514,Ligue 1,2015-11-21,41,15,Guingamp,Jimmy Briand,Right Foot,Ali Nadhoim Ahamada,Saved,Center,Lower,57.30319632105517,2,Home
+3900519,Ligue 1,2015-11-22,95,56,Rennes,Giovanni-Guy Yann Sio,Left Foot,Cédric Carrasso,Saved,Center,Middle,16.92751306414706,0,Home
+3900524,Ligue 1,2015-11-28,30,31,Lorient,Benjamin Moukandjo Bilé,Right Foot,Jules Goda,Goal,Center,Upper,0.0,0,Away
+3900522,Ligue 1,2015-11-28,30,40,Toulouse,Martin Braithwaite Christensen,Right Foot,Yoan Cardinale,Goal,Center,Lower,0.0,2,Home
+3900521,Ligue 1,2015-11-28,57,20,Paris Saint-Germain,Zlatan Ibrahimović,Right Foot,Paul Bernardoni,Goal,Left,Lower,0.0,3,Home
+3900529,Ligue 1,2015-11-29,86,1,Saint-Étienne,Valentin Eysseric,Right Foot,Jonas Lössl,Goal,Right,Lower,90.0,3,Home
+3900540,Ligue 1,2015-12-04,43,53,Paris Saint-Germain,Zlatan Ibrahimović,Right Foot,Yoan Cardinale,Goal,Right,Lower,0.0,3,Away
+3900542,Ligue 1,2015-12-05,69,43,Caen,Andy Delort,Right Foot,Vincent Enyeama,Goal,Left,Upper,0.0,-1,Home
+3900549,Ligue 1,2015-12-06,78,0,Saint-Étienne,Valentin Eysseric,Right Foot,Benoît Guy Robert Costil,Goal,Left,Lower,0.0,0,Home
+3900553,Ligue 1,2015-12-12,77,51,Stade de Reims,Diego Rigonato Rodrigues,Left Foot,Yoan Cardinale,Goal,Center,Upper,0.0,0,Home
+3900559,Ligue 1,2015-12-13,18,51,Gazélec Ajaccio,Jacques Zoua Daogari,Right Foot,Steve Mandanda,Goal,Left,Lower,0.0,0,Away
+3900557,Ligue 1,2015-12-13,76,42,Paris Saint-Germain,Zlatan Ibrahimović,Right Foot,Anthony Lopes,Goal,Right,Lower,90.0,4,Home
+3900558,Ligue 1,2015-12-13,81,46,AS Monaco,Fábio Henrique Tavares,Right Foot,Stéphane Ruffier,Goal,Right,Upper,0.0,1,Home
+3900564,Ligue 1,2015-12-19,4,16,AS Monaco,Lacina Traoré,Left Foot,Paul Bernardoni,Saved,Center,Lower,45.698039626455476,0,Away
+3900562,Ligue 1,2015-12-19,84,9,Caen,Andy Delort,Right Foot,Kevin Trapp,Saved,Center,Lower,28.631941554421743,-3,Home
+3900572,Ligue 1,2016-01-09,50,17,AS Monaco,Fábio Henrique Tavares,Right Foot,Clément Maury,Goal,Right,Middle,0.0,0,Home
+3900579,Ligue 1,2016-01-10,13,36,Saint-Étienne,Nolan Roux,Right Foot,Rémy Riou,Goal,Center,Middle,0.0,-1,Away
+3900580,Ligue 1,2016-01-15,79,34,OGC Nice,Hatem Ben Arfa,Left Foot,Alexandre Letellier,Goal,Center,Middle,0.0,1,Home
+3900580,Ligue 1,2016-01-15,83,16,OGC Nice,Hatem Ben Arfa,Left Foot,Alexandre Letellier,Goal,Center,Lower,0.0,1,Home
+3900583,Ligue 1,2016-01-16,20,38,Rennes,Fallou Diagne,Right Foot,Paul Bernardoni,Goal,Center,Middle,0.0,2,Away
+3900583,Ligue 1,2016-01-16,38,6,Rennes,Fallou Diagne,Right Foot,Paul Bernardoni,Goal,Center,Upper,0.0,2,Away
+3900593,Ligue 1,2016-01-23,24,53,Lille,Sofiane Boufal,Right Foot,Paul Bernardoni,Goal,Right,Middle,0.0,-2,Home
+3900596,Ligue 1,2016-01-23,93,14,Guingamp,Thibault Giresse,Left Foot,Jean-Louis Leca,Goal,Center,Lower,0.0,1,Home
+3900598,Ligue 1,2016-01-24,38,56,Toulouse,Wissam Ben Yedder,Right Foot,Danijel Subašić,Saved,Right,Lower,74.93151184050775,-4,Away
+3900601,Ligue 1,2016-01-30,40,33,Montpellier,Jonas Martin,Right Foot,Clément Maury,Goal,Right,Middle,90.0,4,Away
+3900603,Ligue 1,2016-01-30,63,6,Toulouse,Wissam Ben Yedder,Right Foot,Jonas Lössl,Goal,Right,Lower,0.0,-1,Home
+3900603,Ligue 1,2016-01-30,88,35,Toulouse,Wissam Ben Yedder,Right Foot,Jonas Lössl,Saved,Center,Middle,16.28619668832721,-1,Home
+3900608,Ligue 1,2016-01-31,40,21,Caen,Andy Delort,Right Foot,Yoan Cardinale,Goal,Left,Lower,0.0,2,Home
+3900622,Ligue 1,2016-02-06,81,56,Bastia,Floyd Ayité,Right Foot,Matthieu Dreyer,Goal,Center,Lower,0.0,2,Home
+3900627,Ligue 1,2016-02-07,44,34,Saint-Étienne,Alexander Toft Søderlund,Right Foot,Paul Bernardoni,Saved to Post,Center,Middle,4.786199083069883,3,Away
+3900628,Ligue 1,2016-02-07,88,14,Rennes,Ousmane Dembélé,Right Foot,Vincent Enyeama,Goal,Left,Middle,0.0,0,Away
+3900636,Ligue 1,2016-02-13,78,7,Lorient,Benjamin Moukandjo Bilé,Right Foot,Rémy Riou,Goal,Right,Lower,90.0,-1,Away
+3901156,Ligue 1,2016-02-27,65,49,Guingamp,Thibault Giresse,Left Foot,Alexandre Letellier,Goal,Left,Middle,0.0,0,Home
+3901156,Ligue 1,2016-02-27,78,2,Angers,Billy Ketkeophomphone,Right Foot,Jonas Lössl,Goal,Center,Middle,0.0,0,Away
+3901162,Ligue 1,2016-03-04,63,13,Caen,Julien Féret,Right Foot,Danijel Subašić,Goal,Right,Lower,90.0,0,Home
+3901165,Ligue 1,2016-03-05,37,45,Bordeaux,Cheick Tidiane Diabaté,Right Foot,Clément Maury,Goal,Center,Middle,0.0,0,Home
+3901176,Ligue 1,2016-03-12,49,20,Toulouse,Wissam Ben Yedder,Right Foot,Paul Bernardoni,Goal,Left,Lower,90.0,4,Home
+3901176,Ligue 1,2016-03-12,85,59,Toulouse,Martin Braithwaite Christensen,Right Foot,Paul Bernardoni,Goal,Right,Upper,0.0,4,Home
+3901183,Ligue 1,2016-03-13,74,24,Paris Saint-Germain,Edinson Roberto Cavani Gómez,Right Foot,Matthieu Dreyer,Saved,Center,Lower,11.709001101864175,9,Away
+3901187,Ligue 1,2016-03-19,90,14,Angers,Thomas Mangani,Left Foot,Benjamin Lecomte,Goal,Center,Middle,0.0,4,Home
+3901186,Ligue 1,2016-03-19,93,26,Lyon,Alexandre Lacazette,Right Foot,Rémy Riou,Goal,Center,Middle,0.0,2,Home
+3901193,Ligue 1,2016-03-20,67,40,AS Monaco,Fábio Henrique Tavares,Right Foot,Kevin Trapp,Goal,Center,Upper,0.0,2,Away
+3901194,Ligue 1,2016-04-01,90,28,AS Monaco,Vágner Silva de Souza,Right Foot,Jérôme Prior,Saved,Center,Middle,44.87054748752996,-1,Home
+3901201,Ligue 1,2016-04-03,55,8,Bastia,Gaël Danic,Left Foot,Steve Mandanda,Goal,Center,Middle,0.0,1,Home
+3901205,Ligue 1,2016-04-09,46,20,Lorient,Abdul Majeed Waris,Right Foot,Rémy Vercoutre,Goal,Center,Lower,0.0,1,Away
+3901208,Ligue 1,2016-04-09,55,10,Paris Saint-Germain,Lucas Rodrigues Moura da Silva,Right Foot,Jonas Lössl,Goal,Center,Lower,0.0,2,Away
+3901213,Ligue 1,2016-04-10,32,41,OGC Nice,Hatem Ben Arfa,Left Foot,Benoît Guy Robert Costil,Goal,Center,Middle,0.0,3,Home
+3901217,Ligue 1,2016-04-16,60,21,Troyes,Benjamin Nivet,Right Foot,Johann Carrasso,Goal,Center,Lower,0.0,1,Home
+3901224,Ligue 1,2016-04-22,55,35,OGC Nice,Hatem Ben Arfa,Left Foot,Johann Carrasso,Goal,Center,Middle,0.0,2,Home
+3901230,Ligue 1,2016-04-24,62,39,Gazélec Ajaccio,Mohamed Larbi,Right Foot,Jean-Louis Leca,Goal,Center,Lower,0.0,1,Home
+3901237,Ligue 1,2016-04-30,4,4,Toulouse,Wissam Ben Yedder,Right Foot,Stéphane Ruffier,Saved,Center,Lower,27.88334062044805,0,Away
+3901246,Ligue 1,2016-05-07,45,0,Caen,Andy Delort,Right Foot,Rémy Riou,Goal,Right,Lower,0.0,1,Away
+3901243,Ligue 1,2016-05-07,49,32,Angers,Thomas Mangani,Left Foot,Jean-Louis Leca,Post,Center,Upper,0.0,-1,Away
+3901262,Ligue 1,2016-05-14,13,51,Caen,Andy Delort,Right Foot,Jérôme Prior,Goal,Right,Upper,0.0,1,Home
+3901255,Ligue 1,2016-05-14,30,11,Toulouse,Martin Braithwaite Christensen,Right Foot,Alexandre Letellier,Off T,Center,Upper,0.0,1,Away
+3901256,Ligue 1,2016-05-14,31,21,AS Monaco,Fábio Henrique Tavares,Right Foot,Laurent Pionnier,Goal,Center,Middle,0.0,2,Home
+3901257,Ligue 1,2016-05-14,40,56,Lille,Éderzito António Macedo Lopes,Right Foot,Stéphane Ruffier,Goal,Right,Middle,0.0,1,Away
+3901254,Ligue 1,2016-05-14,55,19,Stade de Reims,Grejohn Kyei,Right Foot,Anthony Lopes,Goal,Center,Upper,0.0,3,Home
+3901259,Ligue 1,2016-05-14,81,33,Marseille,Steven Fletcher,Left Foot,Matthieu Dreyer,Saved,Center,Lower,49.8738964222047,0,Away
+3802752,Ligue 1,2021-09-19,65,11,Paris Saint-Germain,Neymar da Silva Santos Junior,Right Foot,Anthony Lopes,Goal,Center,Lower,0.0,1,Home
+3802683,Ligue 1,2021-12-12,11,38,Paris Saint-Germain,Kylian Mbappé Lottin,Right Foot,Alexander Nübel,Goal,Center,Lower,0.0,2,Home
+3802839,Ligue 1,2022-02-19,50,38,Nantes,Ludovic Blas,Left Foot,Keylor Navas Gamboa,Goal,Center,Upper,0.0,2,Home
+3802839,Ligue 1,2022-02-19,58,33,Paris Saint-Germain,Neymar da Silva Santos Junior,Right Foot,Alban Lafont,Saved,Center,Lower,13.045637062948598,-2,Away
+3803000,Ligue 1,2022-04-09,70,51,Paris Saint-Germain,Neymar da Silva Santos Junior,Right Foot,Arthur Desmas,Goal,Right,Middle,90.0,5,Away
+3802983,Ligue 1,2022-04-17,49,37,Paris Saint-Germain,Kylian Mbappé Lottin,Right Foot,Pau López Sabata,Goal,Right,Middle,0.0,1,Home
+3802930,Ligue 1,2022-05-08,24,57,Paris Saint-Germain,Neymar da Silva Santos Junior,Right Foot,Jessy Moulin,Goal,Center,Lower,0.0,0,Home
+3802930,Ligue 1,2022-05-08,48,5,Troyes,Florian Tardieu,Right Foot,Keylor Navas Gamboa,Goal,Center,Upper,0.0,0,Away
+3802665,Ligue 1,2022-05-14,59,11,Paris Saint-Germain,Kylian Mbappé Lottin,Right Foot,Dimitry Bertaud,Goal,Left,Lower,0.0,4,Away
+3837659,Ligue 1,2022-08-13,23,0,Paris Saint-Germain,Kylian Mbappé Lottin,Right Foot,Jonas Omlin,Saved,Left,Middle,68.00041220496267,3,Home
+3837659,Ligue 1,2022-08-13,42,49,Paris Saint-Germain,Neymar da Silva Santos Junior,Right Foot,Jonas Omlin,Goal,Center,Lower,0.0,3,Home
+3837680,Ligue 1,2022-08-28,69,4,Paris Saint-Germain,Neymar da Silva Santos Junior,Right Foot,Alexander Nübel,Goal,Right,Middle,0.0,0,Home
+3837706,Ligue 1,2022-09-10,69,56,Stade Brestois,Islam Slimani,Right Foot,Gianluigi Donnarumma,Saved,Center,Middle,36.34511261673403,-1,Away
+3837771,Ligue 1,2022-10-29,76,1,Paris Saint-Germain,Kylian Mbappé Lottin,Right Foot,Gauthier Gallon,Goal,Right,Upper,0.0,1,Home
+3837844,Ligue 1,2023-02-01,9,21,Paris Saint-Germain,Kylian Mbappé Lottin,Right Foot,Benjamin Lecomte,Saved to Post,Center,Middle,27.26374556006153,2,Away
+3837876,Ligue 1,2023-02-19,57,19,Lille,Jonathan David,Right Foot,Gianluigi Donnarumma,Goal,Left,Lower,0.0,-1,Away
+3837928,Ligue 1,2023-04-02,38,7,Lyon,Alexandre Lacazette,Right Foot,Gianluigi Donnarumma,Post,Right,Lower,0.0,1,Away
+3837947,Ligue 1,2023-04-15,59,25,Lens,Przemysław Frankowski,Right Foot,Gianluigi Donnarumma,Goal,Right,Middle,0.0,-2,Away
+3838017,Ligue 1,2023-06-03,20,11,Paris Saint-Germain,Kylian Mbappé Lottin,Right Foot,Mory Diaw,Goal,Center,Middle,0.0,-1,Home
+3838017,Ligue 1,2023-06-03,36,45,Clermont Foot,Grejohn Kyei,Right Foot,Gianluigi Donnarumma,Off T,Right,Lower,0.0,1,Away
+3749493,Premier League,2003-08-16,34,19,Arsenal,Thierry Henry,Right Foot,Richard Wright,Goal,Center,Lower,0.0,1,Home
+3749296,Premier League,2003-09-13,38,56,Arsenal,Thierry Henry,Right Foot,Shaka Hislop,Goal,Center,Middle,0.0,0,Home
+3749552,Premier League,2003-09-21,93,5,Manchester United,Ruud van Nistelrooy,Right Foot,Jens Lehmann,Post,Center,Upper,0.0,0,Home
+3749528,Premier League,2003-09-26,79,11,Arsenal,Thierry Henry,Right Foot,Shay Given,Goal,Center,Middle,0.0,1,Home
+3749526,Premier League,2003-10-26,26,45,Charlton Athletic,Paolo Di Canio,Right Foot,Jens Lehmann,Goal,Center,Upper,0.0,0,Home
+3749153,Premier League,2004-01-10,37,22,Arsenal,Thierry Henry,Right Foot,Mark Schwarzer,Goal,Center,Lower,0.0,3,Home
+3749153,Premier League,2004-01-10,85,3,Middlesbrough,Massimo Maccarone,Right Foot,Jens Lehmann,Goal,Center,Upper,0.0,-3,Away
+3749133,Premier League,2004-01-18,52,34,Arsenal,Thierry Henry,Right Foot,Thomas Løvendahl Sørensen,Goal,Left,Upper,0.0,2,Away
+3749453,Premier League,2004-04-16,32,20,Arsenal,Thierry Henry,Right Foot,Paul Robinson,Goal,Center,Upper,0.0,5,Home
+3749068,Premier League,2004-04-25,93,58,Tottenham Hotspur,Robbie Keane,Right Foot,Jens Lehmann,Goal,Left,Upper,0.0,0,Home
+3749257,Premier League,2004-05-15,46,45,Arsenal,Thierry Henry,Right Foot,Ian Walker,Goal,Center,Lower,0.0,1,Home
+3754237,Premier League,2015-08-08,24,29,Leicester City,Riyad Mahrez,Left Foot,Costel Fane Pantilimon,Goal,Center,Lower,0.0,2,Home
+3754078,Premier League,2015-08-08,54,5,Swansea City,Bafétimbi Gomis,Right Foot,Asmir Begović,Goal,Center,Lower,0.0,0,Away
+3754270,Premier League,2015-08-15,77,44,Stoke City,Marko Arnautović,Right Foot,Hugo Lloris,Goal,Center,Lower,0.0,0,Away
+3754131,Premier League,2015-08-22,47,5,West Ham United,Mark Noble,Right Foot,Artur Boruc,Goal,Center,Middle,0.0,-1,Home
+3754131,Premier League,2015-08-22,78,57,AFC Bournemouth,Callum Wilson,Right Foot,Darren Randolph,Goal,Left,Lower,0.0,1,Away
+3754059,Premier League,2015-08-23,13,6,West Bromwich Albion,James Morrison,Right Foot,Thibaut Courtois,Saved,Center,Lower,0.3914253673677163,-1,Home
+3754204,Premier League,2015-08-29,11,0,Aston Villa,Scott Sinclair,Right Foot,Costel Fane Pantilimon,Goal,Right,Lower,0.0,0,Home
+3754023,Premier League,2015-08-29,85,45,Leicester City,Jamie Vardy,Right Foot,Artur Boruc,Goal,Center,Upper,0.0,0,Away
+3754003,Premier League,2015-09-12,69,46,Manchester United,Ander Herrera Agüera,Right Foot,Simon Mignolet,Goal,Center,Upper,0.0,2,Home
+3754146,Premier League,2015-09-19,50,43,Leicester City,Riyad Mahrez,Left Foot,Jack Butland,Goal,Left,Lower,0.0,0,Away
+3753978,Premier League,2015-09-26,82,53,Swansea City,Gylfi Þór Sigurðsson,Right Foot,Maarten Stekelenburg,Goal,Center,Middle,0.0,-2,Away
+3754266,Premier League,2015-09-27,70,32,Crystal Palace,Yohan Cabaye,Right Foot,Heurelho da Silva Gomes,Goal,Center,Upper,0.0,1,Away
+3754335,Premier League,2015-10-03,27,13,Leicester City,Jamie Vardy,Right Foot,John Ruddy,Goal,Center,Middle,0.0,1,Away
+3754278,Premier League,2015-10-03,84,4,AFC Bournemouth,Glenn Murray,Right Foot,Heurelho da Silva Gomes,Saved,Center,Middle,50.954107431164914,0,Home
+3754099,Premier League,2015-10-03,88,3,Crystal Palace,Yohan Cabaye,Right Foot,Glyn Oliver Myhill,Goal,Center,Upper,0.0,2,Home
+3754067,Premier League,2015-10-17,24,44,Crystal Palace,Yohan Cabaye,Right Foot,Adrián San Miguel del Castillo,Goal,Right,Upper,0.0,-2,Home
+3754269,Premier League,2015-10-19,3,18,Stoke City,Bojan Krkíc Pérez,Right Foot,Łukasz Fabiański,Goal,Left,Upper,0.0,1,Away
+3754234,Premier League,2015-10-25,8,29,Tottenham Hotspur,Harry Kane,Right Foot,Artur Boruc,Goal,Center,Lower,0.0,4,Away
+3754119,Premier League,2015-10-25,47,17,Sunderland,Adam Johnson,Left Foot,Rob Elliot,Goal,Left,Lower,0.0,3,Home
+3754006,Premier League,2015-10-31,83,34,West Bromwich Albion,Rickie Lambert,Right Foot,Kasper Schmeichel,Goal,Left,Lower,0.0,-1,Home
+3754167,Premier League,2015-10-31,88,5,Manchester City,Gnégnéri Yaya Touré,Right Foot,John Ruddy,Goal,Right,Lower,0.0,1,Home
+3754167,Premier League,2015-10-31,96,44,Manchester City,Aleksandar Kolarov,Left Foot,John Ruddy,Off T,Left,Lower,0.0,1,Home
+3754156,Premier League,2015-11-07,64,58,Leicester City,Jamie Vardy,Right Foot,Heurelho da Silva Gomes,Goal,Center,Upper,0.0,1,Home
+3754000,Premier League,2015-11-07,68,48,Southampton,Dušan Tadić,Left Foot,Costel Fane Pantilimon,Goal,Left,Lower,0.0,1,Away
+3754156,Premier League,2015-11-07,74,55,Watford,Troy Deeney,Right Foot,Kasper Schmeichel,Goal,Center,Lower,3.7406115020581465,-1,Away
+3754297,Premier League,2015-11-07,90,53,Manchester United,Juan Manuel Mata García,Left Foot,Glyn Oliver Myhill,Goal,Center,Upper,0.0,2,Home
+3753972,Premier League,2015-11-21,38,17,Swansea City,Jonjo Shelvey,Right Foot,Adam Federici,Goal,Left,Lower,0.0,0,Home
+3754301,Premier League,2015-11-21,83,38,Arsenal,Santiago Cazorla González,Right Foot,Glyn Oliver Myhill,Wayward,Center,Unknown,0.0,-1,Away
+3754185,Premier League,2015-11-21,86,18,Watford,Troy Deeney,Right Foot,David de Gea Quintana,Goal,Center,Upper,0.0,-1,Home
+3754047,Premier League,2015-11-29,61,59,Liverpool,James Philip Milner,Right Foot,Łukasz Fabiański,Goal,Center,Upper,0.0,1,Home
+3754286,Premier League,2015-12-05,29,57,Watford,Troy Deeney,Right Foot,Declan Rudd,Goal,Center,Middle,0.0,2,Home
+3754117,Premier League,2015-12-13,7,30,Arsenal,Olivier Giroud,Left Foot,Bradley Guzan,Goal,Center,Lower,0.0,2,Away
+3754166,Premier League,2015-12-19,26,55,Leicester City,Riyad Mahrez,Left Foot,Tim Howard,Goal,Right,Lower,0.0,1,Away
+3754153,Premier League,2015-12-19,45,57,Crystal Palace,Connor Wickham,Right Foot,Jack Butland,Goal,Center,Middle,0.0,1,Away
+3754025,Premier League,2015-12-19,49,16,Chelsea,Oscar dos Santos Emboaba Júnior,Right Foot,Costel Fane Pantilimon,Goal,Center,Middle,0.0,2,Home
+3754166,Premier League,2015-12-19,64,24,Leicester City,Riyad Mahrez,Left Foot,Tim Howard,Goal,Center,Lower,0.0,1,Away
+3754153,Premier League,2015-12-19,75,36,Stoke City,Bojan Krkíc Pérez,Right Foot,Wayne Hennessey,Goal,Center,Upper,10.400552024820499,-1,Home
+3754219,Premier League,2015-12-19,86,36,AFC Bournemouth,Charlie Daniels,Left Foot,Glyn Oliver Myhill,Goal,Center,Upper,0.0,1,Away
+3754057,Premier League,2015-12-26,25,52,Tottenham Hotspur,Harry Kane,Right Foot,Declan Rudd,Goal,Center,Upper,0.0,3,Home
+3754287,Premier League,2015-12-26,41,40,Watford,Troy Deeney,Right Foot,Thibaut Courtois,Goal,Left,Lower,0.0,0,Away
+3754285,Premier League,2015-12-26,61,54,Aston Villa,Jordan Ayew,Right Foot,Adrián San Miguel del Castillo,Goal,Center,Upper,0.6133123047225495,0,Home
+3754054,Premier League,2015-12-26,68,34,Manchester City,Wilfried Guemiand Bony,Right Foot,Vito Mannone,Off T,Center,Upper,0.0,3,Home
+3754287,Premier League,2015-12-26,79,31,Chelsea,Oscar dos Santos Emboaba Júnior,Right Foot,Heurelho da Silva Gomes,Off T,Center,Upper,0.0,0,Home
+3754056,Premier League,2015-12-28,90,33,Stoke City,Marko Arnautović,Right Foot,Tim Howard,Goal,Center,Upper,0.0,1,Away
+3754058,Premier League,2016-01-02,58,11,Leicester City,Riyad Mahrez,Left Foot,Artur Boruc,Saved,Center,Middle,60.26446853644626,0,Home
+3754088,Premier League,2016-01-12,8,57,Manchester United,Wayne Mark Rooney,Right Foot,Rob Elliot,Goal,Center,Lower,3.0247050897104777,0,Away
+3754088,Premier League,2016-01-12,66,4,Newcastle United,Aleksandar Mitrović,Right Foot,David de Gea Quintana,Goal,Center,Lower,0.0,0,Home
+3754071,Premier League,2016-01-13,20,40,Swansea City,Gylfi Þór Sigurðsson,Right Foot,Vito Mannone,Goal,Center,Middle,0.0,-2,Home
+3754250,Premier League,2016-01-16,32,36,Leicester City,Riyad Mahrez,Left Foot,Mark Bunn,Saved,Center,Middle,6.028691845575063,0,Away
+3754168,Premier League,2016-01-16,34,8,Southampton,James Ward-Prowse,Right Foot,Glyn Oliver Myhill,Goal,Right,Lower,0.0,3,Home
+3754004,Premier League,2016-01-16,53,27,AFC Bournemouth,Charlie Daniels,Left Foot,Declan Rudd,Goal,Left,Lower,0.0,3,Home
+3754027,Premier League,2016-01-16,78,41,Tottenham Hotspur,Harry Kane,Right Foot,Jordan Pickford,Goal,Right,Lower,0.0,3,Home
+3754110,Premier League,2016-01-23,8,47,Manchester City,Sergio Leonel Agüero del Castillo,Right Foot,Adrián San Miguel del Castillo,Goal,Center,Lower,0.0,0,Away
+3754348,Premier League,2016-01-23,53,7,Norwich City,Wes Hoolahan,Left Foot,Simon Mignolet,Goal,Center,Middle,0.0,-1,Home
+3754163,Premier League,2016-01-24,16,45,Swansea City,Gylfi Þór Sigurðsson,Right Foot,Tim Howard,Goal,Right,Upper,0.0,1,Away
+3754317,Premier League,2016-02-02,29,34,Tottenham Hotspur,Harry Kane,Right Foot,Declan Rudd,Goal,Center,Lower,0.0,3,Away
+3754252,Premier League,2016-02-03,87,20,Everton,Ross Barkley,Right Foot,Rob Elliot,Goal,Center,Lower,0.0,3,Home
+3754252,Premier League,2016-02-03,93,28,Everton,Ross Barkley,Right Foot,Rob Elliot,Goal,Center,Upper,0.0,3,Home
+3754127,Premier League,2016-02-06,10,44,Everton,Romelu Lukaku Menama,Left Foot,Jack Butland,Goal,Center,Lower,0.0,3,Away
+3754039,Premier League,2016-02-13,15,11,Watford,Troy Deeney,Right Foot,Wayne Hennessey,Goal,Center,Lower,0.0,1,Away
+3754261,Premier League,2016-02-14,44,20,Leicester City,Jamie Vardy,Right Foot,Petr Čech,Goal,Center,Middle,0.0,-1,Away
+3754147,Premier League,2016-02-14,52,58,Tottenham Hotspur,Harry Kane,Right Foot,Joe Hart,Goal,Center,Middle,3.3570786789853786,1,Away
+3754321,Premier League,2016-02-27,50,25,Stoke City,Marko Arnautović,Right Foot,Mark Bunn,Goal,Center,Upper,0.0,1,Home
+3754277,Premier League,2016-03-05,68,12,Everton,Romelu Lukaku Menama,Left Foot,Adrián San Miguel del Castillo,Saved,Center,Middle,29.19748604606447,-1,Home
+3754249,Premier League,2016-03-05,72,28,Manchester City,Sergio Leonel Agüero del Castillo,Right Foot,Bradley Guzan,Post,Left,Lower,0.0,4,Home
+3754220,Premier League,2016-03-06,95,11,Liverpool,Christian Benteke Liolo,Right Foot,Alex McCarthy,Goal,Left,Lower,90.0,1,Away
+3753973,Premier League,2016-03-19,88,23,Chelsea,Francesc Fàbregas i Soler,Right Foot,Adrián San Miguel del Castillo,Goal,Left,Middle,0.0,0,Home
+3754064,Premier League,2016-03-20,49,0,Southampton,Sadio Mané,Right Foot,Simon Mignolet,Saved,Right,Middle,69.70602627242344,1,Home
+3754075,Premier League,2016-04-02,47,20,Chelsea,Alexandre Rodrigues da Silva,Right Foot,Bradley Guzan,Goal,Right,Upper,90.0,4,Away
+3754243,Premier League,2016-04-02,85,55,Newcastle United,Aleksandar Mitrović,Right Foot,John Ruddy,Goal,Left,Middle,0.0,-1,Away
+3754035,Premier League,2016-04-09,18,10,Manchester City,Sergio Leonel Agüero del Castillo,Right Foot,Ben Foster,Goal,Left,Middle,0.0,1,Home
+3754172,Premier League,2016-04-16,40,28,Sunderland,Fabio Borini,Right Foot,John Ruddy,Goal,Right,Lower,0.0,3,Away
+3754155,Premier League,2016-04-16,66,53,West Bromwich Albion,Saido Berahino,Right Foot,Heurelho da Silva Gomes,Saved,Center,Lower,21.119856153424728,-1,Home
+3754322,Premier League,2016-04-16,79,51,Manchester City,Sergio Leonel Agüero del Castillo,Right Foot,Asmir Begović,Goal,Right,Middle,0.0,3,Away
+3754155,Premier League,2016-04-16,86,13,West Bromwich Albion,Saido Berahino,Right Foot,Heurelho da Silva Gomes,Saved,Left,Lower,88.31531568210369,-1,Home
+3754227,Premier League,2016-04-17,83,31,West Ham United,Andy Carroll,Left Foot,Kasper Schmeichel,Goal,Left,Lower,0.0,0,Away
+3754227,Premier League,2016-04-17,94,45,Leicester City,José Leonardo Ulloa,Right Foot,Adrián San Miguel del Castillo,Goal,Left,Middle,0.0,0,Home
+3754086,Premier League,2016-04-20,44,31,West Ham United,Mark Noble,Right Foot,Heurelho da Silva Gomes,Goal,Center,Lower,0.0,2,Home
+3754086,Premier League,2016-04-20,52,40,West Ham United,Mark Noble,Right Foot,Heurelho da Silva Gomes,Goal,Center,Middle,0.0,2,Home
+3754086,Premier League,2016-04-20,91,16,Watford,Troy Deeney,Right Foot,Adrián San Miguel del Castillo,Saved,Center,Middle,2.2542339744306545,-2,Away
+3754307,Premier League,2016-04-23,42,24,Manchester City,Sergio Leonel Agüero del Castillo,Right Foot,Shay Given,Goal,Center,Upper,0.0,4,Home
+3754170,Premier League,2016-04-30,69,43,Crystal Palace,Yohan Cabaye,Right Foot,Karl Darlow,Saved,Center,Middle,30.316780247604044,-1,Away
+3754132,Premier League,2016-04-30,93,32,Sunderland,Jermain Defoe,Right Foot,Jakob Haugaard,Goal,Center,Middle,0.0,0,Away
+3754225,Premier League,2016-05-07,42,41,West Bromwich Albion,Craig Gardner,Right Foot,Artur Boruc,Saved to Post,Right,Middle,76.22840028291749,0,Away
+3754033,Premier League,2016-05-07,64,49,Leicester City,Jamie Vardy,Right Foot,Joel Robles Blázquez,Goal,Right,Lower,90.0,2,Home
+3754033,Premier League,2016-05-07,71,11,Leicester City,Jamie Vardy,Right Foot,Joel Robles Blázquez,Off T,Center,Upper,0.0,2,Home
+3754123,Premier League,2016-05-15,43,58,Everton,Leighton Baines,Left Foot,John Ruddy,Goal,Center,Middle,0.0,3,Home
+3754308,Premier League,2016-05-15,60,12,Watford,Troy Deeney,Right Foot,Jordan Pickford,Goal,Center,Middle,0.0,0,Home
+3754229,Premier League,2016-05-15,65,15,Chelsea,Francesc Fàbregas i Soler,Right Foot,Kasper Schmeichel,Goal,Right,Lower,0.0,0,Home
+3754333,Premier League,2016-05-15,72,48,Newcastle United,Georginio Wijnaldum,Right Foot,Hugo Lloris,Goal,Left,Lower,0.0,4,Home
+3753994,Premier League,2016-05-15,74,38,Southampton,Ryan Bertrand,Left Foot,Julián Speroni,Goal,Center,Upper,0.0,3,Home
+3878545,Serie A,2015-08-23,13,48,Sampdoria,Eder Citadin Martins,Right Foot,Željko Brkić,Goal,Center,Lower,0.0,3,Home
+3878542,Serie A,2015-08-23,55,23,Fiorentina,Josip Iličić,Left Foot,Diego López Rodríguez,Goal,Left,Middle,0.0,2,Home
+3878545,Serie A,2015-08-23,92,45,Carpi,Andrea Lazzari,Left Foot,Emiliano Viviano,Saved,Center,Middle,25.401844931837026,-3,Away
+3878559,Serie A,2015-08-30,8,35,Atalanta,Mauricio Ricardo Pinilla Ferreira,Right Foot,Nicola Leali,Saved,Center,Middle,30.8064949521118,2,Home
+3878558,Serie A,2015-08-30,56,56,Sampdoria,Eder Citadin Martins,Right Foot,José Manuel Reina Páez,Goal,Right,Lower,0.0,0,Away
+3878552,Serie A,2015-08-30,88,35,Inter Milan,Stevan Jovetić,Right Foot,Željko Brkić,Goal,Left,Lower,0.0,1,Away
+3878594,Serie A,2015-09-12,82,46,Juventus,Paulo Bruno Exequiel Dybala,Left Foot,Albano Benjamín Bizzarri,Goal,Center,Upper,0.0,0,Home
+3878599,Serie A,2015-09-13,6,18,Sassuolo,Nicola Sansone,Right Foot,Marco Sportiello,Saved,Center,Middle,49.668648137455875,0,Home
+3878596,Serie A,2015-09-13,48,19,Hellas Verona,Luca Toni,Right Foot,Daniele Padelli,Goal,Center,Upper,0.0,0,Home
+3878599,Serie A,2015-09-13,85,7,Atalanta,Maximiliano Nicol Moralez,Right Foot,Andrea Consigli,Saved,Center,Middle,39.79804603589746,0,Away
+3878609,Serie A,2015-09-20,59,35,Juventus,Paul Pogba,Right Foot,Eugenio Lamanna,Goal,Center,Lower,0.0,2,Away
+3879547,Serie A,2015-09-26,76,0,Carpi,Ryder Matos Santos,Right Foot,Morgan De Sanctis,Saved,Center,Lower,23.131420814627624,-4,Away
+3879550,Serie A,2015-09-27,3,22,Fiorentina,Josip Iličić,Left Foot,Samir Handanovič,Goal,Center,Upper,0.0,3,Away
+3879551,Serie A,2015-09-27,62,48,Lazio,Lucas Rodrigo Biglia,Right Foot,Rafael de Andrade Bittencourt Pinheiro,Goal,Center,Upper,0.0,1,Away
+3879558,Serie A,2015-10-03,74,6,Torino,Maximiliano Gastón López,Right Foot,Vid Belec,Goal,Left,Middle,0.0,-1,Away
+3879561,Serie A,2015-10-04,5,14,Fiorentina,Josip Iličić,Left Foot,Marco Sportiello,Goal,Right,Middle,0.0,3,Home
+3879559,Serie A,2015-10-04,51,58,Juventus,Paulo Bruno Exequiel Dybala,Left Foot,Antonio Mirante,Goal,Center,Lower,0.0,2,Home
+3879566,Serie A,2015-10-04,75,23,Genoa,Diego Perotti,Right Foot,Orestis Karnezis,Goal,Center,Lower,0.0,0,Away
+3879573,Serie A,2015-10-18,6,50,Sassuolo,Domenico Berardi,Left Foot,Federico Marchetti,Goal,Left,Upper,90.0,1,Home
+3879575,Serie A,2015-10-18,40,41,Hellas Verona,Giampaolo Pazzini,Right Foot,Orestis Karnezis,Goal,Center,Upper,0.0,0,Home
+3879571,Serie A,2015-10-18,62,52,Atalanta,Luca Cigarini,Right Foot,Vid Belec,Goal,Right,Middle,0.0,3,Home
+3879585,Serie A,2015-10-25,30,55,AC Milan,Carlos Arturo Bacca Ahumada,Right Foot,Gianluca Pegolo,Goal,Center,Middle,0.0,1,Home
+3879580,Serie A,2015-10-25,78,18,Juventus,Paul Pogba,Right Foot,Marco Sportiello,Saved,Center,Middle,29.680899436867485,2,Home
+3879602,Serie A,2015-11-01,30,47,Fiorentina,Khouma El Hadji Babacar,Right Foot,Massimo Zenildo Zappino,Goal,Center,Middle,0.0,3,Home
+3879616,Serie A,2015-11-08,9,11,Fiorentina,Josip Iličić,Left Foot,Emiliano Viviano,Goal,Left,Lower,0.0,2,Away
+3879610,Serie A,2015-11-08,9,21,AS Roma,Edin Džeko,Right Foot,Federico Marchetti,Goal,Center,Middle,0.0,2,Home
+3879617,Serie A,2015-11-21,51,25,AS Roma,Miralem Pjanić,Right Foot,Antonio Mirante,Goal,Center,Lower,0.0,0,Away
+3879617,Serie A,2015-11-21,71,36,AS Roma,Edin Džeko,Right Foot,Antonio Mirante,Goal,Center,Lower,0.0,0,Away
+3879617,Serie A,2015-11-21,86,28,Bologna,Mattia Destro,Right Foot,Wojciech Szczęsny,Goal,Left,Middle,0.0,0,Home
+3879624,Serie A,2015-11-22,69,10,Lazio,Antonio Candreva,Right Foot,Stefano Sorrentino,Goal,Right,Lower,0.0,0,Home
+3879628,Serie A,2015-11-28,37,25,AC Milan,M''Baye Babacar Niang,Right Foot,Emiliano Viviano,Goal,Center,Upper,0.0,3,Home
+3879628,Serie A,2015-11-28,86,30,Sampdoria,Eder Citadin Martins,Right Foot,Gianluigi Donnarumma,Goal,Center,Lower,0.0,-3,Away
+3879629,Serie A,2015-11-29,21,27,Frosinone,Daniel Ciofani,Right Foot,Pierluigi Gollini,Goal,Right,Middle,90.0,1,Home
+3879632,Serie A,2015-11-29,81,13,Atalanta,Germán Gustavo Denis,Right Foot,Morgan De Sanctis,Goal,Center,Upper,0.0,2,Away
+3879639,Serie A,2015-12-05,93,47,Torino,Maximiliano Gastón López,Right Foot,Wojciech Szczęsny,Goal,Right,Lower,90.0,0,Home
+3879646,Serie A,2015-12-06,61,27,Fiorentina,Josip Iličić,Left Foot,Orestis Karnezis,Goal,Right,Upper,0.0,3,Home
+3879640,Serie A,2015-12-06,88,58,Chievo,Alberto Paloschi,Right Foot,Nicola Leali,Goal,Center,Middle,0.0,2,Away
+3879653,Serie A,2015-12-13,2,14,Fiorentina,Josip Iličić,Left Foot,Gianluigi Buffon,Goal,Left,Upper,0.0,-2,Away
+3879652,Serie A,2015-12-13,56,8,Hellas Verona,Luca Toni,Right Foot,Gianluigi Donnarumma,Goal,Center,Upper,0.0,0,Away
+3879654,Serie A,2015-12-13,67,14,Chievo,Alberto Paloschi,Right Foot,Marco Sportiello,Saved,Center,Middle,17.85622325731448,1,Home
+3879661,Serie A,2015-12-20,51,37,Napoli,Marek Hamšík,Right Foot,Davide Bassi,Goal,Left,Upper,0.0,2,Away
+3879659,Serie A,2015-12-20,86,15,Lazio,Antonio Candreva,Right Foot,Samir Handanovič,Saved,Center,Middle,31.108808828545268,1,Away
+3879661,Serie A,2015-12-20,90,37,Napoli,Marek Hamšík,Right Foot,Davide Bassi,Off T,Center,Upper,0.0,2,Away
+3879669,Serie A,2016-01-06,32,30,Torino,Fabio Quagliarella,Right Foot,José Manuel Reina Páez,Goal,Right,Middle,90.0,-1,Away
+3879679,Serie A,2016-01-10,29,37,Napoli,Gonzalo Gerardo Higuaín,Right Foot,Massimo Zenildo Zappino,Goal,Center,Middle,0.0,4,Away
+3879680,Serie A,2016-01-10,36,41,Bologna,Mattia Destro,Right Foot,Albano Benjamín Bizzarri,Saved,Center,Middle,4.845668520173369,-1,Home
+3879681,Serie A,2016-01-10,94,47,Sassuolo,Domenico Berardi,Left Foot,Samir Handanovič,Goal,Left,Lower,0.0,1,Away
+3879686,Serie A,2016-01-16,2,16,Sassuolo,Diego Falcinelli,Left Foot,José Manuel Reina Páez,Goal,Center,Middle,0.0,-2,Away
+3879687,Serie A,2016-01-16,8,15,Torino,Ciro Immobile,Right Foot,Nicola Leali,Goal,Center,Lower,0.0,2,Home
+3879693,Serie A,2016-01-17,25,29,Juventus,Paulo Bruno Exequiel Dybala,Right Foot,Orestis Karnezis,Goal,Center,Lower,0.0,4,Away
+3879689,Serie A,2016-01-17,54,31,Carpi,Jerry Uche Mbakogu,Right Foot,Emiliano Viviano,Goal,Center,Lower,0.0,1,Home
+3879691,Serie A,2016-01-17,60,53,Hellas Verona,Giampaolo Pazzini,Right Foot,Wojciech Szczęsny,Goal,Center,Upper,0.0,0,Away
+3879694,Serie A,2016-01-17,70,3,Lazio,Antonio Candreva,Right Foot,Antonio Mirante,Goal,Center,Middle,0.0,0,Away
+3879699,Serie A,2016-01-24,17,47,Napoli,Lorenzo Insigne,Right Foot,Emiliano Viviano,Goal,Center,Middle,0.0,2,Away
+3879703,Serie A,2016-01-24,65,30,Lazio,Antonio Candreva,Right Foot,Albano Benjamín Bizzarri,Goal,Center,Lower,0.0,3,Home
+3879703,Serie A,2016-01-24,83,12,Chievo,Alberto Paloschi,Right Foot,Etrit Berisha,Saved,Right,Middle,69.07549825507846,-3,Away
+3879708,Serie A,2016-01-30,31,14,Atalanta,Germán Gustavo Denis,Right Foot,Andrea Consigli,Saved,Center,Lower,21.317912275461527,0,Home
+3879709,Serie A,2016-01-30,73,44,Carpi,Matteo Mancosu,Right Foot,Stefano Sorrentino,Goal,Center,Middle,0.0,0,Home
+3879712,Serie A,2016-01-31,69,18,Inter Milan,Mauro Emanuel Icardi Rivero,Right Foot,Gianluigi Donnarumma,Post,Left,Middle,0.0,-3,Away
+3879710,Serie A,2016-01-31,86,43,Bologna,Mattia Destro,Right Foot,Emiliano Viviano,Goal,Center,Middle,0.0,1,Home
+3879717,Serie A,2016-02-02,87,18,Sassuolo,Domenico Berardi,Left Foot,Wojciech Szczęsny,Post,Center,Upper,0.0,-2,Home
+3879721,Serie A,2016-02-03,32,31,AC Milan,M''Baye Babacar Niang,Right Foot,Stefano Sorrentino,Goal,Left,Upper,0.0,2,Away
+3879718,Serie A,2016-02-03,66,30,Empoli,Riccardo Saponara,Right Foot,Orestis Karnezis,Saved,Center,Lower,10.327815310795998,0,Home
+3879725,Serie A,2016-02-03,76,14,Frosinone,Federico Dionisi,Right Foot,Antonio Mirante,Goal,Left,Lower,0.0,1,Home
+3879731,Serie A,2016-02-07,68,38,Napoli,Gonzalo Gerardo Higuaín,Right Foot,Vid Belec,Goal,Center,Middle,0.0,1,Home
+3879732,Serie A,2016-02-07,71,9,Chievo,Valter Birsa,Left Foot,Daniele Padelli,Goal,Center,Lower,0.0,1,Away
+3879737,Serie A,2016-02-11,89,39,Lazio,Antonio Candreva,Right Foot,Pierluigi Gollini,Goal,Right,Middle,0.0,3,Home
+3879741,Serie A,2016-02-13,28,26,Chievo,Valter Birsa,Left Foot,Andrea Consigli,Goal,Center,Lower,0.0,0,Home
+3879740,Serie A,2016-02-13,72,8,Frosinone,Daniel Ciofani,Right Foot,Łukasz Skorupski,Goal,Center,Lower,0.0,1,Away
+3879745,Serie A,2016-02-14,18,37,Torino,Ciro Immobile,Right Foot,Stefano Sorrentino,Goal,Right,Lower,0.0,2,Away
+3879748,Serie A,2016-02-20,28,44,Hellas Verona,Luca Toni,Right Foot,Albano Benjamín Bizzarri,Saved,Center,Lower,34.53150011970324,2,Home
+3879748,Serie A,2016-02-20,70,54,Chievo,Sergio Pellissier,Right Foot,Pierluigi Gollini,Goal,Left,Lower,90.0,-2,Away
+3879752,Serie A,2016-02-21,56,38,Genoa,Alessio Cerci,Left Foot,Orestis Karnezis,Goal,Right,Upper,0.0,1,Home
+3879753,Serie A,2016-02-21,69,19,Empoli,Massimo Maccarone,Right Foot,Andrea Consigli,Goal,Left,Lower,0.0,-1,Away
+3879754,Serie A,2016-02-21,76,59,Torino,Maximiliano Gastón López,Right Foot,Vid Belec,Saved,Left,Lower,84.12260739335684,0,Home
+3879752,Serie A,2016-02-21,89,9,Udinese,Antonio Di Natale,Right Foot,Mattia Perin,Saved,Center,Middle,34.685947418167736,-1,Away
+3879761,Serie A,2016-02-28,74,50,Carpi,Simone Verdi,Right Foot,Marco Sportiello,Goal,Left,Middle,0.0,0,Home
+3879759,Serie A,2016-02-28,83,35,Juventus,Álvaro Borja Morata Martín,Right Foot,Samir Handanovič,Goal,Left,Upper,90.0,2,Home
+3879766,Serie A,2016-02-29,40,32,Sassuolo,Domenico Berardi,Left Foot,Etrit Berisha,Goal,Center,Middle,0.0,2,Away
+3879767,Serie A,2016-03-04,47,3,Fiorentina,Josip Iličić,Left Foot,Wojciech Szczęsny,Goal,Left,Middle,0.0,-3,Away
+3879772,Serie A,2016-03-06,21,17,Torino,Ciro Immobile,Right Foot,Federico Marchetti,Off T,Left,Upper,0.0,0,Home
+3879772,Serie A,2016-03-06,77,44,Lazio,Lucas Rodrigo Biglia,Right Foot,Daniele Padelli,Goal,Right,Middle,0.0,0,Away
+3879784,Serie A,2016-03-13,19,17,Genoa,Alessio Cerci,Left Foot,Daniele Padelli,Goal,Center,Middle,0.0,1,Home
+3879786,Serie A,2016-03-13,22,0,Napoli,Gonzalo Gerardo Higuaín,Right Foot,Stefano Sorrentino,Goal,Center,Upper,0.0,1,Away
+3879784,Serie A,2016-03-13,46,22,Genoa,Alessio Cerci,Left Foot,Daniele Padelli,Goal,Left,Upper,0.0,1,Home
+3879782,Serie A,2016-03-13,89,6,Carpi,Jonathan de Guzmán,Right Foot,Nicola Leali,Goal,Left,Lower,0.0,1,Home
+3879792,Serie A,2016-03-20,29,44,Chievo,Valter Birsa,Left Foot,Emiliano Viviano,Saved,Center,Lower,23.875280853927517,1,Away
+3879790,Serie A,2016-03-20,47,25,Torino,Andrea Belotti,Right Foot,Gianluigi Buffon,Goal,Center,Lower,0.0,-3,Home
+3879794,Serie A,2016-03-20,76,50,Atalanta,Mauricio Ricardo Pinilla Ferreira,Right Foot,Antonio Mirante,Saved,Center,Middle,41.42366562500311,2,Home
+3879805,Serie A,2016-04-03,4,15,AC Milan,Luiz Adriano de Souza da Silva,Right Foot,Marco Sportiello,Goal,Left,Middle,0.0,-1,Away
+3879803,Serie A,2016-04-03,13,9,Udinese,Bruno Miguel Borges Fernandes,Right Foot,Gabriel Vasconelos Ferreira,Goal,Center,Lower,0.0,2,Home
+3879801,Serie A,2016-04-03,16,44,Inter Milan,Mauro Emanuel Icardi Rivero,Right Foot,Daniele Padelli,Goal,Left,Middle,0.0,-1,Home
+3879803,Serie A,2016-04-03,25,52,Udinese,Bruno Miguel Borges Fernandes,Right Foot,Gabriel Vasconelos Ferreira,Saved,Center,Lower,19.17900802581081,2,Home
+3879801,Serie A,2016-04-03,72,41,Torino,Andrea Belotti,Right Foot,Samir Handanovič,Goal,Center,Lower,0.0,1,Away
+3879811,Serie A,2016-04-10,46,51,Napoli,Lorenzo Insigne,Right Foot,Pierluigi Gollini,Goal,Right,Middle,0.0,3,Home
+3879818,Serie A,2016-04-16,92,41,Torino,Andrea Belotti,Right Foot,Antonio Mirante,Goal,Right,Lower,0.0,1,Away
+3879825,Serie A,2016-04-17,5,57,Lazio,Antonio Candreva,Right Foot,Alberto Pelagotti,Goal,Left,Middle,0.0,2,Home
+3879827,Serie A,2016-04-19,34,8,Napoli,Manolo Gabbiadini,Left Foot,Antonio Mirante,Goal,Right,Lower,0.0,6,Home
+3879832,Serie A,2016-04-20,1,24,Palermo,Franco Damián Vázquez,Left Foot,Marco Sportiello,Goal,Left,Middle,90.0,0,Home
+3879832,Serie A,2016-04-20,10,40,Atalanta,Marco Borriello,Left Foot,Stefano Sorrentino,Goal,Center,Lower,0.0,0,Away
+3879828,Serie A,2016-04-20,34,9,Torino,Andrea Belotti,Right Foot,Wojciech Szczęsny,Goal,Left,Middle,0.0,-1,Away
+3879835,Serie A,2016-04-20,46,33,Chievo,Sergio Pellissier,Right Foot,Nicola Leali,Goal,Center,Middle,0.0,4,Home
+3879833,Serie A,2016-04-20,51,12,Juventus,Paulo Bruno Exequiel Dybala,Left Foot,Federico Marchetti,Goal,Right,Middle,0.0,3,Home
+3879828,Serie A,2016-04-20,88,8,AS Roma,Francesco Totti,Right Foot,Daniele Padelli,Goal,Right,Lower,0.0,1,Home
+3879831,Serie A,2016-04-20,88,12,Sassuolo,Domenico Berardi,Left Foot,Emiliano Viviano,Saved,Left,Lower,64.11297373367303,0,Home
+3879838,Serie A,2016-04-24,43,51,Lazio,Antonio Candreva,Right Foot,Emiliano Viviano,Saved,Center,Middle,21.119856153424728,-1,Away
+3879839,Serie A,2016-04-24,89,40,Fiorentina,Nikola Kalinić,Right Foot,Gianluigi Buffon,Saved,Center,Middle,52.81529354676697,-1,Home
+3879846,Serie A,2016-04-25,71,15,Hellas Verona,Giampaolo Pazzini,Right Foot,Gianluigi Donnarumma,Goal,Left,Middle,0.0,1,Home
+3879851,Serie A,2016-05-01,47,48,AC Milan,Mario Barwuah Balotelli,Right Foot,Francesco Bardi,Saved,Center,Lower,33.166832943795725,0,Home
+3879853,Serie A,2016-05-01,83,34,Lazio,Antonio Candreva,Right Foot,Samir Handanovič,Goal,Center,Upper,0.0,2,Home
+3879851,Serie A,2016-05-01,91,22,AC Milan,Jérémy Ménez,Right Foot,Francesco Bardi,Goal,Right,Lower,0.0,0,Home
+3879858,Serie A,2016-05-07,39,37,AC Milan,Carlos Arturo Bacca Ahumada,Right Foot,Angelo Esmael da Costa Júnior,Goal,Right,Upper,0.0,1,Away
+3879859,Serie A,2016-05-08,11,20,Carpi,Jerry Uche Mbakogu,Right Foot,Federico Marchetti,Saved,Left,Middle,60.1644608997384,-2,Home
+3879863,Serie A,2016-05-08,18,36,Atalanta,Gianpaolo Bellini,Right Foot,Orestis Karnezis,Goal,Center,Middle,0.0,0,Home
+3879859,Serie A,2016-05-08,40,37,Carpi,Jerry Uche Mbakogu,Right Foot,Federico Marchetti,Saved,Center,Lower,50.75769476594843,-2,Home
+3879864,Serie A,2016-05-08,42,48,Hellas Verona,Luca Toni,Right Foot,Norberto Murara Neto,Goal,Center,Upper,0.0,1,Home
+3879864,Serie A,2016-05-08,93,56,Juventus,Paulo Bruno Exequiel Dybala,Left Foot,Pierluigi Gollini,Goal,Center,Middle,0.0,-1,Away
+3879870,Serie A,2016-05-14,14,31,Juventus,Paulo Bruno Exequiel Dybala,Left Foot,Alberto Brignoli,Goal,Right,Lower,0.0,5,Home
+3879871,Serie A,2016-05-15,35,39,Carpi,Simone Verdi,Right Foot,Orestis Karnezis,Goal,Left,Lower,0.0,1,Away
+3879874,Serie A,2016-05-15,73,13,Lazio,Miroslav Klose,Right Foot,Luca Lezzerini,Goal,Left,Upper,90.0,-2,Home
+3879871,Serie A,2016-05-15,78,52,Udinese,Antonio Di Natale,Right Foot,Simone Colombi,Goal,Right,Lower,0.0,-1,Home
+3788742,UEFA Euro,2021-06-12,73,49,Denmark,Pierre-Emile Højbjerg,Right Foot,Lukáš Hrádecký,Saved,Center,Lower,46.167375078015404,-1,Home
+3788752,UEFA Euro,2021-06-15,86,41,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Péter Gulácsi,Goal,Center,Middle,0.0,3,Away
+3788755,UEFA Euro,2021-06-16,60,46,Wales,Gareth Frank Bale,Left Foot,Uğurcan Çakır,Off T,Right,Upper,0.0,2,Away
+3788756,UEFA Euro,2021-06-17,10,21,Netherlands,Memphis Depay,Right Foot,Daniel Bachmann,Goal,Center,Lower,0.0,2,Home
+3788758,UEFA Euro,2021-06-17,56,11,North Macedonia,Ezgjan Alioski,Left Foot,Heorhii Bushchan,Saved,Center,Middle,30.316780247604044,-1,Away
+3788758,UEFA Euro,2021-06-17,83,32,Ukraine,Ruslan Malinovskiy,Left Foot,Stole Dimitrievski,Saved,Center,Middle,30.8064949521118,1,Home
+3788760,UEFA Euro,2021-06-18,36,51,Czech Republic,Patrik Schick,Left Foot,Dominik Livaković,Goal,Right,Lower,0.0,0,Away
+3788761,UEFA Euro,2021-06-18,76,34,Sweden,Emil Peter Forsberg,Right Foot,Martin Dúbravka,Goal,Center,Middle,0.0,1,Home
+3788762,UEFA Euro,2021-06-19,57,29,Spain,Gerard Moreno Balaguero,Left Foot,Wojciech Szczęsny,Post,Right,Lower,0.0,0,Home
+3788769,UEFA Euro,2021-06-21,69,15,Russia,Artem Dzyuba,Right Foot,Kasper Schmeichel,Goal,Center,Upper,0.0,-3,Home
+3788775,UEFA Euro,2021-06-23,11,5,Spain,Álvaro Borja Morata Martín,Right Foot,Martin Dúbravka,Saved,Center,Middle,0.0,5,Away
+3788773,UEFA Euro,2021-06-23,30,1,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Hugo Lloris,Goal,Center,Middle,0.0,0,Home
+3788773,UEFA Euro,2021-06-23,46,44,France,Karim Benzema,Right Foot,Rui Pedro dos Santos Patrício,Goal,Center,Upper,0.0,0,Away
+3788773,UEFA Euro,2021-06-23,59,31,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Hugo Lloris,Goal,Right,Lower,0.0,0,Home
+3794691,UEFA Euro,2021-06-28,54,6,Switzerland,Ricardo Iván Rodríguez Araya,Left Foot,Hugo Lloris,Saved,Center,Lower,45.77772299426348,0,Away
+3794691,UEFA Euro,2021-06-28,120,57,Switzerland,Mario Gavranović,Right Foot,Hugo Lloris,Goal,Center,Upper,0.0,0,Away
+3794691,UEFA Euro,2021-06-28,121,52,France,Paul Pogba,Right Foot,Yann Sommer,Goal,Right,Upper,0.0,0,Home
+3794691,UEFA Euro,2021-06-28,122,36,Switzerland,Fabian Lukas Schär,Right Foot,Hugo Lloris,Goal,Left,Upper,0.0,0,Away
+3794691,UEFA Euro,2021-06-28,123,26,France,Olivier Giroud,Left Foot,Yann Sommer,Goal,Center,Middle,0.0,0,Home
+3794691,UEFA Euro,2021-06-28,124,16,Switzerland,Manuel Obafemi Akanji,Right Foot,Hugo Lloris,Goal,Right,Lower,0.0,0,Away
+3794691,UEFA Euro,2021-06-28,125,6,France,Marcus Thuram,Right Foot,Yann Sommer,Goal,Right,Middle,90.0,0,Home
+3794691,UEFA Euro,2021-06-28,125,56,Switzerland,Ruben Vargas,Right Foot,Hugo Lloris,Goal,Center,Middle,0.0,0,Away
+3794691,UEFA Euro,2021-06-28,126,55,France,Presnel Kimpembe,Left Foot,Yann Sommer,Goal,Left,Upper,0.0,0,Home
+3794691,UEFA Euro,2021-06-28,127,39,Switzerland,Admir Mehmedi,Right Foot,Hugo Lloris,Goal,Left,Middle,0.0,0,Away
+3794691,UEFA Euro,2021-06-28,128,30,France,Kylian Mbappé Lottin,Right Foot,Yann Sommer,Saved,Center,Upper,28.110296567921797,0,Home
+3795107,UEFA Euro,2021-07-02,46,43,Belgium,Romelu Lukaku Menama,Left Foot,Gianluigi Donnarumma,Goal,Center,Middle,0.0,-1,Home
+3795108,UEFA Euro,2021-07-02,120,26,Spain,Sergio Busquets i Burgos,Right Foot,Yann Sommer,Post,Right,Lower,0.0,0,Away
+3795108,UEFA Euro,2021-07-02,121,13,Switzerland,Mario Gavranović,Right Foot,Unai Simón Mendibil,Goal,Right,Upper,90.0,0,Home
+3795108,UEFA Euro,2021-07-02,121,53,Spain,Daniel Olmo Carvajal,Right Foot,Yann Sommer,Goal,Right,Upper,90.0,0,Away
+3795108,UEFA Euro,2021-07-02,122,42,Switzerland,Fabian Lukas Schär,Right Foot,Unai Simón Mendibil,Saved,Center,Middle,51.673302989831384,0,Home
+3795108,UEFA Euro,2021-07-02,123,21,Spain,Rodrigo Hernández Cascante,Right Foot,Yann Sommer,Saved,Center,Middle,25.057615418302827,0,Away
+3795108,UEFA Euro,2021-07-02,124,25,Switzerland,Manuel Obafemi Akanji,Right Foot,Unai Simón Mendibil,Saved,Center,Lower,41.87786953788439,0,Home
+3795108,UEFA Euro,2021-07-02,125,7,Spain,Gerard Moreno Balaguero,Left Foot,Yann Sommer,Goal,Left,Upper,0.0,0,Away
+3795108,UEFA Euro,2021-07-02,125,54,Switzerland,Ruben Vargas,Right Foot,Unai Simón Mendibil,Off T,Center,Upper,0.0,0,Home
+3795108,UEFA Euro,2021-07-02,127,4,Spain,Mikel Oyarzabal Ugarte,Left Foot,Yann Sommer,Goal,Left,Lower,0.0,0,Away
+3795220,UEFA Euro,2021-07-06,120,1,Italy,Manuel Locatelli,Right Foot,Unai Simón Mendibil,Saved,Center,Lower,39.8356950534819,0,Home
+3795220,UEFA Euro,2021-07-06,120,52,Spain,Daniel Olmo Carvajal,Right Foot,Gianluigi Donnarumma,Off T,Right,Upper,0.0,0,Away
+3795220,UEFA Euro,2021-07-06,121,41,Italy,Andrea Belotti,Right Foot,Unai Simón Mendibil,Goal,Right,Middle,0.0,0,Home
+3795220,UEFA Euro,2021-07-06,122,23,Spain,Gerard Moreno Balaguero,Left Foot,Gianluigi Donnarumma,Goal,Center,Upper,0.0,0,Away
+3795220,UEFA Euro,2021-07-06,123,6,Italy,Leonardo Bonucci,Right Foot,Unai Simón Mendibil,Goal,Center,Middle,0.0,0,Home
+3795220,UEFA Euro,2021-07-06,123,43,Spain,Thiago Alcântara do Nascimento,Right Foot,Gianluigi Donnarumma,Goal,Right,Lower,0.0,0,Away
+3795220,UEFA Euro,2021-07-06,124,24,Italy,Federico Bernardeschi,Left Foot,Unai Simón Mendibil,Goal,Left,Upper,0.0,0,Home
+3795220,UEFA Euro,2021-07-06,125,2,Spain,Álvaro Borja Morata Martín,Right Foot,Gianluigi Donnarumma,Saved,Center,Lower,32.323062318142085,0,Away
+3795220,UEFA Euro,2021-07-06,126,0,Italy,Jorge Luiz Frello Filho,Right Foot,Unai Simón Mendibil,Goal,Left,Lower,0.0,0,Home
+3795221,UEFA Euro,2021-07-07,103,41,England,Harry Kane,Right Foot,Kasper Schmeichel,Saved,Center,Lower,41.34251565769808,1,Home
+3795506,UEFA Euro,2021-07-11,120,1,Italy,Domenico Berardi,Left Foot,Jordan Pickford,Goal,Center,Lower,0.0,0,Home
+3795506,UEFA Euro,2021-07-11,120,43,England,Harry Kane,Right Foot,Gianluigi Donnarumma,Goal,Right,Middle,90.0,0,Away
+3795506,UEFA Euro,2021-07-11,121,36,Italy,Andrea Belotti,Right Foot,Jordan Pickford,Saved,Center,Middle,30.40137413993364,0,Home
+3795506,UEFA Euro,2021-07-11,122,26,England,Harry Maguire,Right Foot,Gianluigi Donnarumma,Goal,Left,Upper,0.0,0,Away
+3795506,UEFA Euro,2021-07-11,123,17,Italy,Leonardo Bonucci,Right Foot,Jordan Pickford,Goal,Center,Upper,0.0,0,Home
+3795506,UEFA Euro,2021-07-11,124,11,England,Marcus Rashford,Right Foot,Gianluigi Donnarumma,Post,Right,Lower,0.0,0,Away
+3795506,UEFA Euro,2021-07-11,125,2,Italy,Federico Bernardeschi,Left Foot,Jordan Pickford,Goal,Center,Lower,0.0,0,Home
+3795506,UEFA Euro,2021-07-11,125,47,England,Jadon Sancho,Right Foot,Gianluigi Donnarumma,Saved,Center,Middle,43.916046614605115,0,Away
+3795506,UEFA Euro,2021-07-11,126,57,Italy,Jorge Luiz Frello Filho,Right Foot,Jordan Pickford,Saved to Post,Center,Lower,21.04756115328116,0,Home
+3795506,UEFA Euro,2021-07-11,127,43,England,Bukayo Saka,Left Foot,Gianluigi Donnarumma,Saved,Center,Middle,19.17900802581081,0,Away
+3930158,UEFA Euro,2024-06-14,45,35,Germany,Kai Havertz,Left Foot,Angus Gunn,Goal,Center,Middle,0.0,4,Home
+3930160,UEFA Euro,2024-06-15,79,3,Croatia,Bruno Petković,Right Foot,Unai Simón Mendibil,Saved,Center,Middle,54.41562639154032,-3,Away
+3938641,UEFA Euro,2024-06-21,77,50,Austria,Marko Arnautović,Right Foot,Wojciech Szczęsny,Goal,Center,Lower,0.0,2,Away
+3938642,UEFA Euro,2024-06-22,48,20,Georgia,Georges Mikautadze,Right Foot,Jindřich Staněk,Goal,Left,Upper,0.0,0,Home
+3930178,UEFA Euro,2024-06-24,53,45,Croatia,Luka Modrić,Right Foot,Gianluigi Donnarumma,Saved,Center,Lower,35.60089488237118,0,Home
+3938643,UEFA Euro,2024-06-25,55,37,France,Kylian Mbappé Lottin,Right Foot,Łukasz Skorupski,Goal,Center,Middle,0.0,0,Home
+3938643,UEFA Euro,2024-06-25,78,13,Poland,Robert Lewandowski,Right Foot,Mike Maignan,Goal,Right,Lower,0.0,0,Away
+3930183,UEFA Euro,2024-06-26,36,18,Romania,Răzvan Gabriel Marin,Right Foot,Martin Dúbravka,Goal,Center,Upper,0.0,0,Away
+3938644,UEFA Euro,2024-06-26,56,13,Georgia,Georges Mikautadze,Right Foot,Diogo Meireles Costa,Goal,Left,Lower,0.0,2,Home
+3940983,UEFA Euro,2024-06-29,52,58,Germany,Kai Havertz,Left Foot,Kasper Schmeichel,Goal,Left,Lower,0.0,2,Home
+3941020,UEFA Euro,2024-07-01,104,50,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Jan Oblak,Saved to Post,Left,Middle,42.357454705935304,0,Home
+3941020,UEFA Euro,2024-07-01,120,8,Slovenia,Josip Iličić,Left Foot,Diogo Meireles Costa,Saved,Center,Middle,35.194921773604506,0,Away
+3941020,UEFA Euro,2024-07-01,120,58,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Jan Oblak,Goal,Right,Middle,90.0,0,Home
+3941020,UEFA Euro,2024-07-01,121,40,Slovenia,Jure Balkovec,Left Foot,Diogo Meireles Costa,Saved,Center,Middle,30.85177795247185,0,Away
+3941020,UEFA Euro,2024-07-01,122,34,Portugal,Bruno Miguel Borges Fernandes,Right Foot,Jan Oblak,Goal,Center,Lower,0.0,0,Home
+3941020,UEFA Euro,2024-07-01,123,21,Slovenia,Benjamin Verbič,Right Foot,Diogo Meireles Costa,Saved,Center,Middle,28.237445538167037,0,Away
+3941020,UEFA Euro,2024-07-01,124,13,Portugal,Bernardo Mota Veiga de Carvalho e Silva,Left Foot,Jan Oblak,Goal,Left,Middle,0.0,0,Home
+3942349,UEFA Euro,2024-07-05,120,3,France,Ousmane Dembélé,Right Foot,Diogo Meireles Costa,Goal,Center,Lower,0.0,0,Away
+3942349,UEFA Euro,2024-07-05,120,59,Portugal,Cristiano Ronaldo dos Santos Aveiro,Right Foot,Mike Maignan,Goal,Center,Middle,0.0,0,Home
+3942349,UEFA Euro,2024-07-05,121,51,France,Youssouf Fofana,Right Foot,Diogo Meireles Costa,Goal,Center,Lower,0.0,0,Away
+3942349,UEFA Euro,2024-07-05,122,34,Portugal,Bernardo Mota Veiga de Carvalho e Silva,Left Foot,Mike Maignan,Goal,Center,Upper,0.0,0,Home
+3942349,UEFA Euro,2024-07-05,123,25,France,Jules Koundé,Right Foot,Diogo Meireles Costa,Goal,Right,Upper,90.0,0,Away
+3942349,UEFA Euro,2024-07-05,124,20,Portugal,João Félix Sequeira,Right Foot,Mike Maignan,Post,Right,Lower,0.0,0,Home
+3942349,UEFA Euro,2024-07-05,125,22,France,Bradley Barcola,Right Foot,Diogo Meireles Costa,Goal,Center,Middle,0.0,0,Away
+3942349,UEFA Euro,2024-07-05,126,22,Portugal,Nuno Mendes,Left Foot,Mike Maignan,Goal,Left,Upper,90.0,0,Home
+3942349,UEFA Euro,2024-07-05,127,16,France,Theo Bernard François Hernández,Left Foot,Diogo Meireles Costa,Goal,Right,Upper,90.0,0,Away
+3942227,UEFA Euro,2024-07-06,120,1,England,Cole Palmer,Left Foot,Yann Sommer,Goal,Center,Middle,0.0,0,Home
+3942227,UEFA Euro,2024-07-06,121,3,Switzerland,Manuel Obafemi Akanji,Right Foot,Jordan Pickford,Saved,Center,Lower,16.858398767738162,0,Away
+3942227,UEFA Euro,2024-07-06,121,59,England,Jude Bellingham,Right Foot,Yann Sommer,Goal,Left,Lower,90.0,0,Home
+3942227,UEFA Euro,2024-07-06,122,52,Switzerland,Fabian Lukas Schär,Right Foot,Jordan Pickford,Goal,Center,Lower,0.0,0,Away
+3942227,UEFA Euro,2024-07-06,123,53,England,Bukayo Saka,Left Foot,Yann Sommer,Goal,Left,Lower,0.0,0,Home
+3942227,UEFA Euro,2024-07-06,124,38,Switzerland,Xherdan Shaqiri,Left Foot,Jordan Pickford,Goal,Left,Middle,0.0,0,Away
+3942227,UEFA Euro,2024-07-06,125,30,England,Ivan Toney,Right Foot,Yann Sommer,Goal,Center,Lower,0.0,0,Home
+3942227,UEFA Euro,2024-07-06,126,25,Switzerland,Mohamed Zeki Amdouni,Right Foot,Jordan Pickford,Goal,Center,Lower,0.0,0,Away
+3942227,UEFA Euro,2024-07-06,127,21,England,Trent Alexander-Arnold,Right Foot,Yann Sommer,Goal,Right,Upper,0.0,0,Home
+3942819,UEFA Euro,2024-07-10,17,34,England,Harry Kane,Right Foot,Bart Verbruggen,Goal,Right,Lower,0.0,1,Away
+3750245,UEFA Europa League,1989-03-15,9,58,Napoli,Diego Armando Maradona,Left Foot,Stefano Tacconi,Goal,Left,Lower,0.0,3,Home
+3887188,UEFA Europa League,1989-05-03,68,16,Napoli,Diego Armando Maradona,Left Foot,Eike Immel,Goal,Center,Middle,0.0,1,Home
