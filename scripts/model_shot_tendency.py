@@ -1,16 +1,18 @@
 # model_shot_tendency.py
-# Trains a model to predict the striker's shot direction (Left, Right, Center)
-# using only pre-shot features, incorporating Keeper and Striker Skill Proxies (now using Elo).
+# Trains a model to predict the striker's shot direction (Left vs. Not Left)
+# using only pre-shot features, incorporating Keeper and Striker Elo Skill Proxies.
+# CHANGE: Simplified the target variable to a Binary Classification problem (Left vs. Not Left).
 
 import pandas as pd
 import numpy as np
 from pathlib import Path
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.ensemble import GradientBoostingClassifier  # CHANGE: Use Gradient Boosting
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+# Import XGBoost for maximum performance uplift
+from xgboost import XGBClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score, f1_score
 from sklearn.compose import ColumnTransformer
-from scipy.stats import randint, uniform  # Added uniform for continuous hyperparams
+from scipy.stats import randint, uniform
 from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline as ImbPipeline
 
@@ -20,7 +22,7 @@ OUTPUT_DIR = BASE_DIR / "output"
 INPUT_FILE = OUTPUT_DIR / "penalty_event_log.csv"
 
 
-# --- Elo Rating Calculation Function (NEW) ---
+# --- Elo Rating Calculation Function (UNCHANGED) ---
 
 def calculate_elo_rating(df: pd.DataFrame, default_elo=1500, k_factor=32) -> pd.DataFrame:
     """
@@ -83,7 +85,7 @@ def calculate_elo_rating(df: pd.DataFrame, default_elo=1500, k_factor=32) -> pd.
 def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
     """
     Calculates cumulative historical shot tendencies for the striker AND save tendencies
-    for the keeper, and now includes Elo ratings.
+    for the keeper, and includes Elo ratings. (UNCHANGED logic for features)
     """
 
     # === COLUMN DEFINITIONS BASED ON USER INPUT ===
@@ -91,11 +93,10 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
     KEEPER_COLUMN = 'goalkeeper_name'
     # ==========================================
 
-    # 0. Calculate ELO ratings (NEW)
+    # 0. Calculate ELO ratings
     df = calculate_elo_rating(df, default_elo=1500, k_factor=32)
 
-    # Ensure data is sorted chronologically (required for cumulative calculations)
-    # Re-sort is necessary here after the Elo merge, ensuring penalty-specific features are time-correct
+    # Ensure data is sorted chronologically
     df = df.sort_values(by=['striker', 'match_date', 'minute', 'second'])
 
     # --- 1. Striker Shot Tendencies (Direction) ---
@@ -124,18 +125,12 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
     df['hist_right_pct'] = safe_div(df['cum_right_prev'], df['cum_total_prev'])
     df['hist_center_pct'] = safe_div(df['cum_center_prev'], df['cum_total_prev'])
 
-    # --- 2. Striker Skill Proxy (REMOVED: Now using Elo) ---
-    # df['is_goal'] = (df[PENALTY_RESULT_COLUMN] == 'Goal').astype(int)
-    # df['cum_goals_prev'] = df.groupby('striker')['is_goal'].cumsum().shift(1, fill_value=0)
-    # df['striker_success_rate'] = safe_div(df['cum_goals_prev'], df['cum_total_prev'])
-
     # --- 3. Keeper Historical Tendencies (Save/Miss) ---
 
-    # Sort by keeper now to calculate keeper cumulative stats (Using KEEPER_COLUMN)
+    # Sort by keeper now to calculate keeper cumulative stats
     df = df.sort_values(by=[KEEPER_COLUMN, 'match_date', 'minute', 'second'])
 
     # Determine if the keeper succeeded (save or miss) for each shot side
-    # Using the defined PENALTY_RESULT_COLUMN
     df['is_left_save'] = ((df['shot_side'] == 'Left') & (df[PENALTY_RESULT_COLUMN].isin(['Saved', 'Missed']))).astype(
         int)
     df['is_right_save'] = ((df['shot_side'] == 'Right') & (df[PENALTY_RESULT_COLUMN].isin(['Saved', 'Missed']))).astype(
@@ -143,20 +138,20 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
     df['is_center_save'] = (
                 (df['shot_side'] == 'Center') & (df[PENALTY_RESULT_COLUMN].isin(['Saved', 'Missed']))).astype(int)
 
-    # Cumulative count of times keeper faced a shot to that side (Using KEEPER_COLUMN)
+    # Cumulative count of times keeper faced a shot to that side
     df['keeper_cum_left_faced'] = (df['shot_side'] == 'Left').astype(int).groupby(df[KEEPER_COLUMN]).cumsum()
     df['keeper_cum_right_faced'] = (df['shot_side'] == 'Right').astype(int).groupby(df[KEEPER_COLUMN]).cumsum()
     df['keeper_cum_center_faced'] = (df['shot_side'] == 'Center').astype(int).groupby(df[KEEPER_COLUMN]).cumsum()
 
-    # Cumulative saves/misses for each side (Using KEEPER_COLUMN)
+    # Cumulative saves/misses for each side
     df['keeper_cum_left_save'] = df.groupby(KEEPER_COLUMN)['is_left_save'].cumsum()
     df['keeper_cum_right_save'] = df.groupby(KEEPER_COLUMN)['is_right_save'].cumsum()
     df['keeper_cum_center_save'] = df.groupby(KEEPER_COLUMN)['is_center_save'].cumsum()
 
-    # Total penalties faced by keeper (Using KEEPER_COLUMN)
+    # Total penalties faced by keeper
     df['keeper_cum_total_faced'] = df.groupby(KEEPER_COLUMN)['match_id'].cumcount() + 1
 
-    # Shift counts down by 1 (PREV state) (Using KEEPER_COLUMN)
+    # Shift counts down by 1 (PREV state)
     for col in ['keeper_cum_left_save', 'keeper_cum_right_save', 'keeper_cum_center_save',
                 'keeper_cum_left_faced', 'keeper_cum_right_faced', 'keeper_cum_center_faced',
                 'keeper_cum_total_faced']:
@@ -171,7 +166,7 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
     # Drop intermediate and unneeded columns
     cols_to_drop = [col for col in df.columns if col.startswith(('cum_', 'is_', 'keeper_cum_')) and not col.endswith(
         '_prev') and col != 'keeper_total_faced_prev']
-    cols_to_drop.extend(['outcome', 'is_goal'])
+    cols_to_drop.extend(['outcome'])
     df = df.drop(columns=cols_to_drop, errors='ignore')
 
     return df
@@ -181,8 +176,7 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
 
 def train_and_evaluate_tendency_model(df: pd.DataFrame):
     """
-    Trains a multi-class classification model to predict shot side using RandomizedSearchCV
-    with SMOTE for class balancing. Now using Gradient Boosting Classifier.
+    Trains a BINARY classification model to predict if the shot is Left or Not Left.
     """
 
     # Filter out penalties where the striker has no prior history or the Elo is default
@@ -194,10 +188,9 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     existing_elo_cols = [c for c in elo_cols if c in df_model.columns]
     print(df_model[existing_elo_cols].head().to_string(index=False))
     print("-" * 75)
-    # --------------------------------------------------------------------------
 
     # ----------------------------------------------------
-    # Define Features (X)
+    # Define Features (X) (UNCHANGED)
     # ----------------------------------------------------
     features = [
         'footedness', 'home_or_away', 'match_scoreline_diff', 'minute',
@@ -214,42 +207,37 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         'keeper_hist_center_save_pct', 'keeper_total_faced_prev'
     ]
 
-    # Target (y)
-    target = 'shot_side'
+    # ----------------------------------------------------
+    # NEW TARGET DEFINITION: Binary Classification
+    # ----------------------------------------------------
+    target = 'is_left_shot'
+    # 1 if shot is Left, 0 if shot is Right or Center
+    df_model[target] = (df_model['shot_side'] == 'Left').astype(int)
 
     X = df_model[features]
     y = df_model[target]
 
-    # Filter to only known classes (Left, Right, Center)
-    known_classes = ['Left', 'Right', 'Center']
-    y = y[y.isin(known_classes)]
+    # Drop rows where shot_side was missing or unclassified (if any, though not expected here)
+    y = y[df_model['shot_side'].isin(['Left', 'Right', 'Center'])]
     X = X.loc[y.index]
 
-    # XGBoost requires integer labels for multi-class classification, so we encode y
-    label_mapping = {label: i for i, label in enumerate(known_classes)}
-    y_encoded = y.map(label_mapping)
-
     # Split data into training and testing sets
-    X_train, X_test, y_train_encoded, y_test_encoded = train_test_split(
-        X, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
     )
-    # Also keep the original labels for the classification report
-    y_test_original = y.loc[y_test_encoded.index]
 
     print(f"\nTraining set size: {len(X_train)} samples")
     print(f"Test set size: {len(X_test)} samples")
+    print(f"Test set class balance (Left=1, Not Left=0):\n{y_test.value_counts(normalize=True)}")
 
     # --- Create Preprocessing Pipeline ---
 
     categorical_features = ['footedness', 'home_or_away']
     numerical_features = [f for f in features if f not in categorical_features]
 
-    # Create the preprocessing transformer
     preprocessor = ColumnTransformer(
         transformers=[
-            # Scale numerical features
             ('num', StandardScaler(), numerical_features),
-            # Keep One-Hot Encoding for categorical features
             ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features)
         ],
         remainder='drop'
@@ -257,26 +245,33 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
 
     # --- Create Modeling Pipeline with RandomizedSearchCV ---
 
-    # Define the Gradient Boosting Classifier (GBC)
-    classifier = GradientBoostingClassifier(random_state=42)  # CHANGE
+    # Define the XGBoost Classifier for Binary Classification
+    classifier = XGBClassifier(
+        objective='binary:logistic',  # CHANGE: Binary objective
+        eval_metric='logloss',
+        use_label_encoder=False,
+        random_state=42
+    )
 
-    # Initialize SMOTE for oversampling
+    # Initialize SMOTE for oversampling (still good practice for binary imbalance)
     smote = SMOTE(random_state=42)
 
-    # Use imblearn's Pipeline to integrate SMOTE, ensuring it happens BEFORE the classifier
     model_pipeline = ImbPipeline(steps=[
         ('preprocessor', preprocessor),
         ('smote', smote),
         ('classifier', classifier)
     ])
 
-    # Define the parameter distribution for RandomizedSearchCV (adjusted for GBC)
+    # Define the parameter distribution for RandomizedSearchCV (adjusted for binary)
     param_distributions = {
-        'classifier__n_estimators': randint(100, 300),  # Number of boosting stages
-        'classifier__max_depth': randint(3, 8),  # Depth of individual trees
-        'classifier__learning_rate': uniform(0.01, 0.2),  # Shrinkage factor (0.01 to 0.21)
-        'classifier__subsample': uniform(0.7, 0.3),  # Fraction of samples used for fitting (0.7 to 1.0)
-        'classifier__min_samples_leaf': randint(1, 5)  # Minimum number of samples required at a leaf node
+        'classifier__n_estimators': randint(100, 500),
+        'classifier__max_depth': randint(3, 10),  # Slightly reduced max_depth for binary
+        'classifier__learning_rate': uniform(0.01, 0.3),
+        'classifier__subsample': uniform(0.7, 0.3),
+        'classifier__colsample_bytree': uniform(0.6, 0.4),
+        'classifier__gamma': uniform(0, 0.5),
+        # Scale weight of positive examples (Left shot = 1)
+        'classifier__scale_pos_weight': [1, 1.5, 2]  # Experimenting with manual weighting
     }
 
     # Initialize RandomizedSearchCV
@@ -285,16 +280,15 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         param_distributions=param_distributions,
         n_iter=50,
         cv=5,
-        scoring='f1_weighted',
+        scoring='f1',  # Use standard F1 for binary classification
         random_state=42,
         verbose=1,
         n_jobs=-1
     )
 
     # Train the model using Randomized Search
-    print(
-        f"\n--- Training Shot Tendency Model (Gradient Boosting with RandomizedSearchCV + SMOTE, n_iter=50) ---")  # CHANGE
-    random_search.fit(X_train, y_train_encoded)
+    print(f"\n--- Training Shot Tendency Model (XGBoost Binary Left vs. Not Left) ---")
+    random_search.fit(X_train, y_train)
 
     # Get the best model
     best_model = random_search.best_estimator_
@@ -304,8 +298,8 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
                          k.startswith('classifier__')}
     print(best_params_clean)
 
-    # --- Feature Importance Analysis ---
-    # Feature importance must come from the best model's classifier step
+    # --- Feature Importance Analysis (UNCHANGED Logic) ---
+
     feature_names = best_model.named_steps['preprocessor'].get_feature_names_out()
     feature_importances = best_model.named_steps['classifier'].feature_importances_
 
@@ -314,41 +308,45 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
 
     print("\n--- Top 10 Feature Importances (Best Model) ---")
     print(importance_df.head(10).to_string(index=False))
-    # ---------------------------------------
-
-    # Predict on the test set using the best model
-    y_pred_encoded = best_model.predict(X_test)
-
-    # Convert predictions back to original labels for report
-    reverse_mapping = {i: label for label, i in label_mapping.items()}
-    y_pred_original = pd.Series(y_pred_encoded).map(reverse_mapping)
 
     # --- Evaluation ---
-    print("\n--- Model Evaluation (Pre-Shot Tendency - Optimized GBC + SMOTE) ---")  # CHANGE
+
+    y_pred = best_model.predict(X_test)
+    y_pred_proba = best_model.predict_proba(X_test)[:, 1]  # Probability of "Left" (class 1)
+
+    print("\n--- Model Evaluation (Optimized XGBoost Binary: Left vs. Not Left) ---")
 
     # 1. Overall Accuracy
-    accuracy = accuracy_score(y_test_original, y_pred_original)
+    accuracy = accuracy_score(y_test, y_pred)
     print(f"Model Accuracy on Test Set: {accuracy:.4f}")
 
     # 2. Detailed Classification Report
+    target_names = ['Not Left (0)', 'Left (1)']
     print("\nClassification Report:")
-    print(classification_report(y_test_original, y_pred_original, target_names=known_classes))
+    print(classification_report(y_test, y_pred, target_names=target_names))
 
-    # 3. Confusion Matrix
-    conf_mat = confusion_matrix(y_test_original, y_pred_original)
+    # 3. AUC-ROC (Key metric for binary classification)
+    try:
+        auc_roc = roc_auc_score(y_test, y_pred_proba)
+        print(f"AUC-ROC Score: {auc_roc:.4f} (Closer to 1.0 is better)")
+    except ValueError:
+        print("AUC-ROC could not be calculated (requires probability scores).")
+
+    # 4. Confusion Matrix
+    conf_mat = confusion_matrix(y_test, y_pred)
 
     print("\nConfusion Matrix (Rows=Actual, Columns=Predicted):")
     print(pd.DataFrame(conf_mat,
-                       index=[f'Actual {l}' for l in known_classes],
-                       columns=[f'Predicted {l}' for l in known_classes]))
+                       index=[f'Actual {l}' for l in target_names],
+                       columns=[f'Predicted {l}' for l in target_names]))
 
     # Interpretation for the portfolio:
     print("\n--- Portfolio Insight ---")
     print("Interpretation: The Diagonal of the Confusion Matrix (top-left to bottom-right) shows")
-    print("how often the model correctly predicted the side. The overall accuracy shows if the")
-    print("model can beat a simple baseline (e.g., always guessing the most common side).")
+    print("how often the model correctly predicted the shot side (Left or Not Left). The AUC-ROC is")
+    print("the overall measure of the model's ability to distinguish between the two classes.")
     print(
-        f"\nIMPROVEMENT APPLIED: Switched to Gradient Boosting Classifier with SMOTE oversampling. Best weighted F1-score: {random_search.best_score_:.4f}")
+        f"\nIMPROVEMENT APPLIED: Switched the problem to a BINARY classification (Left vs. Not Left) to leverage the majority class and stabilize predictions. Best F1-score: {random_search.best_score_:.4f}")
 
 
 if __name__ == "__main__":
