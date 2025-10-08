@@ -5,13 +5,15 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, RandomizedSearchCV  # ADDED RandomizedSearchCV
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.utils.class_weight import compute_class_weight
-from xgboost import XGBClassifier
+# Replaced compute_class_weight as Random Forest uses built-in class_weight
+# from sklearn.utils.class_weight import compute_class_weight
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
+from scipy.stats import randint  # ADDED randint for hyperparameter search
 
 # Set the base directory (TEST/) by going up one level from the scripts directory
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -181,7 +183,7 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
 
 def train_and_evaluate_tendency_model(df: pd.DataFrame):
     """
-    Trains a multi-class classification model to predict shot side.
+    Trains a multi-class classification model to predict shot side using RandomizedSearchCV.
     """
 
     # Filter out penalties where the striker has no prior history or the Elo is default
@@ -240,20 +242,9 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     print(f"\nTraining set size: {len(X_train)} samples")
     print(f"Test set size: {len(X_test)} samples")
 
-    # --- Class Weighting for Imbalance Fix ---
-    # Calculate weights for each class in the training set
-    weights = compute_class_weight(
-        class_weight='balanced',
-        classes=np.unique(y_train_encoded),
-        y=y_train_encoded
-    )
-    # Map the weights to the training samples
-    sample_weights = y_train_encoded.apply(lambda x: weights[x])
-
     # --- Create Preprocessing Pipeline ---
 
     categorical_features = ['footedness', 'home_or_away']
-    # All historical percentages, score, time, and count features are numerical
     numerical_features = [f for f in features if f not in categorical_features]
 
     # Create the preprocessing transformer
@@ -267,33 +258,72 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         remainder='drop'
     )
 
-    # --- Create Modeling Pipeline ---
+    # --- Create Modeling Pipeline with RandomizedSearchCV ---
+
+    # Define the Random Forest Classifier with class balancing
+    classifier = RandomForestClassifier(random_state=42, class_weight='balanced')
 
     model_pipeline = Pipeline(steps=[
         ('preprocessor', preprocessor),
-        ('classifier', XGBClassifier(
-            objective='multi:softmax',
-            num_class=len(known_classes),
-            eval_metric='merror',
-            random_state=42,
-            n_estimators=200,
-            use_label_encoder=False
-        ))
+        ('classifier', classifier)
     ])
 
-    # Train the model (Passing sample weights to the fit method)
-    print("\n--- Training Shot Tendency Model (XGBoost Classifier with ELO and Class Weighting) ---")
-    model_pipeline.fit(X_train, y_train_encoded, classifier__sample_weight=sample_weights.values)
+    # Define the parameter distribution for RandomizedSearchCV
+    param_distributions = {
+        'classifier__n_estimators': randint(100, 500),
+        'classifier__max_depth': randint(5, 15),  # Explore depths between 5 and 14
+        'classifier__min_samples_split': randint(2, 20),
+        'classifier__min_samples_leaf': randint(1, 10),
+        'classifier__max_features': [1.0, 'sqrt', 'log2']  # Explore feature selection strategies
+    }
 
-    # Predict on the test set
-    y_pred_encoded = model_pipeline.predict(X_test)
+    # Initialize RandomizedSearchCV
+    # Scoring: 'f1_weighted' is appropriate for multi-class classification with imbalance
+    random_search = RandomizedSearchCV(
+        model_pipeline,
+        param_distributions=param_distributions,
+        n_iter=50,  # Number of parameter settings that are sampled
+        cv=5,  # 5-fold cross-validation
+        scoring='f1_weighted',  # Metric to optimize for (weighted F1 to handle class imbalance)
+        random_state=42,
+        verbose=1,
+        n_jobs=-1  # Use all available cores
+    )
+
+    # Train the model using Randomized Search
+    print(f"\n--- Training Shot Tendency Model (Random Forest with RandomizedSearchCV, n_iter=50) ---")
+    random_search.fit(X_train, y_train_encoded)
+
+    # Get the best model
+    best_model = random_search.best_estimator_
+
+    print("\n--- Best Hyperparameters Found (RandomizedSearchCV) ---")
+    # Clean up the parameter names for display
+    best_params_clean = {k.split('__')[1]: v for k, v in random_search.best_params_.items()}
+    print(best_params_clean)
+
+    # --- Feature Importance Analysis ---
+    # Feature importance must come from the best model's classifier step
+    feature_names = best_model.named_steps['preprocessor'].get_feature_names_out()
+    feature_importances = best_model.named_steps['classifier'].feature_importances_
+
+    importance_df = pd.DataFrame({'Feature': feature_names, 'Importance': feature_importances})
+    importance_df = importance_df.sort_values(by='Importance', ascending=False)
+
+    print("\n--- Top 10 Feature Importances (Best Model) ---")
+    # Using .to_string() for clean output
+    print(importance_df.head(10).to_string(index=False))
+    # ---------------------------------------
+
+    # Predict on the test set using the best model
+    y_pred_encoded = best_model.predict(X_test)
 
     # Convert predictions back to original labels for report
     reverse_mapping = {i: label for label, i in label_mapping.items()}
     y_pred_original = pd.Series(y_pred_encoded).map(reverse_mapping)
 
     # --- Evaluation ---
-    print("\n--- Model Evaluation (Pre-Shot Tendency) ---")
+    print("\n--- Model Evaluation (Pre-Shot Tendency - Optimized RF) ---")
 
     # 1. Overall Accuracy
     accuracy = accuracy_score(y_test_original, y_pred_original)
@@ -317,7 +347,8 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     print("Interpretation: The Diagonal of the Confusion Matrix (top-left to bottom-right) shows")
     print("how often the model correctly predicted the side. The overall accuracy shows if the")
     print("model can beat a simple baseline (e.g., always guessing the most common side).")
-    print("\nFIX APPLIED: Replaced the simple success rate proxy with dynamic Striker and Keeper ELO ratings.")
+    print(
+        f"\nIMPROVEMENT APPLIED: Implemented RandomizedSearchCV to tune the Random Forest model (n_iter={random_search.n_iter}, cv={random_search.cv}). Best weighted F1-score: {random_search.best_score_:.4f}")
 
 
 if __name__ == "__main__":
