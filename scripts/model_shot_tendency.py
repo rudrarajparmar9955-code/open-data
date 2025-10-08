@@ -5,14 +5,9 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.ensemble import GradientBoostingClassifier  # CHANGE: Use Gradient Boosting
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.compose import ColumnTransformer
-from scipy.stats import randint, uniform  # Added uniform for continuous hyperparams
-from imblearn.over_sampling import SMOTE
-from imblearn.pipeline import Pipeline as ImbPipeline
 
 # Set the base directory (TEST/) by going up one level from the scripts directory
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -181,8 +176,6 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
 
 def train_and_evaluate_tendency_model(df: pd.DataFrame):
     """
-    Trains a multi-class classification model to predict shot side using RandomizedSearchCV
-    with SMOTE for class balancing. Now using Gradient Boosting Classifier.
     """
 
     # Filter out penalties where the striker has no prior history or the Elo is default
@@ -197,7 +190,6 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     # --------------------------------------------------------------------------
 
     # ----------------------------------------------------
-    # Define Features (X)
     # ----------------------------------------------------
     features = [
         'footedness', 'home_or_away', 'match_scoreline_diff', 'minute',
@@ -205,11 +197,9 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         # Striker Tendency Features
         'hist_left_pct', 'hist_right_pct', 'hist_center_pct', 'cum_total_prev',
 
-        # Striker and Keeper ELO
         'striker_elo_prev',
         'keeper_elo_prev',
 
-        # Keeper Tendency Features
         'keeper_hist_left_save_pct', 'keeper_hist_right_save_pct',
         'keeper_hist_center_save_pct', 'keeper_total_faced_prev'
     ]
@@ -255,76 +245,17 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         remainder='drop'
     )
 
-    # --- Create Modeling Pipeline with RandomizedSearchCV ---
 
-    # Define the Gradient Boosting Classifier (GBC)
-    classifier = GradientBoostingClassifier(random_state=42)  # CHANGE
-
-    # Initialize SMOTE for oversampling
-    smote = SMOTE(random_state=42)
-
-    # Use imblearn's Pipeline to integrate SMOTE, ensuring it happens BEFORE the classifier
-    model_pipeline = ImbPipeline(steps=[
         ('preprocessor', preprocessor),
-        ('smote', smote),
-        ('classifier', classifier)
-    ])
-
-    # Define the parameter distribution for RandomizedSearchCV (adjusted for GBC)
-    param_distributions = {
-        'classifier__n_estimators': randint(100, 300),  # Number of boosting stages
-        'classifier__max_depth': randint(3, 8),  # Depth of individual trees
-        'classifier__learning_rate': uniform(0.01, 0.2),  # Shrinkage factor (0.01 to 0.21)
-        'classifier__subsample': uniform(0.7, 0.3),  # Fraction of samples used for fitting (0.7 to 1.0)
-        'classifier__min_samples_leaf': randint(1, 5)  # Minimum number of samples required at a leaf node
-    }
-
-    # Initialize RandomizedSearchCV
-    random_search = RandomizedSearchCV(
-        model_pipeline,
-        param_distributions=param_distributions,
-        n_iter=50,
-        cv=5,
-        scoring='f1_weighted',
         random_state=42,
-        verbose=1,
-        n_jobs=-1
-    )
 
-    # Train the model using Randomized Search
-    print(
-        f"\n--- Training Shot Tendency Model (Gradient Boosting with RandomizedSearchCV + SMOTE, n_iter=50) ---")  # CHANGE
-    random_search.fit(X_train, y_train_encoded)
 
-    # Get the best model
-    best_model = random_search.best_estimator_
-
-    print("\n--- Best Hyperparameters Found (RandomizedSearchCV) ---")
-    best_params_clean = {k.split('__')[1]: v for k, v in random_search.best_params_.items() if
-                         k.startswith('classifier__')}
-    print(best_params_clean)
-
-    # --- Feature Importance Analysis ---
-    # Feature importance must come from the best model's classifier step
-    feature_names = best_model.named_steps['preprocessor'].get_feature_names_out()
-    feature_importances = best_model.named_steps['classifier'].feature_importances_
-
-    importance_df = pd.DataFrame({'Feature': feature_names, 'Importance': feature_importances})
-    importance_df = importance_df.sort_values(by='Importance', ascending=False)
-
-    print("\n--- Top 10 Feature Importances (Best Model) ---")
-    print(importance_df.head(10).to_string(index=False))
-    # ---------------------------------------
-
-    # Predict on the test set using the best model
-    y_pred_encoded = best_model.predict(X_test)
 
     # Convert predictions back to original labels for report
     reverse_mapping = {i: label for label, i in label_mapping.items()}
     y_pred_original = pd.Series(y_pred_encoded).map(reverse_mapping)
 
     # --- Evaluation ---
-    print("\n--- Model Evaluation (Pre-Shot Tendency - Optimized GBC + SMOTE) ---")  # CHANGE
 
     # 1. Overall Accuracy
     accuracy = accuracy_score(y_test_original, y_pred_original)
@@ -334,7 +265,6 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     print("\nClassification Report:")
     print(classification_report(y_test_original, y_pred_original, target_names=known_classes))
 
-    # 3. Confusion Matrix
     conf_mat = confusion_matrix(y_test_original, y_pred_original)
 
     print("\nConfusion Matrix (Rows=Actual, Columns=Predicted):")
@@ -347,8 +277,6 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     print("Interpretation: The Diagonal of the Confusion Matrix (top-left to bottom-right) shows")
     print("how often the model correctly predicted the side. The overall accuracy shows if the")
     print("model can beat a simple baseline (e.g., always guessing the most common side).")
-    print(
-        f"\nIMPROVEMENT APPLIED: Switched to Gradient Boosting Classifier with SMOTE oversampling. Best weighted F1-score: {random_search.best_score_:.4f}")
 
 
 if __name__ == "__main__":
