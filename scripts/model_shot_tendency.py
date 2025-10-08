@@ -1,20 +1,19 @@
 # model_shot_tendency.py
 # Trains a model to predict the striker's shot direction (Left vs. Not Left)
 # using only pre-shot features, incorporating Keeper and Striker Elo Skill Proxies.
-# CHANGE: Simplified the target variable to a Binary Classification problem (Left vs. Not Left).
+# CHANGE: Removed SMOTE and switched scoring to 'roc_auc' to improve generalization and reduce over-correction bias.
 
 import pandas as pd
 import numpy as np
 from pathlib import Path
+# Using standard Pipeline since SMOTE is removed
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-# Import XGBoost for maximum performance uplift
 from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score, f1_score
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score
 from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline  # Changed from imblearn.pipeline.Pipeline to standard sklearn.pipeline.Pipeline
 from scipy.stats import randint, uniform
-from imblearn.over_sampling import SMOTE
-from imblearn.pipeline import Pipeline as ImbPipeline
 
 # Set the base directory (TEST/) by going up one level from the scripts directory
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -247,40 +246,39 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
 
     # Define the XGBoost Classifier for Binary Classification
     classifier = XGBClassifier(
-        objective='binary:logistic',  # CHANGE: Binary objective
+        objective='binary:logistic',
         eval_metric='logloss',
         use_label_encoder=False,
         random_state=42
     )
 
-    # Initialize SMOTE for oversampling (still good practice for binary imbalance)
-    smote = SMOTE(random_state=42)
-
-    model_pipeline = ImbPipeline(steps=[
+    # Removed SMOTE. Using standard Pipeline.
+    model_pipeline = Pipeline(steps=[
         ('preprocessor', preprocessor),
-        ('smote', smote),
         ('classifier', classifier)
     ])
 
-    # Define the parameter distribution for RandomizedSearchCV (adjusted for binary)
+    # Define the parameter distribution for RandomizedSearchCV
     param_distributions = {
         'classifier__n_estimators': randint(100, 500),
-        'classifier__max_depth': randint(3, 10),  # Slightly reduced max_depth for binary
+        'classifier__max_depth': randint(3, 10),
         'classifier__learning_rate': uniform(0.01, 0.3),
         'classifier__subsample': uniform(0.7, 0.3),
         'classifier__colsample_bytree': uniform(0.6, 0.4),
         'classifier__gamma': uniform(0, 0.5),
-        # Scale weight of positive examples (Left shot = 1)
-        'classifier__scale_pos_weight': [1, 1.5, 2]  # Experimenting with manual weighting
+        # Search for optimal scale_pos_weight without SMOTE
+        'classifier__scale_pos_weight': [1, 2, 4, 8]
     }
 
     # Initialize RandomizedSearchCV
     random_search = RandomizedSearchCV(
         model_pipeline,
         param_distributions=param_distributions,
-        n_iter=50,
+        # Increased iterations for a deeper search
+        n_iter=100,
         cv=5,
-        scoring='f1',  # Use standard F1 for binary classification
+        # CHANGE: Scoring is now 'roc_auc' for better generalization/stability
+        scoring='roc_auc',
         random_state=42,
         verbose=1,
         n_jobs=-1
@@ -346,7 +344,7 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     print("how often the model correctly predicted the shot side (Left or Not Left). The AUC-ROC is")
     print("the overall measure of the model's ability to distinguish between the two classes.")
     print(
-        f"\nIMPROVEMENT APPLIED: Switched the problem to a BINARY classification (Left vs. Not Left) to leverage the majority class and stabilize predictions. Best F1-score: {random_search.best_score_:.4f}")
+        f"\nIMPROVEMENT APPLIED: Removed noisy SMOTE oversampling and switched the tuning metric to **AUC-ROC** for better stability and overall generalization ability, reducing extreme prediction bias.")
 
 
 if __name__ == "__main__":
