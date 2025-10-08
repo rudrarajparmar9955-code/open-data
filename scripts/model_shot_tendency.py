@@ -5,15 +5,14 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from sklearn.model_selection import train_test_split, RandomizedSearchCV  # ADDED RandomizedSearchCV
+from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-# Replaced compute_class_weight as Random Forest uses built-in class_weight
-# from sklearn.utils.class_weight import compute_class_weight
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier  # CHANGE: Use Gradient Boosting
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
-from scipy.stats import randint  # ADDED randint for hyperparameter search
+from scipy.stats import randint, uniform  # Added uniform for continuous hyperparams
+from imblearn.over_sampling import SMOTE
+from imblearn.pipeline import Pipeline as ImbPipeline
 
 # Set the base directory (TEST/) by going up one level from the scripts directory
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -170,7 +169,6 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
     df['keeper_total_faced_prev'] = df['keeper_cum_total_faced_prev']
 
     # Drop intermediate and unneeded columns
-    # Added 'outcome' and 'is_goal' to drop list
     cols_to_drop = [col for col in df.columns if col.startswith(('cum_', 'is_', 'keeper_cum_')) and not col.endswith(
         '_prev') and col != 'keeper_total_faced_prev']
     cols_to_drop.extend(['outcome', 'is_goal'])
@@ -183,7 +181,8 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
 
 def train_and_evaluate_tendency_model(df: pd.DataFrame):
     """
-    Trains a multi-class classification model to predict shot side using RandomizedSearchCV.
+    Trains a multi-class classification model to predict shot side using RandomizedSearchCV
+    with SMOTE for class balancing. Now using Gradient Boosting Classifier.
     """
 
     # Filter out penalties where the striker has no prior history or the Elo is default
@@ -193,13 +192,12 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     print("\n--- Confirmation: Sample of Elo Features in Training Data (Top 5 Rows) ---")
     elo_cols = ['striker', 'goalkeeper_name', 'striker_elo_prev', 'keeper_elo_prev', 'shot_side']
     existing_elo_cols = [c for c in elo_cols if c in df_model.columns]
-    # FIX: Switched from .to_markdown() to .to_string() to remove the optional 'tabulate' dependency.
     print(df_model[existing_elo_cols].head().to_string(index=False))
     print("-" * 75)
     # --------------------------------------------------------------------------
 
     # ----------------------------------------------------
-    # Define Features (X) - NOW USING ELO
+    # Define Features (X)
     # ----------------------------------------------------
     features = [
         'footedness', 'home_or_away', 'match_scoreline_diff', 'minute',
@@ -207,11 +205,11 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         # Striker Tendency Features
         'hist_left_pct', 'hist_right_pct', 'hist_center_pct', 'cum_total_prev',
 
-        # Striker and Keeper ELO (NEW)
+        # Striker and Keeper ELO
         'striker_elo_prev',
         'keeper_elo_prev',
 
-        # Keeper Tendency Features (new)
+        # Keeper Tendency Features
         'keeper_hist_left_save_pct', 'keeper_hist_right_save_pct',
         'keeper_hist_center_save_pct', 'keeper_total_faced_prev'
     ]
@@ -228,7 +226,6 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     X = X.loc[y.index]
 
     # XGBoost requires integer labels for multi-class classification, so we encode y
-    # IMPORTANT: The mapping dictates the order of the Confusion Matrix labels.
     label_mapping = {label: i for i, label in enumerate(known_classes)}
     y_encoded = y.map(label_mapping)
 
@@ -260,46 +257,51 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
 
     # --- Create Modeling Pipeline with RandomizedSearchCV ---
 
-    # Define the Random Forest Classifier with class balancing
-    classifier = RandomForestClassifier(random_state=42, class_weight='balanced')
+    # Define the Gradient Boosting Classifier (GBC)
+    classifier = GradientBoostingClassifier(random_state=42)  # CHANGE
 
-    model_pipeline = Pipeline(steps=[
+    # Initialize SMOTE for oversampling
+    smote = SMOTE(random_state=42)
+
+    # Use imblearn's Pipeline to integrate SMOTE, ensuring it happens BEFORE the classifier
+    model_pipeline = ImbPipeline(steps=[
         ('preprocessor', preprocessor),
+        ('smote', smote),
         ('classifier', classifier)
     ])
 
-    # Define the parameter distribution for RandomizedSearchCV
+    # Define the parameter distribution for RandomizedSearchCV (adjusted for GBC)
     param_distributions = {
-        'classifier__n_estimators': randint(100, 500),
-        'classifier__max_depth': randint(5, 15),  # Explore depths between 5 and 14
-        'classifier__min_samples_split': randint(2, 20),
-        'classifier__min_samples_leaf': randint(1, 10),
-        'classifier__max_features': [1.0, 'sqrt', 'log2']  # Explore feature selection strategies
+        'classifier__n_estimators': randint(100, 300),  # Number of boosting stages
+        'classifier__max_depth': randint(3, 8),  # Depth of individual trees
+        'classifier__learning_rate': uniform(0.01, 0.2),  # Shrinkage factor (0.01 to 0.21)
+        'classifier__subsample': uniform(0.7, 0.3),  # Fraction of samples used for fitting (0.7 to 1.0)
+        'classifier__min_samples_leaf': randint(1, 5)  # Minimum number of samples required at a leaf node
     }
 
     # Initialize RandomizedSearchCV
-    # Scoring: 'f1_weighted' is appropriate for multi-class classification with imbalance
     random_search = RandomizedSearchCV(
         model_pipeline,
         param_distributions=param_distributions,
-        n_iter=50,  # Number of parameter settings that are sampled
-        cv=5,  # 5-fold cross-validation
-        scoring='f1_weighted',  # Metric to optimize for (weighted F1 to handle class imbalance)
+        n_iter=50,
+        cv=5,
+        scoring='f1_weighted',
         random_state=42,
         verbose=1,
-        n_jobs=-1  # Use all available cores
+        n_jobs=-1
     )
 
     # Train the model using Randomized Search
-    print(f"\n--- Training Shot Tendency Model (Random Forest with RandomizedSearchCV, n_iter=50) ---")
+    print(
+        f"\n--- Training Shot Tendency Model (Gradient Boosting with RandomizedSearchCV + SMOTE, n_iter=50) ---")  # CHANGE
     random_search.fit(X_train, y_train_encoded)
 
     # Get the best model
     best_model = random_search.best_estimator_
 
     print("\n--- Best Hyperparameters Found (RandomizedSearchCV) ---")
-    # Clean up the parameter names for display
-    best_params_clean = {k.split('__')[1]: v for k, v in random_search.best_params_.items()}
+    best_params_clean = {k.split('__')[1]: v for k, v in random_search.best_params_.items() if
+                         k.startswith('classifier__')}
     print(best_params_clean)
 
     # --- Feature Importance Analysis ---
@@ -311,7 +313,6 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     importance_df = importance_df.sort_values(by='Importance', ascending=False)
 
     print("\n--- Top 10 Feature Importances (Best Model) ---")
-    # Using .to_string() for clean output
     print(importance_df.head(10).to_string(index=False))
     # ---------------------------------------
 
@@ -323,7 +324,7 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     y_pred_original = pd.Series(y_pred_encoded).map(reverse_mapping)
 
     # --- Evaluation ---
-    print("\n--- Model Evaluation (Pre-Shot Tendency - Optimized RF) ---")
+    print("\n--- Model Evaluation (Pre-Shot Tendency - Optimized GBC + SMOTE) ---")  # CHANGE
 
     # 1. Overall Accuracy
     accuracy = accuracy_score(y_test_original, y_pred_original)
@@ -331,10 +332,9 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
 
     # 2. Detailed Classification Report
     print("\nClassification Report:")
-    # Pass original labels to the classification report
     print(classification_report(y_test_original, y_pred_original, target_names=known_classes))
 
-    # 3. Confusion Matrix (The most insightful part for this model)
+    # 3. Confusion Matrix
     conf_mat = confusion_matrix(y_test_original, y_pred_original)
 
     print("\nConfusion Matrix (Rows=Actual, Columns=Predicted):")
@@ -348,7 +348,7 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
     print("how often the model correctly predicted the side. The overall accuracy shows if the")
     print("model can beat a simple baseline (e.g., always guessing the most common side).")
     print(
-        f"\nIMPROVEMENT APPLIED: Implemented RandomizedSearchCV to tune the Random Forest model (n_iter={random_search.n_iter}, cv={random_search.cv}). Best weighted F1-score: {random_search.best_score_:.4f}")
+        f"\nIMPROVEMENT APPLIED: Switched to Gradient Boosting Classifier with SMOTE oversampling. Best weighted F1-score: {random_search.best_score_:.4f}")
 
 
 if __name__ == "__main__":
