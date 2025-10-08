@@ -1,19 +1,18 @@
 # model_shot_tendency_binary.py
-# GOAL: Reruns the BINARY CLASSIFICATION model (Left vs. Not Left)
-# using RandomizedSearchCV and AUC scoring on the full engineered dataset (1108 samples),
-# filtering only for penalties where historical data (cum_total_prev > 0) exists.
+# GOAL: Shifts focus to a cleaner **BINARY CLASSIFICATION** problem (Left vs. Right).
+# This drops the dominant 'Center' class to combat overfitting and improve generalization
+# on the truly discriminative task.
 
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from sklearn.model_selection import train_test_split, RandomizedSearchCV
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold
+from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder
 from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from scipy.stats import randint, uniform
-from sklearn.utils.class_weight import compute_sample_weight
 import joblib
 
 # Set the base directory (TEST/) by going up one level from the scripts directory
@@ -22,27 +21,16 @@ OUTPUT_DIR = BASE_DIR / "output"
 INPUT_FILE = OUTPUT_DIR / "penalty_event_log.csv"
 
 
-# --- Elo Rating Calculation Function (UNCHANGED) ---
+# --- Elo Rating Calculation Function (Copied from previous file) ---
 
 def calculate_elo_rating(df: pd.DataFrame, default_elo=1500, k_factor=32) -> pd.DataFrame:
-    """
-    Calculates dynamic Elo ratings for strikers and keepers over time,
-    based on penalty outcomes.
-    """
+    """Calculates dynamic Elo ratings for strikers and keepers."""
     KEEPER_COLUMN = 'goalkeeper_name'
-
-    # Ensure data is sorted chronologically for correct time-series calculation
     df = df.sort_values(by=['match_date', 'minute', 'second']).reset_index(drop=True)
-
-    # Initialize Elo scores dictionaries
     striker_elos = {}
     keeper_elos = {}
-
-    # Store results (these will be the features used for prediction, representing PREV state)
     striker_elo_results = []
     keeper_elo_results = []
-
-    # Outcome: 1.0 if GOAL (striker win), 0.0 otherwise (keeper win/save/miss)
     df['outcome'] = (df['penalty_outcome'] == 'Goal').astype(float)
 
     for index, row in df.iterrows():
@@ -50,44 +38,34 @@ def calculate_elo_rating(df: pd.DataFrame, default_elo=1500, k_factor=32) -> pd.
         keeper = row[KEEPER_COLUMN]
         outcome = row['outcome']
 
-        # Get current ELO for striker and keeper, defaulting to 1500 if new
         striker_elo = striker_elos.get(striker, default_elo)
         keeper_elo = keeper_elos.get(keeper, default_elo)
 
-        # Record the ELO *before* the penalty is taken (the PREV state)
         striker_elo_results.append(striker_elo)
         keeper_elo_results.append(keeper_elo)
 
-        # Calculate expected outcome (E) for the striker (probability of scoring)
         E_striker = 1 / (1 + 10 ** ((keeper_elo - striker_elo) / 400))
 
-        # Calculate new ELOs
         striker_new_elo = striker_elo + k_factor * (outcome - E_striker)
-        # Keeper's score is (1 - outcome). Keeper's expected score is (1 - E_striker).
         keeper_new_elo = keeper_elo + k_factor * ((1 - outcome) - (1 - E_striker))
 
-        # Update dictionaries for the next iteration
         striker_elos[striker] = striker_new_elo
         keeper_elos[keeper] = keeper_new_elo
 
-    # Combine results into a DataFrame
     elo_df = pd.DataFrame({
         'striker_elo_prev': striker_elo_results,
         'keeper_elo_prev': keeper_elo_results
     })
-
-    # Merge Elo results back into the main DataFrame
     return df.join(elo_df)
 
 
-# --- Step 1: Feature Engineering (Cumulative Historical Tendency) (UNCHANGED) ---
+# --- Step 1: Feature Engineering (Cumulative Historical Tendency) (Copied from previous file) ---
 
 def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
     """
     Calculates cumulative historical shot tendencies for the striker AND save tendencies
     for the keeper, and includes Elo ratings.
     """
-
     PENALTY_RESULT_COLUMN = 'penalty_outcome'
     KEEPER_COLUMN = 'goalkeeper_name'
 
@@ -172,27 +150,16 @@ def engineer_historical_tendencies(df: pd.DataFrame) -> pd.DataFrame:
 
 # --- Step 2: Modeling and Evaluation ---
 
-def train_and_evaluate_tendency_model(df: pd.DataFrame):
+def train_and_evaluate_binary_model(df: pd.DataFrame):
     """
-    Trains a BINARY classification model (Left vs. Not Left) using the full
-    engineered dataset, incorporating K-Fold cross-validation for hyperparameter tuning.
+    Trains a BINARY classification model (Left vs Right) on the filtered dataset.
+    We drop the 'Center' class and remove class weighting.
     """
 
     # --- APPLY FILTER ---
-    # Filter for penalties where the striker has at least one prior penalty,
-    # ensuring historical and Elo features are meaningful.
     df_model = df[(df['cum_total_prev'] > 0) & (df['striker_elo_prev'] != 1500)].copy()
 
-    # --- Confirmation: Sample of Elo Features in Training Data (Top 5 Rows) ---
-    print("\n--- Confirmation: Sample of Elo Features in Training Data (Top 5 Rows) ---")
-    elo_cols = ['striker', 'goalkeeper_name', 'striker_elo_prev', 'keeper_elo_prev', 'shot_side']
-    existing_elo_cols = [c for c in elo_cols if c in df_model.columns]
-    print(df_model[existing_elo_cols].head().to_string(index=False))
-    print("-" * 75)
-
-    # ----------------------------------------------------
-    # Define Features (X)
-    # ----------------------------------------------------
+    # Define Features (X) - SAME FEATURES AS BEFORE
     features = [
         'footedness', 'home_or_away', 'match_scoreline_diff', 'minute',
 
@@ -208,30 +175,27 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         'keeper_hist_center_save_pct', 'keeper_total_faced_prev'
     ]
 
-    # ----------------------------------------------------
-    # TARGET DEFINITION: Binary Classification
-    # ----------------------------------------------------
-    target = 'is_left_shot'
-    # 1 if shot is Left, 0 if shot is Right or Center
-    df_model[target] = (df_model['shot_side'] == 'Left').astype(int)
+    # TARGET DEFINITION: Binary Classification (Left vs Right ONLY)
+    target = 'shot_side'
+    valid_sides = ['Left', 'Right']  # <<< KEY CHANGE: Only focus on these two
+    df_model = df_model[df_model[target].isin(valid_sides)].copy()
 
     X = df_model[features]
-    y = df_model[target]
+    y_str = df_model[target]
 
-    # Drop rows where shot_side was missing or unclassified
-    valid_sides = ['Left', 'Right', 'Center']
-    y = y[df_model['shot_side'].isin(valid_sides)]
-    X = X.loc[y.index]
+    # Convert string labels to integers for XGBoost
+    le = LabelEncoder()
+    y_encoded = le.fit_transform(y_str)
+    target_names = le.classes_
 
-    # --- We use the entire dataset (X, y) for K-Fold Cross-Validation tuning ---
-    # train_test_split is removed to satisfy the request to use all samples for training/tuning.
+    # --- NO CLASS WEIGHTING NEEDED ---
+    # The new binary classes are 109 Left, 110 Right, which is balanced.
 
-    print(f"\nTotal model samples (filtered): {len(X)} samples")
+    print(f"\nTotal model samples (filtered for Binary L/R): {len(X)} samples")
     print(f"Using {len(X)} samples for 5-Fold Cross-Validation tuning.")
-    print(f"Class balance (Left=1, Not Left=0) in full dataset:\n{y.value_counts(normalize=True)}")
+    print(f"Class balance (Binary Left vs Right):\n{y_str.value_counts(normalize=True)}")
 
-    # --- Create Preprocessing Pipeline ---
-
+    # --- Create Preprocessing Pipeline (No change) ---
     categorical_features = ['footedness', 'home_or_away']
     numerical_features = [f for f in features if f not in categorical_features]
 
@@ -245,7 +209,7 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
 
     # --- Create Modeling Pipeline with RandomizedSearchCV ---
 
-    # Define the XGBoost Classifier for Binary Classification
+    # Binary classification objective
     classifier = XGBClassifier(
         objective='binary:logistic',
         eval_metric='logloss',
@@ -258,7 +222,7 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         ('classifier', classifier)
     ])
 
-    # Define the parameter distribution for RandomizedSearchCV
+    # Using the regularized search space, but slightly wider bounds for depth/estimators now
     param_distributions = {
         'classifier__n_estimators': randint(100, 500),
         'classifier__max_depth': randint(3, 10),
@@ -266,26 +230,27 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
         'classifier__subsample': uniform(0.7, 0.3),
         'classifier__colsample_bytree': uniform(0.6, 0.4),
         'classifier__gamma': uniform(0, 0.5),
-        # Search for optimal scale_pos_weight
-        'classifier__scale_pos_weight': [1, 2, 4, 8]
+        'classifier__reg_alpha': uniform(0.0, 5.0),  # L1 regularization
+        'classifier__reg_lambda': uniform(0.0, 5.0)  # L2 regularization
     }
 
-    # Initialize RandomizedSearchCV
-    # cv=5 means 5-Fold Cross-Validation is applied here, using the full dataset.
+    # Use StratifiedKFold for cross-validation
+    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+
     random_search = RandomizedSearchCV(
         model_pipeline,
         param_distributions=param_distributions,
         n_iter=100,
-        cv=5,
-        scoring='roc_auc',
+        cv=cv,
+        scoring='accuracy',  # Accuracy is fine since classes are balanced
         random_state=42,
         verbose=1,
-        n_jobs=-1
+        n_jobs=-1,
     )
 
-    # Train the model using Randomized Search on the FULL dataset (X, y)
-    print(f"\n--- Training Shot Tendency Model (XGBoost Binary Left vs. Not Left) using {random_search.cv}-Fold CV ---")
-    random_search.fit(X, y)  # Fit on ALL available data
+    # Train the model (WITHOUT SAMPLE WEIGHTS)
+    print(f"\n--- Training Shot Tendency Model (XGBoost BINARY L/R) using 5-Fold Stratified CV ---")
+    random_search.fit(X, y_encoded)  # No sample_weight argument passed
 
     # Get the best model
     best_model = random_search.best_estimator_
@@ -295,42 +260,38 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
                          k.startswith('classifier__')}
     print(best_params_clean)
 
-    # Report the cross-validated AUC score as the key performance metric
-    cv_auc_score = random_search.best_score_
+    cv_accuracy_score = random_search.best_score_
 
     # --- Feature Importance Analysis ---
-
     feature_names = best_model.named_steps['preprocessor'].get_feature_names_out()
     feature_importances = best_model.named_steps['classifier'].feature_importances_
 
     importance_df = pd.DataFrame({'Feature': feature_names, 'Importance': feature_importances})
     importance_df = importance_df.sort_values(by='Importance', ascending=False)
 
-    print("\n--- Top 10 Feature Importances (Best Binary Model) ---")
+    print("\n--- Top 10 Feature Importances (Best Binary L/R Model) ---")
     print(importance_df.head(10).to_string(index=False))
 
     # --- Evaluation ---
 
-    # Predict on the FULL dataset (X) using the final best model
-    y_pred = best_model.predict(X)
-    y_pred_proba = best_model.predict_proba(X)[:, 1]  # Probability of "Left" (class 1)
+    y_pred_encoded = best_model.predict(X)
+    y_pred_str = le.inverse_transform(y_pred_encoded)
 
-    print("\n--- Model Evaluation (Optimized XGBoost Binary: Left vs. Not Left) ---")
+    print("\n--- Model Evaluation (Optimized XGBoost Binary L/R) ---")
 
-    # 1. Overall Accuracy on ALL data (Note: This is an optimistic score as no data was held out)
-    accuracy = accuracy_score(y, y_pred)
+    # 1. Overall Accuracy on ALL data
+    accuracy = accuracy_score(y_str, y_pred_str)
     print(f"Model Accuracy on Full Dataset ({len(X)} samples): {accuracy:.4f}")
 
     # 2. Detailed Classification Report
-    target_names = ['Not Left (0)', 'Left (1)']
     print("\nClassification Report (Full Dataset):")
-    print(classification_report(y, y_pred, target_names=target_names))
+    print(classification_report(y_str, y_pred_str, target_names=target_names, zero_division=0))
 
-    # 3. AUC-ROC (Primary CV metric)
-    print(f"Cross-Validated AUC-ROC Score (5-Fold Mean): {cv_auc_score:.4f} (Closer to 1.0 is better)")
+    # 3. K-Fold Cross-Validated Score (Primary CV metric)
+    print(f"Cross-Validated Accuracy Score (5-Fold Mean): {cv_accuracy_score:.4f} (Closer to 1.0 is better)")
 
     # 4. Confusion Matrix
-    conf_mat = confusion_matrix(y, y_pred)
+    conf_mat = confusion_matrix(y_str, y_pred_str, labels=target_names)
 
     print("\nConfusion Matrix (Rows=Actual, Columns=Predicted - Full Dataset):")
     print(pd.DataFrame(conf_mat,
@@ -338,20 +299,17 @@ def train_and_evaluate_tendency_model(df: pd.DataFrame):
                        columns=[f'Predicted {l}' for l in target_names]))
 
     # ----------------------------------------------------
-    # Save Model and Encoder for Streamlit App
+    # Save Model
     # ----------------------------------------------------
     MODEL_PATH = OUTPUT_DIR / "shot_tendency_binary_model.pkl"
-
-    # We don't need a label encoder for binary (0/1) but saving the model is crucial.
     joblib.dump(best_model, MODEL_PATH)
 
     print("\n--- Model Persistence ---")
-    print(f"Model Pipeline saved to: {MODEL_PATH}")
+    print(f"Binary Left/Right Model Pipeline saved to: {MODEL_PATH}")
 
     # --- Portfolio Insight ---
     print("\n--- Portfolio Insight ---")
-    print(
-        "FINAL MODEL: XGBoost BINARY CLASSIFICATION (Left vs. Not Left) tuned using AUC-ROC on the filtered historical dataset.")
+    print("FINAL MODEL: XGBoost BINARY CLASSIFICATION (Left vs Right ONLY) tuned using ACCURACY.")
 
 
 if __name__ == "__main__":
@@ -367,4 +325,4 @@ if __name__ == "__main__":
         engineered_df = engineer_historical_tendencies(raw_df)
 
         # Step 2 & 3 & 4: Train, Predict, and Evaluate
-        train_and_evaluate_tendency_model(engineered_df)
+        train_and_evaluate_binary_model(engineered_df)
