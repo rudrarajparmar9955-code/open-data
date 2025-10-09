@@ -1,7 +1,4 @@
-This file was generated from the output of 'pip list'
-It locks all installed packages to their exact versions.
-Note: 'pip', 'setuptools', and 'wheel' are generally omitted from requirements.txt
-as they are environment management tools and not application dependencies.
+streamlit==1.50.0
 absl-py==2.3.1
 altair==5.5.0
 astunparse==1.6.3
@@ -54,7 +51,6 @@ scikit-learn==1.7.2
 scipy==1.16.2
 six==1.17.0
 smmap==5.0.2
-streamlit==1.50.0
 tenacity==9.1.2
 tensorboard==2.20.0
 tensorboard-data-server==0.7.2
